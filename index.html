@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小学科学闯关题库</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- 登录页 -->
+        <div id="login-page" class="page active">
+            <div class="login-container">
+                <h1>🔬 科学闯关达人</h1>
+                <p class="subtitle">用知识升级，成为科学小能手！</p>
+                <div class="form-group">
+                    <label>班级</label>
+                    <input type="text" id="class-name" placeholder="例如：三年级1班">
+                </div>
+                <div class="form-group">
+                    <label>姓名</label>
+                    <input type="text" id="student-name" placeholder="你的名字">
+                </div>
+                <div class="form-group">
+                    <label>学号</label>
+                    <input type="text" id="student-id" placeholder="你的学号">
+                </div>
+                <button id="start-btn" class="btn-primary">开始闯关 🚀</button>
+            </div>
+        </div>
+
+        <!-- 主页 -->
+        <div id="home-page" class="page">
+            <header class="header">
+                <div class="user-info">
+                    <span id="welcome-text"></span>
+                    <button id="logout-btn" class="btn-small">退出</button>
+                </div>
+                <div class="level-info">
+                    <span class="level-badge" id="level-badge">Lv.1 新手</span>
+                    <div class="exp-bar">
+                        <div class="exp-fill" id="exp-fill"></div>
+                    </div>
+                    <span class="exp-text" id="exp-text">0 / 100 XP</span>
+                </div>
+            </header>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value" id="total-answered">0</div>
+                    <div class="stat-label">总做题数</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="correct-rate">0%</div>
+                    <div class="stat-label">正确率</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="wrong-count">0</div>
+                    <div class="stat-label">错题数</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="streak-days">0</div>
+                    <div class="stat-label">连续打卡</div>
+                </div>
+            </div>
+
+            <div class="menu-buttons">
+                <button class="menu-btn" id="practice-btn">
+                    <span class="icon">📚</span>
+                    <span>顺序刷题</span>
+                </button>
+                <button class="menu-btn" id="random-btn">
+                    <span class="icon">🎲</span>
+                    <span>随机练习</span>
+                </button>
+                <button class="menu-btn" id="wrong-btn">
+                    <span class="icon">❌</span>
+                    <span>错题本</span>
+                </button>
+                <button class="menu-btn" id="level-btn">
+                    <span class="icon">🏆</span>
+                    <span>等级说明</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- 刷题页 -->
+        <div id="quiz-page" class="page">
+            <div class="quiz-header">
+                <button id="back-btn" class="btn-back">← 返回</button>
+                <span class="quiz-title" id="quiz-title">刷题中</span>
+                <span class="quiz-progress" id="quiz-progress">1/10</span>
+            </div>
+
+            <div class="question-card">
+                <div class="question-type" id="question-type">单选题</div>
+                <h3 class="question-text" id="question-text"></h3>
+                <div class="options" id="options-container"></div>
+            </div>
+
+            <div class="quiz-navigation">
+                <button id="prev-btn" class="btn-secondary">上一题</button>
+                <button id="next-btn" class="btn-primary">下一题</button>
+            </div>
+        </div>
+
+        <!-- 结果页 -->
+        <div id="result-page" class="page">
+            <div class="result-container">
+                <h2 id="result-emoji">🎉</h2>
+                <h2 id="result-title">练习完成！</h2>
+                <div class="result-stats">
+                    <div class="result-item">
+                        <span class="label">答对</span>
+                        <span class="value" id="result-correct">0</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="label">答错</span>
+                        <span class="value" id="result-wrong">0</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="label">正确率</span>
+                        <span class="value" id="result-rate">0%</span>
+                    </div>
+                    <div class="result-item">
+                        <span class="label">获得经验</span>
+                        <span class="value xp" id="result-xp">+0</span>
+                    </div>
+                </div>
+                <div class="result-buttons">
+                    <button id="review-wrong-btn" class="btn-secondary">查看错题</button>
+                    <button id="back-home-btn" class="btn-primary">返回主页</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 错题本页 -->
+        <div id="wrong-page" class="page">
+            <div class="page-header">
+                <button id="wrong-back-btn" class="btn-back">← 返回</button>
+                <h2>❌ 错题本</h2>
+                <button id="clear-wrong-btn" class="btn-small">清空错题</button>
+            </div>
+            <div class="wrong-list" id="wrong-list"></div>
+            <div class="empty-state" id="wrong-empty" style="display:none;">
+                <span class="empty-icon">🎉</span>
+                <p>太棒了！你还没有错题</p>
+            </div>
+        </div>
+
+        <!-- 等级页 -->
+        <div id="level-page" class="page">
+            <div class="page-header">
+                <button id="level-back-btn" class="btn-back">← 返回</button>
+                <h2>🏆 等级说明</h2>
+            </div>
+            <div class="level-list" id="level-list"></div>
+        </div>
+
+    <!-- 教师页面 -->
+    <div id="teacher-page" class="page">
+        <div class="page-header">
+            <button id="teacher-back-btn" class="btn-back">← 返回登录</button>
+            <h2>👨‍🏫 教师后台</h2>
+            <button id="export-data-btn" class="btn-small">导出数据</button>
+        </div>
+        
+        <div class="teacher-stats" style="background: white; border-radius: 16px; padding: 20px; margin-bottom: 20px;">
+            <h3 style="margin-bottom: 15px; color: #333;">📊 总体统计</h3>
+            <div id="teacher-summary" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px;">
+                <!-- 动态填充 -->
+            </div>
+        </div>
+        
+        <div style="background: white; border-radius: 16px; padding: 20px; margin-bottom: 20px;">
+            <h3 style="margin-bottom: 15px; color: #333;">👥 学生列表</h3>
+            <div id="student-search" style="margin-bottom: 15px;">
+                <input type="text" id="student-search-input" placeholder="按班级或姓名搜索..." style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 8px;">
+            </div>
+            <div id="student-list" style="max-height: 500px; overflow-y: auto;">
+                <!-- 动态填充学生列表 -->
+            </div>
+        </div>
+        
+        <div id="student-detail-modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000; align-items: center; justify-content: center;">
+            <div style="background: white; border-radius: 16px; padding: 30px; max-width: 500px; width: 90%; max-height: 80vh; overflow-y: auto;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                    <h3 id="detail-title">学生详情</h3>
+                    <button id="close-detail-btn" style="background: none; border: none; font-size: 24px; cursor: pointer;">&times;</button>
+                </div>
+                <div id="student-detail-content">
+                    <!-- 动态填充 -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

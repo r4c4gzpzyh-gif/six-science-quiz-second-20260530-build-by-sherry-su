@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>题库测试</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 50px auto; padding: 20px; }
+        .success { color: green; font-size: 24px; font-weight: bold; }
+        .error { color: red; font-size: 24px; font-weight: bold; }
+        .info { background: #f5f5f5; padding: 20px; border-radius: 10px; margin: 20px 0; }
+        .item { margin: 10px 0; padding: 10px; background: white; border-radius: 5px; }
+        button { padding: 10px 20px; background: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background: #45a049; }
+    </style>
+</head>
+<body>
+    <h1>🔍 题库加载测试</h1>
+    
+    <div id="result"></div>
+    
+    <div class="info">
+        <h3>题目抽样检查：</h3>
+        <div id="samples"></div>
+    </div>
+    
+    <div>
+        <button onclick="location.href='index.html'">→ 进入刷题系统</button>
+    </div>
+
+    <script src="questions.js"></script>
+    <script>
+        const result = document.getElementById('result');
+        const samples = document.getElementById('samples');
+        
+        if (typeof QUESTIONS !== 'undefined') {
+            result.innerHTML = '<div class="success">✅ 题库加载成功！</div>';
+            
+            const stats = `
+                <div class="item"><strong>总题目数：</strong>${QUESTIONS.length} 道</div>
+                <div class="item"><strong>判断题：</strong>${QUESTIONS.filter(q => q.type === 'judge').length} 道</div>
+                <div class="item"><strong>选择题：</strong>${QUESTIONS.filter(q => q.type === 'choice').length} 道</div>
+            `;
+            result.innerHTML += stats;
+            
+            // 抽样显示几道题
+            const sampleIds = [1, 20, 21, 100, 403];
+            let sampleHtml = '';
+            sampleIds.forEach(id => {
+                const q = QUESTIONS.find(q => q.id === id);
+                if (q) {
+                    sampleHtml += `
+                        <div class="item">
+                            <strong>第${id}题</strong> (${q.type === 'choice' ? '选择' : '判断'})<br>
+                            ${q.question.substring(0, 60)}...
+                        </div>
+                    `;
+                }
+            });
+            samples.innerHTML = sampleHtml;
+            
+        } else {
+            result.innerHTML = '<div class="error">❌ 题库加载失败！</div><p>请检查 questions.js 文件是否存在且没有语法错误。</p>';
+        }
+    </script>
+</body>
+</html>
