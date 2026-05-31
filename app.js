@@ -5,7 +5,7 @@
 
 // ===== Supabase配置 =====
 const SUPABASE_URL = 'https://cbzaqplpnzjmrbudaomp.supabase.co';
-const SUPABASE_KEY = 'sb_publishable_MnZt1Lih0qB94eUEmMiSOg_2iZP_s6F';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNiemFxcGxwbnpqbXJidWRhb21wIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAxNTAyMjIsImV4cCI6MjA5NTcyNjIyMn0.R6B9dJBXUJArehVcu6fhS9ccZD4E2ueWrmMOgTmMMuI';
 
 // 等级配置
 const LEVELS = [
