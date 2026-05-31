@@ -36,6 +36,7 @@ let quizMode = 'practice';
 let xpAwardedQuestions = [];
 
 // ===== 新增：同步数据到Supabase =====
+// ===== 同步数据到Supabase（字段名已修正！）=====
 async function syncToSupabase(userData) {
     if (!userData || !userData.id) return;
     
@@ -43,29 +44,33 @@ async function syncToSupabase(userData) {
         student_id: userData.studentId,
         name: userData.name,
         class: userData.className,
-        xp: userData.xp || 0,
+        exp: userData.xp || 0,                         // ✅ 改了：xp → exp
         level: getStudentLevel(userData.xp || 0),
-        total_answered: userData.totalAnswered || 0,
+        total_questions: userData.totalAnswered || 0,  // ✅ 改了：total_answered → total_questions
         correct_count: userData.correctCount || 0,
         wrong_count: userData.wrongQuestions ? userData.wrongQuestions.length : 0,
         wrong_questions: JSON.stringify(userData.wrongQuestions || []),
-        login_dates: JSON.stringify(userData.loginDates || []),
         last_active: new Date().toISOString()
     };
     
     try {
         // 先尝试更新
-        let response = await fetch(SUPABASE_URL + '/rest/v1/students?student_id=eq.' + userData.studentId + '&class=eq.' + userData.className, {
-            method: 'PATCH',
-            headers: {
-                'apikey': SUPABASE_KEY,
-                'Content-Type': 'application/json',
-                'Prefer': 'return=minimal'
-            },
-            body: JSON.stringify(data)
-        });
+        let response = await fetch(
+            SUPABASE_URL + '/rest/v1/students?class=eq.' + userData.className + 
+            '&student_id=eq.' + userData.studentId + 
+            '&name=eq.' + encodeURIComponent(userData.name),
+            {
+                method: 'PATCH',
+                headers: {
+                    'apikey': SUPABASE_KEY,
+                    'Content-Type': 'application/json',
+                    'Prefer': 'return=minimal'
+                },
+                body: JSON.stringify(data)
+            }
+        );
         
-        // 如果不存在（404），就插入新记录
+        // 如果不存在，就插入新记录
         if (response.status === 404) {
             await fetch(SUPABASE_URL + '/rest/v1/students', {
                 method: 'POST',
@@ -79,8 +84,10 @@ async function syncToSupabase(userData) {
                 })
             });
         }
+        
+        console.log('✅ 数据已同步到云端');
     } catch (err) {
-        console.log('同步到云端失败（不影响使用）：', err);
+        console.log('同步到云端失败：', err);
     }
 }
 
@@ -193,10 +200,9 @@ async function syncAllStudentsFromCloud() {
                 name: s.name,
                 studentId: s.student_id,
                 xp: s.xp || 0,
-                totalAnswered: s.total_answered || 0,
+                totalAnswered: s.total_questions || 0,
                 correctCount: s.correct_count || 0,
                 wrongQuestions: JSON.parse(s.wrong_questions || '[]'),
-                loginDates: JSON.parse(s.login_dates || '[]'),
                 lastActive: s.last_active
             };
             localStorage.setItem(`user_${userId}`, JSON.stringify(localData));
@@ -461,14 +467,14 @@ async function handleLogin() {
             className: cloudData.class,
             name: cloudData.name,
             studentId: cloudData.student_id,
-            totalAnswered: cloudData.total_answered || 0,
+            totalAnswered: cloudData.total_questions || 0,
             correctCount: cloudData.correct_count || 0,
             wrongQuestions: JSON.parse(cloudData.wrong_questions || '[]'),
-            xp: cloudData.xp || 0,
-            loginDates: JSON.parse(cloudData.login_dates || '[]'),
+            xp: cloudData.exp || 0,
             lastLoginDate: today,
             lastPracticeDate: cloudData.last_active,
             answeredQuestions: []
+            loginDates: []  // 初始化一个空数组
         };
         // 同时保存到本地，下次离线也能用
         localStorage.setItem(`user_${userId}`, JSON.stringify(currentUser));

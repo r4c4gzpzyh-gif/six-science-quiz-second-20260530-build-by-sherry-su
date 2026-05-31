@@ -1426,7 +1426,7 @@ const QUESTIONS = [
         "question": "通过实际观察发现，下列节日中可能发生日食现象的是（ ）。",
         "options": ["春节（农历正月初一）", "中秋节（农历八月十五）", "端午节（农历五月初五）", "重阳节（农历九月初九）"],
         "answer": 0,
-        "explanation": "日食发生在农历初一（朔月）。",
+        "explanation": "日食发生在农历初一（朔日）。",
         "difficulty": 2,
         "grade": 6,
         "category": "其他"
