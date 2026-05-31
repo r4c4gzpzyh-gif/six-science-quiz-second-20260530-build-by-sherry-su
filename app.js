@@ -1,5 +1,11 @@
-// 小学科学闯关题库 - 核心逻辑
-// 所有数据存储在 localStorage 中，无需服务器
+// ========================================
+// 小学科学闯关题库 - 云端同步版
+// 新增：Supabase云端数据同步 + 教师后台查看所有学生数据
+// ========================================
+
+// ===== Supabase配置 =====
+const SUPABASE_URL = 'https://cbzaqplpnzjmrbudaomp.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_MnZt1Lih0qB94eUEmMiSOg_2iZP_s6F';
 
 // 等级配置
 const LEVELS = [
@@ -12,8 +18,71 @@ const LEVELS = [
     { level: 7, name: '星际科学家', xp: 2200, icon: '🚀' },
     { level: 8, name: '传奇院士', xp: 3000, icon: '🏆' },
 ];
-// 学生白名单 - 只有列表中的学生可以登录
-const STUDENT_WHITELIST = {"601": {"1": "曹籽毅", "2": "田奕辰", "3": "陈静汐", "4": "陈念", "5": "陈若萱", "6": "池梓文", "7": "丁玮琦", "8": "方馨", "9": "冯梓霖", "10": "符雨泽", "11": "管歆瑶", "12": "郭潇潇", "13": "郭宇博", "14": "何玥瑶", "15": "侯森晨", "16": "胡斌", "17": "胡诗涵", "18": "黄昊天", "19": "贾沐晨", "20": "曹晨馨", "21": "兰棋宇", "22": "李飞跃", "23": "李羽涵", "24": "凌宇萱", "25": "刘鸿伟", "26": "刘一航", "27": "刘梓煊", "28": "毛馨伊", "29": "施振宇", "30": "杨思哲", "31": "姚铭浩", "32": "周宏玮", "33": "余浩轩", "34": "詹弘毅", "35": "占佳钰", "36": "陶梓豪", "37": "郑金旭", "38": "李宇杭", "39": "夏诚铠", "40": "刘熙宸", "41": "张骏喆", "42": "陈晟睿"}, "602": {"1": "陈孙希睿", "2": "张雨诺", "3": "高晟轩", "4": "刘欢墨", "5": "江宇航", "6": "李嘉佑", "7": "李恬欣", "8": "李运帷", "9": "龙子翊", "10": "张逸轩", "11": "汤恩泽", "12": "任方子淇", "13": "梅雨蒙", "14": "任翔", "15": "尚广驰", "16": "孙博文", "17": "邱诗微", "18": "高宇铠", "19": "王恩泽", "20": "王俊熙", "21": "王洛辰", "22": "周雨萱", "23": "赵一萱", "24": "夏至圻", "25": "项子馨", "26": "苗雨彤", "27": "徐可馨", "28": "杨博均", "29": "杨舒画", "30": "姚宇豪", "31": "余辰希", "32": "余定", "33": "袁紫仪", "34": "张恩", "35": "张诗意", "36": "杜曼青", "37": "陈凯琳", "38": "王赞博"}, "603": {"1": "陈梦涵", "2": "曹欣宇", "3": "冯翌迪", "4": "韩雨馨", "5": "俞子珩", "6": "黄家译", "7": "蒋瑾萱", "8": "李雅志", "9": "李语萱", "10": "柳金鹏", "11": "罗毅馨", "12": "骆钰涵", "13": "朱宇杰", "14": "缪赟希", "15": "潘思越", "16": "任俊宇", "17": "施念", "18": "张诗菡", "19": "王思雯", "20": "王歆雅", "21": "文湘元", "22": "吴菲彤", "23": "薛程格", "24": "杨若菡", "25": "杨悦彤", "26": "叶彬驰", "27": "张郭伊函", "28": "张皓轩", "29": "张书萱", "30": "张筱唯", "31": "张瑛钧", "32": "张哲涵", "33": "赵依冉", "34": "周梦琪", "35": "朱子昂", "36": "朱莉安妮", "37": "许屹诚", "38": "徐甜钰", "39": "谢一戈", "40": "张艺林", "41": "盛钰轩", "42": "傅一帆"}};
+
+// 学生白名单
+const STUDENT_WHITELIST = {
+    "601": {"1": "曹籽毅", "2": "田奕辰", "3": "陈静汐", "4": "陈念", "5": "陈若萱", "6": "池梓文", "7": "丁玮琦", "8": "方馨", "9": "冯梓霖", "10": "符雨泽", "11": "管歆瑶", "12": "郭潇潇", "13": "郭宇博", "14": "何玥瑶", "15": "侯森晨", "16": "胡斌", "17": "胡诗涵", "18": "黄昊天", "19": "贾沐晨", "20": "曹晨馨", "21": "兰棋宇", "22": "李飞跃", "23": "李羽涵", "24": "凌宇萱", "25": "刘鸿伟", "26": "刘一航", "27": "刘梓煊", "28": "毛馨伊", "29": "施振宇", "30": "杨思哲", "31": "姚铭浩", "32": "周宏玮", "33": "余浩轩", "34": "詹弘毅", "35": "占佳钰", "36": "陶梓豪", "37": "郑金旭", "38": "李宇杭", "39": "夏诚铠", "40": "刘熙宸", "41": "张骏喆", "42": "陈晟睿"},
+    "602": {"1": "陈孙希睿", "2": "张雨诺", "3": "高晟轩", "4": "刘欢墨", "5": "江宇航", "6": "李嘉佑", "7": "李恬欣", "8": "李运帷", "9": "龙子翊", "10": "张逸轩", "11": "汤恩泽", "12": "任方子淇", "13": "梅雨蒙", "14": "任翔", "15": "尚广驰", "16": "孙博文", "17": "邱诗微", "18": "高宇铠", "19": "王恩泽", "20": "王俊熙", "21": "王洛辰", "22": "周雨萱", "23": "赵一萱", "24": "夏至圻", "25": "项子馨", "26": "苗雨彤", "27": "徐可馨", "28": "杨博均", "29": "杨舒画", "30": "姚宇豪", "31": "余辰希", "32": "余定", "33": "袁紫仪", "34": "张恩", "35": "张诗意", "36": "杜曼青", "37": "陈凯琳", "38": "王赞博"},
+    "603": {"1": "陈梦涵", "2": "曹欣宇", "3": "冯翌迪", "4": "韩雨馨", "5": "俞子珩", "6": "黄家译", "7": "蒋瑾萱", "8": "李雅志", "9": "李语萱", "10": "柳金鹏", "11": "罗毅馨", "12": "骆钰涵", "13": "朱宇杰", "14": "缪赟希", "15": "潘思越", "16": "任俊宇", "17": "施念", "18": "张诗菡", "19": "王思雯", "20": "王歆雅", "21": "文湘元", "22": "吴菲彤", "23": "薛程格", "24": "杨若菡", "25": "杨悦彤", "26": "叶彬驰", "27": "张郭伊函", "28": "张皓轩", "29": "张书萱", "30": "张筱唯", "31": "张瑛钧", "32": "张哲涵", "33": "赵依冉", "34": "周梦琪", "35": "朱子昂", "36": "朱莉安妮", "37": "许屹诚", "38": "徐甜钰", "39": "谢一戈", "40": "张艺林", "41": "盛钰轩", "42": "傅一帆"}
+};
+
+// 全局状态
+let currentUser = null;
+let currentQuiz = null;
+let currentQuestionIndex = 0;
+let userAnswers = [];
+let quizMode = 'practice';
+// 新增：记录已经获得经验的题目（防止重复获得）
+let xpAwardedQuestions = [];
+
+// ===== 新增：同步数据到Supabase =====
+async function syncToSupabase(userData) {
+    if (!userData || !userData.id) return;
+    
+    const data = {
+        student_id: userData.studentId,
+        name: userData.name,
+        class: userData.className,
+        xp: userData.xp || 0,
+        level: getStudentLevel(userData.xp || 0),
+        total_answered: userData.totalAnswered || 0,
+        correct_count: userData.correctCount || 0,
+        wrong_count: userData.wrongQuestions ? userData.wrongQuestions.length : 0,
+        wrong_questions: JSON.stringify(userData.wrongQuestions || []),
+        login_dates: JSON.stringify(userData.loginDates || []),
+        last_active: new Date().toISOString()
+    };
+    
+    try {
+        // 先尝试更新
+        let response = await fetch(SUPABASE_URL + '/rest/v1/students?student_id=eq.' + userData.studentId + '&class=eq.' + userData.className, {
+            method: 'PATCH',
+            headers: {
+                'apikey': SUPABASE_KEY,
+                'Content-Type': 'application/json',
+                'Prefer': 'return=minimal'
+            },
+            body: JSON.stringify(data)
+        });
+        
+        // 如果不存在（404），就插入新记录
+        if (response.status === 404) {
+            await fetch(SUPABASE_URL + '/rest/v1/students', {
+                method: 'POST',
+                headers: {
+                    'apikey': SUPABASE_KEY,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    ...data,
+                    created_at: new Date().toISOString()
+                })
+            });
+        }
+    } catch (err) {
+        console.log('同步到云端失败（不影响使用）：', err);
+    }
+}
 
 // 验证学生信息
 function validateStudent(className, studentName, studentId) {
@@ -41,14 +110,6 @@ function validateStudent(className, studentName, studentId) {
     return { valid: true, isTeacher: false };
 }
 
-
-// 全局状态
-let currentUser = null;
-let currentQuiz = null;
-let currentQuestionIndex = 0;
-let userAnswers = [];
-let quizMode = 'practice'; // practice, random, wrong
-
 // 初始化
 document.addEventListener('DOMContentLoaded', function() {
     // 检查是否有已登录用户
@@ -58,7 +119,7 @@ document.addEventListener('DOMContentLoaded', function() {
         showPage('home-page');
         updateHomePage();
     }
-
+    
     // 绑定事件
     bindEvents();
 });
@@ -94,11 +155,12 @@ function bindEvents() {
     // 教师页面
     document.getElementById('teacher-back-btn').addEventListener('click', () => showPage('login-page'));
     document.getElementById('export-data-btn').addEventListener('click', exportAllData);
+    document.getElementById('sync-cloud-btn').addEventListener('click', syncAllStudentsFromCloud);
     document.getElementById('close-detail-btn').addEventListener('click', closeStudentDetail);
     document.getElementById('student-search-input').addEventListener('input', filterStudentList);
 }
 
-// 教师登录入口 - 挂载到window
+// 教师登录入口
 window.showTeacherPage = showTeacherPage;
 
 // 显示教师页面
@@ -107,6 +169,47 @@ function showTeacherPage() {
     localStorage.removeItem('scienceQuizUser');
     showPage('teacher-page');
     updateTeacherPage();
+}
+
+// ===== 新增：从云端同步所有学生数据 =====
+async function syncAllStudentsFromCloud() {
+    const btn = document.getElementById('sync-cloud-btn');
+    btn.textContent = '正在同步...';
+    btn.disabled = true;
+    
+    try {
+        const response = await fetch(SUPABASE_URL + '/rest/v1/students?select=*&order=class,student_id', {
+            headers: { 'apikey': SUPABASE_KEY }
+        });
+        
+        const students = await response.json();
+        
+        // 保存到本地
+        students.forEach(s => {
+            const userId = `${s.class}_${s.name}_${s.student_id}`;
+            const localData = {
+                id: userId,
+                className: s.class,
+                name: s.name,
+                studentId: s.student_id,
+                xp: s.xp || 0,
+                totalAnswered: s.total_answered || 0,
+                correctCount: s.correct_count || 0,
+                wrongQuestions: JSON.parse(s.wrong_questions || '[]'),
+                loginDates: JSON.parse(s.login_dates || '[]'),
+                lastActive: s.last_active
+            };
+            localStorage.setItem(`user_${userId}`, JSON.stringify(localData));
+        });
+        
+        alert(`✅ 同步成功！从云端获取了 ${students.length} 名学生的数据`);
+        updateTeacherPage();
+    } catch (err) {
+        alert('❌ 同步失败：' + err.message);
+    }
+    
+    btn.textContent = '🔄 从云端同步';
+    btn.disabled = false;
 }
 
 // 更新教师页面
@@ -122,21 +225,21 @@ function updateTeacherPage() {
         : 0;
     
     summaryEl.innerHTML = `
-        <div style="padding: 15px; background: #f0f8ff; border-radius: 10px; text-align: center;">
-            <div style="font-size: 28px; font-weight: bold; color: #1976d2;">${allStudents.length}</div>
-            <div style="font-size: 13px; color: #666;">注册学生数</div>
+        <div class="summary-item">
+            <div class="summary-value">${allStudents.length}</div>
+            <div class="summary-label">注册学生数</div>
         </div>
-        <div style="padding: 15px; background: #fff3e0; border-radius: 10px; text-align: center;">
-            <div style="font-size: 28px; font-weight: bold; color: #f57c00;">${totalXp}</div>
-            <div style="font-size: 13px; color: #666;">总经验值</div>
+        <div class="summary-item">
+            <div class="summary-value">${totalXp}</div>
+            <div class="summary-label">总经验值</div>
         </div>
-        <div style="padding: 15px; background: #e8f5e9; border-radius: 10px; text-align: center;">
-            <div style="font-size: 28px; font-weight: bold; color: #388e3c;">${totalAnswered}</div>
-            <div style="font-size: 13px; color: #666;">总做题数</div>
+        <div class="summary-item">
+            <div class="summary-value">${totalAnswered}</div>
+            <div class="summary-label">总做题数</div>
         </div>
-        <div style="padding: 15px; background: #fce4ec; border-radius: 10px; text-align: center;">
-            <div style="font-size: 28px; font-weight: bold; color: #c2185b;">${avgCorrectRate}%</div>
-            <div style="font-size: 13px; color: #666;">平均正确率</div>
+        <div class="summary-item">
+            <div class="summary-value">${avgCorrectRate}%</div>
+            <div class="summary-label">平均正确率</div>
         </div>
     `;
     
@@ -149,7 +252,7 @@ function renderStudentList(students) {
     const listEl = document.getElementById('student-list');
     
     if (students.length === 0) {
-        listEl.innerHTML = '<p style="text-align: center; color: #999; padding: 40px;">暂无学生数据</p>';
+        listEl.innerHTML = '<div class="empty-state">暂无学生数据</div>';
         return;
     }
     
@@ -162,18 +265,17 @@ function renderStudentList(students) {
             : 0;
         
         return `
-            <div style="padding: 15px; border-bottom: 1px solid #eee; cursor: pointer;" onclick="showStudentDetail('${s.id}')">
-                <div style="display: flex; justify-content: space-between; align-items: center;">
-                    <div>
-                        <strong style="font-size: 16px;">#${index + 1} ${s.name}</strong>
-                        <div style="font-size: 13px; color: #666; margin-top: 5px;">
-                            ${s.className} | 学号: ${s.studentId}
-                        </div>
-                    </div>
-                    <div style="text-align: right;">
-                        <div style="font-weight: bold; color: #667eea;">Lv.${getStudentLevel(s.xp || 0)} ${s.xp || 0} XP</div>
-                        <div style="font-size: 12px; color: #999;">正确率 ${correctRate}% | 做题 ${s.totalAnswered || 0}</div>
-                    </div>
+            <div class="student-card" onclick="showStudentDetail('${s.id}')">
+                <div class="student-rank">#${index + 1}</div>
+                <div class="student-info">
+                    <div class="student-name">${s.name}</div>
+                    <div class="student-meta">${s.className}班 | 学号: ${s.studentId}</div>
+                </div>
+                <div class="student-stats">
+                    <div class="stat">Lv.${getStudentLevel(s.xp || 0)}</div>
+                    <div class="stat">${s.xp || 0} XP</div>
+                    <div class="stat">正确率 ${correctRate}%</div>
+                    <div class="stat">做题 ${s.totalAnswered || 0}</div>
                 </div>
             </div>
         `;
@@ -184,12 +286,10 @@ function renderStudentList(students) {
 function filterStudentList() {
     const keyword = document.getElementById('student-search-input').value.toLowerCase();
     const allStudents = getAllStudents();
-    
     const filtered = allStudents.filter(s => 
         s.className.toLowerCase().includes(keyword) || 
         s.name.toLowerCase().includes(keyword)
     );
-    
     renderStudentList(filtered);
 }
 
@@ -209,58 +309,33 @@ function showStudentDetail(userId) {
         : 0;
     
     content.innerHTML = `
-        <div style="margin-bottom: 20px;">
-            <h4 style="margin-bottom: 10px; color: #333;">基本信息</h4>
-            <div style="background: #f5f5f5; padding: 15px; border-radius: 10px;">
-                <p style="margin: 8px 0;"><strong>班级：</strong>${student.className}</p>
-                <p style="margin: 8px 0;"><strong>姓名：</strong>${student.name}</p>
-                <p style="margin: 8px 0;"><strong>学号：</strong>${student.studentId}</p>
-            </div>
+        <div class="detail-section">
+            <h3>基本信息</h3>
+            <p>班级：${student.className}班</p>
+            <p>姓名：${student.name}</p>
+            <p>学号：${student.studentId}</p>
         </div>
         
-        <div style="margin-bottom: 20px;">
-            <h4 style="margin-bottom: 10px; color: #333;">学习数据</h4>
-            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
-                <div style="background: #e3f2fd; padding: 12px; border-radius: 8px; text-align: center;">
-                    <div style="font-size: 22px; font-weight: bold; color: #1976d2;">${student.xp || 0}</div>
-                    <div style="font-size: 12px; color: #666;">总经验值</div>
-                </div>
-                <div style="background: #e8f5e9; padding: 12px; border-radius: 8px; text-align: center;">
-                    <div style="font-size: 22px; font-weight: bold; color: #388e3c;">Lv.${getStudentLevel(student.xp || 0)}</div>
-                    <div style="font-size: 12px; color: #666;">当前等级</div>
-                </div>
-                <div style="background: #fff3e0; padding: 12px; border-radius: 8px; text-align: center;">
-                    <div style="font-size: 22px; font-weight: bold; color: #f57c00;">${student.totalAnswered || 0}</div>
-                    <div style="font-size: 12px; color: #666;">总做题数</div>
-                </div>
-                <div style="background: #fce4ec; padding: 12px; border-radius: 8px; text-align: center;">
-                    <div style="font-size: 22px; font-weight: bold; color: #c2185b;">${correctRate}%</div>
-                    <div style="font-size: 12px; color: #666;">正确率</div>
-                </div>
-            </div>
+        <div class="detail-section">
+            <h3>学习数据</h3>
+            <p>${student.xp || 0} 总经验值</p>
+            <p>Lv.${getStudentLevel(student.xp || 0)} 当前等级</p>
+            <p>${student.totalAnswered || 0} 总做题数</p>
+            <p>${correctRate}% 正确率</p>
         </div>
         
-        <div style="margin-bottom: 20px;">
-            <h4 style="margin-bottom: 10px; color: #333;">错题情况</h4>
-            <div style="background: #ffebee; padding: 15px; border-radius: 10px; text-align: center;">
-                <div style="font-size: 24px; font-weight: bold; color: #d32f2f;">${(student.wrongQuestions || []).length}</div>
-                <div style="font-size: 13px; color: #666;">错题数量</div>
-            </div>
+        <div class="detail-section">
+            <h3>错题情况</h3>
+            <p>${(student.wrongQuestions || []).length} 错题数量</p>
         </div>
         
-        <div>
-            <h4 style="margin-bottom: 10px; color: #333;">登录记录</h4>
-            <div style="background: #f5f5f5; padding: 15px; border-radius: 10px;">
-                <p style="margin: 8px 0;"><strong>累计登录：</strong>${(student.loginDates || []).length} 天</p>
-                <p style="margin: 8px 0;"><strong>最近登录：</strong>${student.lastLoginDate || '无'}</p>
-            </div>
+        <div class="detail-section">
+            <h3>登录记录</h3>
+            <p>累计登录：${(student.loginDates || []).length} 天</p>
+            <p>最近登录：${student.lastLoginDate || '无'}</p>
         </div>
         
-        <div style="margin-top: 20px;">
-            <button onclick="deleteStudentData('${student.id}')" style="background: #d32f2f; color: white; border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer;">
-                🗑️ 删除该学生数据
-            </button>
-        </div>
+        <button class="danger-btn" onclick="deleteStudentData('${userId}')">🗑️ 删除该学生数据</button>
     `;
     
     modal.style.display = 'flex';
@@ -325,12 +400,13 @@ function deleteStudentData(userId) {
     }
 }
 
-// 将教师相关函数挂载到window，确保HTML onclick可以调用
+// 将函数挂载到window
 window.showStudentDetail = showStudentDetail;
 window.closeStudentDetail = closeStudentDetail;
 window.filterStudentList = filterStudentList;
 window.exportAllData = exportAllData;
 window.deleteStudentData = deleteStudentData;
+window.syncAllStudentsFromCloud = syncAllStudentsFromCloud;
 
 // 页面切换
 function showPage(pageId) {
@@ -343,8 +419,7 @@ function handleLogin() {
     const className = document.getElementById('class-name').value.trim();
     const name = document.getElementById('student-name').value.trim();
     const id = document.getElementById('student-id').value.trim();
-
-    // 验证信息
+    
     const validation = validateStudent(className, name, id);
     
     if (!validation.valid) {
@@ -357,22 +432,20 @@ function handleLogin() {
         showTeacherPage();
         return;
     }
-
-    // 生成用户ID（用班级+姓名+学号作为唯一标识）
+    
+    // 生成用户ID
     const userId = `${className}_${name}_${id}`;
     
-    // 检查是否已有该用户数据
     let userData = localStorage.getItem(`user_${userId}`);
     const today = new Date().toDateString();
     
     if (userData) {
         currentUser = JSON.parse(userData);
         
-        // 每日登录奖励：每天第一次登录+1经验
+        // 每日登录奖励
         if (currentUser.lastLoginDate !== today) {
             currentUser.xp += 1;
             currentUser.lastLoginDate = today;
-            // 记录登录日期
             if (!currentUser.loginDates) currentUser.loginDates = [];
             if (!currentUser.loginDates.includes(today)) {
                 currentUser.loginDates.push(today);
@@ -382,7 +455,7 @@ function handleLogin() {
             }, 500);
         }
     } else {
-        // 新用户（白名单内的首次登录）
+        // 新用户
         currentUser = {
             id: userId,
             className: className,
@@ -391,21 +464,24 @@ function handleLogin() {
             totalAnswered: 0,
             correctCount: 0,
             wrongQuestions: [],
-            xp: 1, // 首次登录奖励1经验
+            xp: 1,
             currentLevel: 1,
             streakDays: 0,
             lastPracticeDate: null,
             lastLoginDate: today,
-            answeredQuestions: [], // 记录做过的题目ID
-            loginDates: [today] // 记录所有登录日期
+            answeredQuestions: [],
+            loginDates: [today]
         };
+        
         setTimeout(() => {
             alert(`🎉 欢迎 ${name} 同学！\n首次登录奖励：+1 经验值！`);
         }, 500);
     }
-
-    // 保存登录状态
+    
+    // 保存登录状态并同步到云端
     saveUserData();
+    syncToSupabase(currentUser);
+    
     localStorage.setItem('scienceQuizUser', JSON.stringify(currentUser));
     showPage('home-page');
     updateHomePage();
@@ -423,22 +499,20 @@ function handleLogout() {
 // 更新主页数据
 function updateHomePage() {
     if (!currentUser) return;
-
+    
     document.getElementById('welcome-text').textContent = `${currentUser.name}，加油！`;
     
-    // 计算当前等级
     const currentLevel = getCurrentLevel();
     const nextLevel = LEVELS.find(l => l.level === currentLevel.level + 1);
     const xpForNext = nextLevel ? nextLevel.xp - currentLevel.xp : 0;
     const xpInLevel = currentLevel.xp - LEVELS.find(l => l.level === currentLevel.level).xp;
     const xpNeeded = nextLevel ? nextLevel.xp - LEVELS.find(l => l.level === currentLevel.level).xp : 1;
     const xpPercent = Math.min(100, (xpInLevel / xpNeeded) * 100);
-
+    
     document.getElementById('level-badge').textContent = `Lv.${currentLevel.level} ${currentLevel.name}`;
     document.getElementById('exp-fill').style.width = `${xpPercent}%`;
     document.getElementById('exp-text').textContent = `${currentUser.xp} XP`;
     
-    // 统计数据
     const correctRate = currentUser.totalAnswered > 0 
         ? Math.round((currentUser.correctCount / currentUser.totalAnswered) * 100) 
         : 0;
@@ -464,18 +538,40 @@ function startQuiz(mode) {
     quizMode = mode;
     currentQuestionIndex = 0;
     userAnswers = [];
-
+    xpAwardedQuestions = [];
+    
     if (mode === 'practice') {
-        // 顺序刷题：按题目顺序
         currentQuiz = [...QUESTIONS];
         document.getElementById('quiz-title').textContent = '顺序刷题';
+        
+        // 新增：检查是否有保存的进度
+        const savedProgress = localStorage.getItem('practiceProgress_' + currentUser.id);
+        if (savedProgress) {
+            const progress = JSON.parse(savedProgress);
+            // 恢复已获得经验的题目记录
+            if (progress.xpAwardedQuestions) {
+                xpAwardedQuestions = progress.xpAwardedQuestions;
+            }
+            // 询问用户是否继续上次的进度
+            const continuePractice = confirm(
+                `检测到你上次刷到第 ${progress.currentIndex + 1} 题\n\n` +
+                `✅ 要从上次停下的地方继续吗？\n` +
+                `（点击"确定"继续，点击"取消"从头开始）`
+            );
+            if (continuePractice) {
+                currentQuestionIndex = progress.currentIndex;
+            } else {
+                // 用户选择从头开始，清除进度
+                localStorage.removeItem('practiceProgress_' + currentUser.id);
+                xpAwardedQuestions = [];
+            }
+        }
     } else if (mode === 'random') {
-        // 随机刷题：每次20题
         const shuffled = [...QUESTIONS].sort(() => Math.random() - 0.5);
         currentQuiz = shuffled.slice(0, 20);
         document.getElementById('quiz-title').textContent = '随机练习（20题）';
     }
-
+    
     showPage('quiz-page');
     showQuestion();
 }
@@ -484,18 +580,13 @@ function startQuiz(mode) {
 function showQuestion() {
     const question = currentQuiz[currentQuestionIndex];
     
-    document.getElementById('quiz-progress').textContent = 
-        `${currentQuestionIndex + 1}/${currentQuiz.length}`;
-    
-    document.getElementById('question-type').textContent = 
-        question.type === 'choice' ? '单选题' : '判断题';
-    
+    document.getElementById('quiz-progress').textContent = `${currentQuestionIndex + 1}/${currentQuiz.length}`;
+    document.getElementById('question-type').textContent = question.type === 'choice' ? '单选题' : '判断题';
     document.getElementById('question-text').textContent = question.question;
-
-    // 生成选项
+    
     const optionsContainer = document.getElementById('options-container');
     optionsContainer.innerHTML = '';
-
+    
     question.options.forEach((option, index) => {
         const optionEl = document.createElement('div');
         optionEl.className = 'option';
@@ -504,8 +595,7 @@ function showQuestion() {
         optionEl.addEventListener('click', () => selectOption(index));
         optionsContainer.appendChild(optionEl);
     });
-
-    // 如果之前选过，显示选中状态
+    
     const previousAnswer = userAnswers[currentQuestionIndex];
     if (previousAnswer !== undefined) {
         highlightSelectedOption(previousAnswer, question.answer);
@@ -514,23 +604,18 @@ function showQuestion() {
 
 // 选择选项
 function selectOption(index) {
-    // 移除其他选中状态
     document.querySelectorAll('.option').forEach(el => {
         el.classList.remove('selected');
     });
-
-    // 添加选中状态
+    
     const selectedEl = document.querySelector(`.option[data-index="${index}"]`);
     selectedEl.classList.add('selected');
-
-    // 保存答案
     userAnswers[currentQuestionIndex] = index;
 }
 
 // 高亮显示已选和正确答案
 function highlightSelectedOption(selectedIndex, correctIndex) {
     const options = document.querySelectorAll('.option');
-    
     options.forEach((el, index) => {
         el.classList.add('show-answer');
         if (index === correctIndex) {
@@ -539,13 +624,12 @@ function highlightSelectedOption(selectedIndex, correctIndex) {
             el.classList.add('wrong');
         }
     });
-
-    // 显示解析
+    
     const question = currentQuiz[currentQuestionIndex];
     if (question.explanation) {
         const explanationEl = document.createElement('div');
         explanationEl.className = 'explanation';
-        explanationEl.innerHTML = `<strong>解析：</strong>${question.explanation}`;
+        explanationEl.innerHTML = `解析：${question.explanation}`;
         document.getElementById('options-container').appendChild(explanationEl);
     }
 }
@@ -553,13 +637,11 @@ function highlightSelectedOption(selectedIndex, correctIndex) {
 // 上一题
 function prevQuestion() {
     if (currentQuestionIndex > 0) {
-        // 显示当前题的答案
         const question = currentQuiz[currentQuestionIndex];
         const userAnswer = userAnswers[currentQuestionIndex];
         if (userAnswer !== undefined) {
             highlightSelectedOption(userAnswer, question.answer);
         }
-        
         setTimeout(() => {
             currentQuestionIndex--;
             showQuestion();
@@ -573,13 +655,54 @@ function nextQuestion() {
         alert('请先选择答案！');
         return;
     }
-
-    // 显示当前题的答案
+    
     const question = currentQuiz[currentQuestionIndex];
     const userAnswer = userAnswers[currentQuestionIndex];
+    const isCorrect = userAnswer === question.answer;
+    
+    // 新增：做对就立即加经验值
+    if (isCorrect && !xpAwardedQuestions.includes(question.id)) {
+        currentUser.xp += 1;
+        xpAwardedQuestions.push(question.id);
+        // 更新统计
+        currentUser.totalAnswered += 1;
+        currentUser.correctCount += 1;
+        // 立即保存并同步
+        saveUserData();
+        syncToSupabase(currentUser);
+        updateHomePage();
+    } else if (!isCorrect && !xpAwardedQuestions.includes(question.id)) {
+        // 做错也要记录到统计
+        currentUser.totalAnswered += 1;
+        // 添加到错题本
+        if (!currentUser.wrongQuestions.find(q => q.id === question.id)) {
+            currentUser.wrongQuestions.push({
+                id: question.id,
+                question: question.question,
+                userAnswer: userAnswer,
+                correctAnswer: question.answer,
+                options: question.options,
+                explanation: question.explanation,
+                date: new Date().toISOString()
+            });
+        }
+        xpAwardedQuestions.push(question.id);
+        // 立即保存并同步
+        saveUserData();
+        syncToSupabase(currentUser);
+        updateHomePage();
+    }
+    
     highlightSelectedOption(userAnswer, question.answer);
-
-    // 延迟一下再跳转，让用户看到对错
+    
+    // 新增：保存当前进度（到localStorage）
+    if (quizMode === 'practice') {
+        localStorage.setItem('practiceProgress_' + currentUser.id, JSON.stringify({
+            currentIndex: currentQuestionIndex,
+            xpAwardedQuestions: xpAwardedQuestions
+        }));
+    }
+    
     setTimeout(() => {
         if (currentQuestionIndex < currentQuiz.length - 1) {
             currentQuestionIndex++;
@@ -592,42 +715,22 @@ function nextQuestion() {
 
 // 完成练习
 function finishQuiz() {
+    // 因为现在每做一题就加经验了，这里只统计显示用
     let correctCount = 0;
     let wrongCount = 0;
-    const newWrongQuestions = [];
-
+    
     currentQuiz.forEach((question, index) => {
         const userAnswer = userAnswers[index];
-        const isCorrect = userAnswer === question.answer;
-
-        if (isCorrect) {
+        if (userAnswer === question.answer) {
             correctCount++;
         } else {
             wrongCount++;
-            // 检查是否已经在错题本中
-            if (!currentUser.wrongQuestions.find(q => q.id === question.id)) {
-                newWrongQuestions.push({
-                    id: question.id,
-                    question: question.question,
-                    userAnswer: userAnswer,
-                    correctAnswer: question.answer,
-                    options: question.options,
-                    explanation: question.explanation,
-                    date: new Date().toISOString()
-                });
-            }
         }
     });
-
-    // 新经验值算法：做对几题得几个经验值
+    
+    // 本次练习获得的总经验（用于显示）
     const xpEarned = correctCount;
     
-    // 更新用户数据
-    currentUser.totalAnswered += currentQuiz.length;
-    currentUser.correctCount += correctCount;
-    currentUser.wrongQuestions = [...currentUser.wrongQuestions, ...newWrongQuestions];
-    currentUser.xp += xpEarned;
-
     // 更新连续打卡
     const today = new Date().toDateString();
     if (currentUser.lastPracticeDate !== today) {
@@ -638,18 +741,23 @@ function finishQuiz() {
         }
         currentUser.lastPracticeDate = today;
     }
-
+    
     // 记录做过的题目
     currentQuiz.forEach(q => {
         if (!currentUser.answeredQuestions.includes(q.id)) {
             currentUser.answeredQuestions.push(q.id);
         }
     });
-
-    // 保存用户数据
+    
+    // 保存用户数据并同步到云端
     saveUserData();
-
-    // 显示结果
+    syncToSupabase(currentUser);
+    
+    // 清空进度保存（因为已经完成了）
+    if (quizMode === 'practice') {
+        localStorage.removeItem('practiceProgress_' + currentUser.id);
+    }
+    
     showResult(correctCount, wrongCount, xpEarned);
 }
 
@@ -657,17 +765,14 @@ function finishQuiz() {
 function showResult(correct, wrong, xp) {
     const total = correct + wrong;
     const rate = Math.round((correct / total) * 100);
-
-    document.getElementById('result-emoji').textContent = rate >= 80 ? '🎉' : rate >= 60 ? '👍' : '💪';
-    document.getElementById('result-title').textContent = 
-        rate >= 80 ? '太棒了！' : rate >= 60 ? '不错哦！' : '继续加油！';
     
+    document.getElementById('result-emoji').textContent = rate >= 80 ? '🎉' : rate >= 60 ? '👍' : '💪';
+    document.getElementById('result-title').textContent = rate >= 80 ? '太棒了！' : rate >= 60 ? '不错哦！' : '继续加油！';
     document.getElementById('result-correct').textContent = correct;
     document.getElementById('result-wrong').textContent = wrong;
     document.getElementById('result-rate').textContent = `${rate}%`;
     document.getElementById('result-xp').textContent = `+${xp}`;
-
-    // 检查是否升级
+    
     const oldLevel = getCurrentLevel();
     const newLevel = LEVELS.find(l => l.level === oldLevel.level + 1);
     if (newLevel && currentUser.xp >= newLevel.xp) {
@@ -675,7 +780,7 @@ function showResult(correct, wrong, xp) {
             alert(`🎊 恭喜升级！你现在是 Lv.${newLevel.level} ${newLevel.name}！`);
         }, 500);
     }
-
+    
     showPage('result-page');
 }
 
@@ -688,14 +793,14 @@ function reviewWrongFromResult() {
 function showWrongPage() {
     const wrongList = document.getElementById('wrong-list');
     const emptyState = document.getElementById('wrong-empty');
-
+    
     if (currentUser.wrongQuestions.length === 0) {
         wrongList.innerHTML = '';
         emptyState.style.display = 'block';
     } else {
         emptyState.style.display = 'none';
         wrongList.innerHTML = '';
-
+        
         currentUser.wrongQuestions.forEach(q => {
             const item = document.createElement('div');
             item.className = 'wrong-item';
@@ -707,12 +812,13 @@ function showWrongPage() {
                 <div class="wrong-question">${q.question}</div>
                 <div class="wrong-answer">你的答案：${String.fromCharCode(65 + q.userAnswer)}. ${userAnswerText}</div>
                 <div class="correct-answer">正确答案：${String.fromCharCode(65 + q.correctAnswer)}. ${correctAnswerText}</div>
-                ${q.explanation ? `<div style="margin-top:10px;font-size:12px;color:#666;">解析：${q.explanation}</div>` : ''}
+                ${q.explanation ? `<div class="explanation">解析：${q.explanation}</div>` : ''}
             `;
+            
             wrongList.appendChild(item);
         });
     }
-
+    
     showPage('wrong-page');
 }
 
@@ -721,6 +827,7 @@ function clearWrongQuestions() {
     if (confirm('确定要清空所有错题吗？')) {
         currentUser.wrongQuestions = [];
         saveUserData();
+        syncToSupabase(currentUser);
         showWrongPage();
     }
 }
@@ -729,9 +836,9 @@ function clearWrongQuestions() {
 function showLevelPage() {
     const levelList = document.getElementById('level-list');
     levelList.innerHTML = '';
-
+    
     const currentLevel = getCurrentLevel();
-
+    
     LEVELS.forEach(level => {
         const isLocked = currentUser.xp < level.xp;
         const isCurrent = level.level === currentLevel.level;
@@ -741,17 +848,15 @@ function showLevelPage() {
         
         item.innerHTML = `
             <span class="level-icon">${level.icon}</span>
-            <div class="level-info">
-                <h4>Lv.${level.level} ${level.name}</h4>
-                <p>需要 ${level.xp} 经验值</p>
-            </div>
-            ${isCurrent ? '<span style="color:#667eea;font-weight:bold;margin-left:auto;">当前</span>' : ''}
-            ${isLocked ? '<span style="margin-left:auto;">🔒</span>' : ''}
+            <span class="level-name">Lv.${level.level} ${level.name}</span>
+            <span class="level-xp">需要 ${level.xp} 经验值</span>
+            ${isCurrent ? '<span class="current-badge">当前</span>' : ''}
+            ${isLocked ? '<span class="lock-icon">🔒</span>' : ''}
         `;
         
         levelList.appendChild(item);
     });
-
+    
     showPage('level-page');
 }
 
@@ -764,20 +869,20 @@ function saveUserData() {
     }
 }
 
-// 导出数据功能（隐藏功能，按 Ctrl+E）
+// 导出数据功能
 document.addEventListener('keydown', function(e) {
     if (e.ctrlKey && e.key === 'e') {
         const data = {
             user: currentUser,
-            allUsers: getAllUsers()
+            allUsers: getAllStudents()
         };
         console.log('导出数据:', data);
         alert('数据已导出到控制台（按F12查看）');
     }
 });
 
-// 获取所有用户（用于教师查看）
-function getAllUsers() {
+// 获取所有用户
+function getAllStudents() {
     const users = [];
     for (let i = 0; i < localStorage.length; i++) {
         const key = localStorage.key(i);
