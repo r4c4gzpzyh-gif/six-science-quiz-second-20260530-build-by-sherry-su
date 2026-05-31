@@ -442,7 +442,7 @@ async function handleLogin() {
     // 生成用户ID
     const userId = `${className}_${name}_${id}`;
     
-    // ========== 新增：先从云端拉取数据 ==========
+    // ========== 先从云端拉取数据 ==========
     let cloudData = null;
     try {
         const response = await fetch(
@@ -473,10 +473,9 @@ async function handleLogin() {
             xp: cloudData.exp || 0,
             lastLoginDate: today,
             lastPracticeDate: cloudData.last_active,
-            answeredQuestions: []
-            loginDates: []  // 初始化一个空数组
+            answeredQuestions: [],
+            loginDates: []
         };
-        // 同时保存到本地，下次离线也能用
         localStorage.setItem(`user_${userId}`, JSON.stringify(currentUser));
         console.log('✅ 已从云端同步数据');
     } else if (userData) {
