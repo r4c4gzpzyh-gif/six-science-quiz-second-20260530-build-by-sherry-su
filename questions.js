@@ -215,7 +215,7 @@ const QUESTIONS = [
         "type": "choice",
         "question": "下列关于住房建造的主要过程，①设计 ②选址 ③明确任务 ④建造 ⑤验收 按先后排序正确的是（ ）。",
         "options": ["③①②④⑤", "③②①④⑤", "②①③④⑤", "③①⑤②④"],
-        "answer": 0,
+        "answer": 1,
         "explanation": "合理顺序：明确任务→选址→设计→建造→验收。",
         "difficulty": 2,
         "grade": 6,

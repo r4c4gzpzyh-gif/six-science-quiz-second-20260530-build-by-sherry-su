@@ -36,8 +36,8 @@ let quizMode = 'practice';
 let xpAwardedQuestions = [];
 
 // ===== 新增：同步数据到Supabase =====
-// ===== 同步数据到Supabase（字段名已修正！）=====
 async function syncToSupabase(userData) {
+    console.log('🚀 syncToSupabase 被调用了！用户数据：', user);
     if (!userData || !userData.id) return;
     
     const data = {
@@ -901,6 +901,7 @@ function showLevelPage() {
 
 // 保存用户数据
 function saveUserData() {
+    console.log('💾 saveUserData 被调用了！currentUser：', currentUser);
     if (currentUser) {
         localStorage.setItem(`user_${currentUser.id}`, JSON.stringify(currentUser));
         localStorage.setItem('scienceQuizUser', JSON.stringify(currentUser));
