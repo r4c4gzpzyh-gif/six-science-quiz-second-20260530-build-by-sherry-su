@@ -904,6 +904,7 @@ function saveUserData() {
     if (currentUser) {
         localStorage.setItem(`user_${currentUser.id}`, JSON.stringify(currentUser));
         localStorage.setItem('scienceQuizUser', JSON.stringify(currentUser));
+        syncToSupabase(currentUser);
         updateHomePage();
     }
 }
