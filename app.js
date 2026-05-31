@@ -37,7 +37,7 @@ let xpAwardedQuestions = [];
 
 // ===== 新增：同步数据到Supabase =====
 async function syncToSupabase(userData) {
-    console.log('🚀 syncToSupabase 被调用了！用户数据：', user);
+    console.log('🚀 syncToSupabase 被调用了！用户数据：', userData);
     if (!userData || !userData.id) return;
     
     const data = {
@@ -444,40 +444,52 @@ async function handleLogin() {
     
     // ========== 先从云端拉取数据 ==========
     let cloudData = null;
+    
     try {
         const response = await fetch(
-            SUPABASE_URL + '/rest/v1/students?class=eq.' + className + '&student_id=eq.' + id + '&name=eq.' + encodeURIComponent(name),
-            { headers: { 'apikey': SUPABASE_KEY } }
+            // ✅ 改成驼峰字段名！
+            SUPABASE_URL + '/rest/v1/students?className=eq.' + className + '&studentId=eq.' + id + '&name=eq.' + encodeURIComponent(name),
+            {
+                headers: {
+                    'apikey': SUPABASE_KEY,
+                    'Authorization': `Bearer ${SUPABASE_KEY}`  // ✅ 加上 Authorization！
+                }
+            }
         );
+        
         const students = await response.json();
         if (students.length > 0) {
             cloudData = students[0];
         }
     } catch (err) {
-        console.log('从云端拉取失败，使用本地数据');
+        console.log('从云端拉取失败，使用本地数据', err);
     }
-
+    
     let userData = localStorage.getItem(`user_${userId}`);
     const today = new Date().toDateString();
-
+    
     if (cloudData) {
-        // 云端有数据，优先用云端的！
+        // ✅ 云端有数据，优先用云端的！
         currentUser = {
             id: userId,
-            className: cloudData.class,
+            className: cloudData.className,           // ✅ 改成驼峰
             name: cloudData.name,
-            studentId: cloudData.student_id,
-            totalAnswered: cloudData.total_questions || 0,
-            correctCount: cloudData.correct_count || 0,
-            wrongQuestions: JSON.parse(cloudData.wrong_questions || '[]'),
-            xp: cloudData.exp || 0,
+            studentId: cloudData.studentId,           // ✅ 改成驼峰
+            totalAnswered: cloudData.totalAnswered || 0,  // ✅ 改成驼峰
+            correctCount: cloudData.correctCount || 0,    // ✅ 改成驼峰
+            accuracy: cloudData.accuracy || 0,            // ✅ 加上正确率
+            totalTime: cloudData.totalTime || 0,          // ✅ 加上总用时
+            wrongQuestions: JSON.parse(cloudData.wrongQuestions || '[]'),
+            xp: cloudData.xp || 0,                        // ✅ 改成 xp
             lastLoginDate: today,
-            lastPracticeDate: cloudData.last_active,
-            answeredQuestions: [],
+            lastPracticeDate: cloudData.lastAnsweredAt,
+            answeredQuestions: JSON.parse(cloudData.answeredQuestions || '{}'),  // ✅ 关键！加上做题记录
             loginDates: []
         };
+        
         localStorage.setItem(`user_${userId}`, JSON.stringify(currentUser));
         console.log('✅ 已从云端同步数据');
+        
     } else if (userData) {
         currentUser = JSON.parse(userData);
         
@@ -493,6 +505,7 @@ async function handleLogin() {
                 alert('📅 每日登录奖励：+1 经验值！');
             }, 500);
         }
+        
     } else {
         // 新用户
         currentUser = {
@@ -502,13 +515,15 @@ async function handleLogin() {
             studentId: id,
             totalAnswered: 0,
             correctCount: 0,
+            accuracy: 0,
+            totalTime: 0,
             wrongQuestions: [],
             xp: 1,
             currentLevel: 1,
             streakDays: 0,
             lastPracticeDate: null,
             lastLoginDate: today,
-            answeredQuestions: [],
+            answeredQuestions: {},  // ✅ 改成对象
             loginDates: [today]
         };
         
@@ -518,9 +533,7 @@ async function handleLogin() {
     }
     
     // 保存登录状态并同步到云端
-    saveUserData();
-    syncToSupabase(currentUser);
-    
+    saveUserData();  // ✅ saveUserData 里已经包含 syncToSupabase 了，不用再单独调用
     localStorage.setItem('scienceQuizUser', JSON.stringify(currentUser));
     showPage('home-page');
     updateHomePage();
