@@ -6437,5 +6437,3 @@ const QUESTIONS = [
         "category": "其他"
     },
 ];
-
-module.exports = QUESTIONS;
