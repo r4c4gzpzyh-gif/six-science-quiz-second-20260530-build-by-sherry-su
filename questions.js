@@ -3273,7 +3273,7 @@ const QUESTIONS = [
         "type": "choice",
         "question": "为了观察到更多细胞，应选择目镜和物镜的组合是（ ）。",
         "options": ["10×、10×", "10×、40×", "15×、10×", "5×、10×"],
-        "answer": 0,
+        "answer": 3,
         "explanation": "放大倍数越小，视野范围越大，看到的细胞数量越多。10×10=100倍比高倍数视野大。",
         "difficulty": 2,
         "grade": 6,
