@@ -415,7 +415,7 @@ function showPage(pageId) {
 }
 
 // 登录处理
-function handleLogin() {
+async function handleLogin() {
     const className = document.getElementById('class-name').value.trim();
     const name = document.getElementById('student-name').value.trim();
     const id = document.getElementById('student-id').value.trim();
@@ -436,10 +436,44 @@ function handleLogin() {
     // 生成用户ID
     const userId = `${className}_${name}_${id}`;
     
+    // ========== 新增：先从云端拉取数据 ==========
+    let cloudData = null;
+    try {
+        const response = await fetch(
+            SUPABASE_URL + '/rest/v1/students?class=eq.' + className + '&student_id=eq.' + id + '&name=eq.' + encodeURIComponent(name),
+            { headers: { 'apikey': SUPABASE_KEY } }
+        );
+        const students = await response.json();
+        if (students.length > 0) {
+            cloudData = students[0];
+        }
+    } catch (err) {
+        console.log('从云端拉取失败，使用本地数据');
+    }
+
     let userData = localStorage.getItem(`user_${userId}`);
     const today = new Date().toDateString();
-    
-    if (userData) {
+
+    if (cloudData) {
+        // 云端有数据，优先用云端的！
+        currentUser = {
+            id: userId,
+            className: cloudData.class,
+            name: cloudData.name,
+            studentId: cloudData.student_id,
+            totalAnswered: cloudData.total_answered || 0,
+            correctCount: cloudData.correct_count || 0,
+            wrongQuestions: JSON.parse(cloudData.wrong_questions || '[]'),
+            xp: cloudData.xp || 0,
+            loginDates: JSON.parse(cloudData.login_dates || '[]'),
+            lastLoginDate: today,
+            lastPracticeDate: cloudData.last_active,
+            answeredQuestions: []
+        };
+        // 同时保存到本地，下次离线也能用
+        localStorage.setItem(`user_${userId}`, JSON.stringify(currentUser));
+        console.log('✅ 已从云端同步数据');
+    } else if (userData) {
         currentUser = JSON.parse(userData);
         
         // 每日登录奖励
