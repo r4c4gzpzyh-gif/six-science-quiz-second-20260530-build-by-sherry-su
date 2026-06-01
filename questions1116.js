@@ -11,7 +11,7 @@
 // category: 知识点分类
 
 const QUESTIONS = [
-    {
+{
         "id": 1,
         "type": "judge",
         "question": "放大镜能把物体的图像放大，使我们看到物体的更多细节。",
@@ -22,7 +22,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 2,
         "type": "judge",
         "question": "我们周围还有许多没有被发现的物质及自然界的秘密。",
@@ -33,7 +33,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 3,
         "type": "judge",
         "question": "地球自转一周是一年，在一个自转周期中会发生四季变化。",
@@ -44,7 +44,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 4,
         "type": "judge",
         "question": "我们使用的工具和技术都已经很先进，能满足生活需要，无需改进。",
@@ -55,7 +55,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 5,
         "type": "judge",
         "question": "毕昇发明了活字印刷术，这是中国印刷术发展中的一次改革。",
@@ -66,7 +66,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 6,
         "type": "judge",
         "question": "太阳是自然界最大的能量来源。",
@@ -77,7 +77,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 7,
         "type": "judge",
         "question": "工程是运用科学和技术进行设计，解决实际问题和制造产品的活动。",
@@ -88,7 +88,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 8,
         "type": "judge",
         "question": "制作塔台时，我们要依据评价量表设计塔台、思考问题。",
@@ -99,7 +99,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 9,
         "type": "judge",
         "question": "化石是存留在岩石中的古生物遗体、遗物或遗迹。",
@@ -110,7 +110,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 10,
         "type": "judge",
         "question": "正是因为有了动物的遗传和变异，动物的种类才能多样化。",
@@ -121,7 +121,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 11,
         "type": "judge",
         "question": "金星运行到太阳和地球之间，恰巧三者排成一条直线时，会出现金星凌日天象。",
@@ -132,7 +132,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 12,
         "type": "judge",
         "question": "组成星座的星星大小不同，无论从哪个角度看，星座的形状都是固定的。",
@@ -143,7 +143,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 13,
         "type": "judge",
         "question": "花岗岩很坚硬，不会发生任何变化。",
@@ -154,7 +154,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 14,
         "type": "judge",
         "question": "冰融化成水，白糖加热后变成黑色物质，两者都属于化学变化。",
@@ -165,7 +165,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 15,
         "type": "judge",
         "question": "生物的生长、发育过程中发生着复杂的化学变化。",
@@ -176,7 +176,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 16,
         "type": "choice",
         "question": "下列物体不是由细胞组成的是（ ）。",
@@ -187,7 +187,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 17,
         "type": "choice",
         "question": "同一地点，不同季节正午时分物体的影长不同是因为（ ）。",
@@ -198,7 +198,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 18,
         "type": "choice",
         "question": "下列关于电磁铁的描述，不正确的是（ ）。",
@@ -209,7 +209,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 19,
         "type": "choice",
         "question": "下列关于住房建造的主要过程，①设计 ②选址 ③明确任务 ④建造 ⑤验收 按先后排序正确的是（ ）。",
@@ -220,7 +220,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 20,
         "type": "choice",
         "question": "在比较两个塔台模型抗风能力的强弱时，下列方法最合适的是（ ）。",
@@ -231,7 +231,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 21,
         "type": "choice",
         "question": "下列关于亲代与后代的说法，正确的是（ ）。",
@@ -242,7 +242,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 22,
         "type": "choice",
         "question": "提出生物进化理论的科学家是（ ）。",
@@ -253,7 +253,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 23,
         "type": "choice",
         "question": "与地球相邻的两颗行星是（ ）。",
@@ -264,7 +264,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 24,
         "type": "choice",
         "question": "在认识太阳系的八大行星时，我们会把八大行星标记在纸带上，这种属于（ ）。",
@@ -275,7 +275,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 25,
         "type": "choice",
         "question": "为中国空间站在轨运行期间提供补给支持的货运飞船命名为（ ）。",
@@ -286,7 +286,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 26,
         "type": "choice",
         "question": "下列有气泡冒出的物质变化，其中与其他几项有本质不同的是（ ）。",
@@ -297,7 +297,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 27,
         "type": "choice",
         "question": "早期地球的大气层中并没有氧气，经过长时间的演变，氧气含量仍然很低，当绿色植物出现之后，地球的氧气含量逐渐增加。关于地球的氧气含量增加，下列说法不正确的是（ ）。",
@@ -308,7 +308,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 28,
         "type": "judge",
         "question": "工程是为了满足人们的需要设计和使用技术，解决实际问题和制造产品的活动。",
@@ -319,7 +319,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 29,
         "type": "judge",
         "question": "一个物体上大下小、上轻下重，它就不容易倒。",
@@ -330,7 +330,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 30,
         "type": "judge",
         "question": "工程建设是在限制条件下进行设计的，要综合考虑各方面因素。",
@@ -341,7 +341,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 31,
         "type": "judge",
         "question": "对塔台模型进行评估后，表示建造塔台工程就完成了。",
@@ -352,7 +352,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 32,
         "type": "judge",
         "question": "人的相貌特征、血型等方面存在着遗传和变异现象。",
@@ -363,7 +363,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 33,
         "type": "judge",
         "question": "正因为有了遗传和变异，自然界才出现了形形色色的植物。",
@@ -374,7 +374,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 34,
         "type": "judge",
         "question": "生活中的指纹锁是利用了每个人独一无二的指纹开锁。",
@@ -385,7 +385,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 35,
         "type": "judge",
         "question": "太阳处于宇宙的中心位置，地球是太阳系中的一颗行星。",
@@ -396,7 +396,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 36,
         "type": "judge",
         "question": "北斗七星是大熊座的明显标志，组成斗状的七颗星离我们的距离相同。",
@@ -407,7 +407,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 37,
         "type": "judge",
         "question": "宇宙中每时每刻都有许多恒星在诞生，同时也有许多恒星在消亡。",
@@ -418,7 +418,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 38,
         "type": "judge",
         "question": "我们可以用活动观星盘去空旷的地方认识天上的星座。",
@@ -429,7 +429,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 39,
         "type": "judge",
         "question": "白砂糖和食盐在水中溶解是发生了化学变化。",
@@ -440,7 +440,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 40,
         "type": "judge",
         "question": "物质的变化经常会产生很多现象，例如发光发热、产生气体、生成沉淀等。",
@@ -451,7 +451,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 41,
         "type": "judge",
         "question": "人类利用化学变化制造出塑料袋，它轻便易携带，我们要多使用塑料袋。",
@@ -462,7 +462,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 42,
         "type": "judge",
         "question": "中国载人月球探测工程已启动实施，计划2030年前实现中国人首次登陆月球。",
@@ -473,7 +473,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 43,
         "type": "choice",
         "question": "关于住房中的各种系统，说法正确的是（ ）。",
@@ -484,7 +484,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 44,
         "type": "choice",
         "question": "塔台模型制作时，最有可能导致它承重能力差的因素是（ ）。",
@@ -495,7 +495,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 45,
         "type": "choice",
         "question": "塔台制作过程中，同学们使用剪刀剪断吸管，剪刀是（ ）两种简单机械的组合。",
@@ -506,7 +506,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 46,
         "type": "choice",
         "question": "调查校园生物，通常的顺序是（ ）。①制定调查方案 ②分区城调查 ③明确调查任务 ④汇总调查结果",
@@ -517,7 +517,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 47,
         "type": "choice",
         "question": "在校园生物大搜索中，要清晰地观察到蚯蚓的身体分头、胸、腹三部分，头上有一对触角，建议用（ ）观察。",
@@ -528,7 +528,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 48,
         "type": "choice",
         "question": "在太阳系中，与地球相邻的行星是（ ）。",
@@ -539,7 +539,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 49,
         "type": "choice",
         "question": "夏季是观察星座的好季节，其中构成'夏季大三角'之一的天津四属于（ ）座。",
@@ -550,7 +550,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 50,
         "type": "choice",
         "question": "2021年5月，'祝融号'安全到达某行星表面，开始巡视探测，它到达的行星是（ ）。",
@@ -561,7 +561,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 51,
         "type": "choice",
         "question": "下列成语所描述的变化有新物质生成的是（ ）。",
@@ -572,7 +572,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 52,
         "type": "choice",
         "question": "大气中的氧气主要来自（ ）。",
@@ -583,7 +583,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 53,
         "type": "choice",
         "question": "科学课堂中我们做了很多实验，下列属于对比实验的是（ ）。",
@@ -594,7 +594,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 54,
         "type": "judge",
         "question": "自行车中轴上的大齿轮转动一圈，链条会带动后轴上的小齿轮转动一圈。",
@@ -605,7 +605,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 55,
         "type": "judge",
         "question": "大型斜拉桥的桥塔都很高，这主要是让桥更加壮观。",
@@ -616,7 +616,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 56,
         "type": "judge",
         "question": "所有的用电器都是一个电能的转化器。",
@@ -627,7 +627,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 57,
         "type": "judge",
         "question": "人群中只有双胞胎之间的相貌特征是完全相同的。",
@@ -638,7 +638,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 58,
         "type": "judge",
         "question": "保持生物多样性对于维护地球环境具有重要意义。",
@@ -649,7 +649,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 59,
         "type": "judge",
         "question": "不同固体物质的晶体虽然有大小之分，但是它们的形状都是相同的。",
@@ -660,7 +660,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 60,
         "type": "judge",
         "question": "物质发生化学变化，一定伴随着发光、发热现象。",
@@ -671,7 +671,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 61,
         "type": "judge",
         "question": "月球是距离地球最近的星球。",
@@ -682,7 +682,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 62,
         "type": "judge",
         "question": "使用一次性用品是减少垃圾数量的重要方法。",
@@ -693,7 +693,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 63,
         "type": "judge",
         "question": "绝大多数的水污染是由人类的活动引起的。",
@@ -704,7 +704,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 64,
         "type": "choice",
         "question": "同样粗细和长短的螺丝钉，螺纹越密，拧起来就更（ ）。",
@@ -715,7 +715,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 65,
         "type": "choice",
         "question": "瓦楞纸板中间的夹层做成W形后，相当于增加了纸的（ ）。",
@@ -726,7 +726,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 66,
         "type": "choice",
         "question": "在其他条件相同的情况下，下列形状最坚固的是（ ）。",
@@ -737,7 +737,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 67,
         "type": "choice",
         "question": "小电动机通电后转子能转动的秘密是（ ）。",
@@ -748,7 +748,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 68,
         "type": "choice",
         "question": "人在骑行自行车的过程中主要是（ ）。",
@@ -759,7 +759,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 69,
         "type": "choice",
         "question": "野生大熊猫主要分布在我国（ ）等地。",
@@ -770,7 +770,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 70,
         "type": "choice",
         "question": "下列不开花植物，属于藻类的是（ ）。",
@@ -781,7 +781,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 71,
         "type": "choice",
         "question": "生物学家把狗、鱼、鸟归为一类的依据是（ ）。",
@@ -792,7 +792,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 72,
         "type": "choice",
         "question": "耳廓狐，是最小的狐属动物。一对大耳朵占了头部的极大比例，软长的体毛大致呈淡黄色。根据这些特征可以推测耳廓狐生活在（ ）。",
@@ -803,7 +803,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 73,
         "type": "choice",
         "question": "用放大镜观察指纹，觉得指纹图像太小，为使图像大一些，正确的方法是（ ）。",
@@ -814,7 +814,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 74,
         "type": "choice",
         "question": "导致米饭在口腔里发生化学变化的主要物质是（ ）。",
@@ -825,7 +825,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 75,
         "type": "choice",
         "question": "蜡烛在燃烧过程中的变化属于（ ）。",
@@ -836,7 +836,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 76,
         "type": "choice",
         "question": "把铁钉浸入硫酸铜溶液中，能观察到明显的实验现象是（ ）。",
@@ -847,7 +847,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 77,
         "type": "choice",
         "question": "北京时间2021年5月15日，我国自主打造的天问一号探测器'祝融'号成功着陆于（ ）。",
@@ -858,7 +858,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 78,
         "type": "choice",
         "question": "采用新型垃圾填埋场填埋垃圾，能有效减少对环境的污染。但用这种方法处理垃圾，最大的缺点是（ ）。",
@@ -869,7 +869,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 79,
         "type": "choice",
         "question": "根据2019年新修订的《杭州市生活垃圾管理条例》，用过的餐巾纸属于（ ）。",
@@ -880,7 +880,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 80,
         "type": "choice",
         "question": "自来水的净化处理过程比较复杂，一般的净化处理顺序是（ ）。",
@@ -891,7 +891,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 81,
         "type": "choice",
         "question": "每年的9月22日是'世界无车日'。'无车日'活动的推广，从环境保护的角度看，这有利于减少（ ）。",
@@ -902,7 +902,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 82,
         "type": "choice",
         "question": "下列眼镜的镜片中具有放大功能的是（ ）。",
@@ -913,7 +913,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 83,
         "type": "choice",
         "question": "我们分别是用肉眼、放大镜和手持式简易显微镜来观察蚯蚓时，所看到的蚯蚓图像是不一样的。以下说法正确的是（ ）。",
@@ -924,7 +924,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 84,
         "type": "choice",
         "question": "世界上第一个发现细胞的科学家是（ ）。",
@@ -935,7 +935,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 85,
         "type": "choice",
         "question": "小电动机是将电能转化为动能的装置，可以使转子转动更快的方法是（ ）。",
@@ -946,7 +946,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 86,
         "type": "choice",
         "question": "海水稻是科学家新培育出来的能在盐碱地生长的水稻新品种，而我们杭州地区农田中的水稻生活在淡水中。这一现象说明了基因的（ ）。",
@@ -957,7 +957,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 87,
         "type": "choice",
         "question": "在上《昼夜交替现象》一课时，同学们提出了四种假说：①地球不动，太阳围着地球转；②太阳不动，地球围着太阳转；③地球自转；④地球围着太阳转，同时地球自转。通过模拟实验，我们发现（ ）种假说都可以解释昼夜交替现象。",
@@ -968,7 +968,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 88,
         "type": "choice",
         "question": "太阳的东升西落是（ ）造成的。",
@@ -979,7 +979,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 89,
         "type": "choice",
         "question": "下列物品中使用的原理与水龙头相同的是（ ）。",
@@ -990,7 +990,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 90,
         "type": "choice",
         "question": "模拟活字印刷的正确步骤是（ ）。",
@@ -1001,7 +1001,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 91,
         "type": "choice",
         "question": "下列动物中，（ ）属于昆虫。",
@@ -1012,7 +1012,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 92,
         "type": "choice",
         "question": "下列有关地球、太阳与宇宙的说法，错误的是（ ）。",
@@ -1023,7 +1023,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 93,
         "type": "choice",
         "question": "以下场地中最适宜夜晚观星的是（ ）。",
@@ -1034,7 +1034,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 94,
         "type": "choice",
         "question": "课文介绍制作银河系模型时，用粘在纸片上的米粒模拟（ ）。",
@@ -1045,7 +1045,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 95,
         "type": "choice",
         "question": "生物的多样性非常重要，为了减缓物种灭绝速度，（ ）不是有效方法。",
@@ -1056,7 +1056,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 96,
         "type": "choice",
         "question": "下列成语描述的变化，有新物质产生的是（ ）。",
@@ -1067,7 +1067,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 97,
         "type": "choice",
         "question": "通过研究庞大的猛犸象化石，我们可以推测它是一种能适应（ ）环境的动物。",
@@ -1078,7 +1078,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 98,
         "type": "choice",
         "question": "以下几种气体中，成分与其他三种不同的是（ ）。",
@@ -1089,7 +1089,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 99,
         "type": "choice",
         "question": "下列属于可再生能源的是（ ）。",
@@ -1100,7 +1100,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 100,
         "type": "choice",
         "question": "性状是指可遗传的生物学形态结构、生理和行为等特征的总和。下列人体特征属于性状的是（ ）。",
@@ -1111,7 +1111,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 101,
         "type": "choice",
         "question": "下列情况中，铁钉最不容易生锈的是（ ）。",
@@ -1122,7 +1122,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 102,
         "type": "choice",
         "question": "接通电流的电磁铁与普通磁铁的不同之处是（ ）。",
@@ -1133,7 +1133,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 103,
         "type": "choice",
         "question": "世界万物一直在变化中，以下现象中属于物理变化的是（ ）。",
@@ -1144,7 +1144,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 104,
         "type": "judge",
         "question": "微生物是十分细小的，需要借助显微镜等工具才能观察到，蘑菇、木耳用肉眼就能看到，所以蘑菇、木耳不属于微生物。",
@@ -1155,7 +1155,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 105,
         "type": "judge",
         "question": "太阳离地球近时，地球上获得的热量多，是夏季；太阳离地球远时，地球上获得的热量少，是冬季。",
@@ -1166,7 +1166,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 106,
         "type": "judge",
         "question": "蜡油是蜡烛在燃烧时产生的新物质。",
@@ -1177,7 +1177,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 107,
         "type": "judge",
         "question": "光年是表示光行走一年的时间单位。",
@@ -1188,7 +1188,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 108,
         "type": "judge",
         "question": "发光发热、颜色变化、产生沉淀或气体等现象是判断是否发生化学变化的重要依据。",
@@ -1199,7 +1199,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 109,
         "type": "judge",
         "question": "沈括在《梦溪笔谈》中记载，在太行山中发现了许多海螺化石。这说明当时的太行山地区是一片海洋。",
@@ -1210,7 +1210,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 110,
         "type": "judge",
         "question": "测试塔台模型就是从塔高、顶端承重、抗风能力、抗震能力四个方面进行测试。",
@@ -1221,7 +1221,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 111,
         "type": "judge",
         "question": "食物进入人体内后，只发生了化学变化。",
@@ -1232,7 +1232,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 112,
         "type": "judge",
         "question": "通电直导线靠近指南针，会发现指南针发生偏转。",
@@ -1243,7 +1243,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 113,
         "type": "choice",
         "question": "要在A地与B地之间建造一座小桥，下列选项需要最先做的是（ ）。",
@@ -1254,7 +1254,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 114,
         "type": "choice",
         "question": "竞标过程中，下列行为不正确的是（ ）。",
@@ -1265,7 +1265,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 115,
         "type": "choice",
         "question": "建造小桥有多种材料可选择，下列材料最不适合建造小桥的是（ ）。",
@@ -1276,7 +1276,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 116,
         "type": "choice",
         "question": "小桥建设过程中，面临的限制条件包括（ ）。①时间 ②费用 ③可用材料 ④环境 ⑤抵抗自然界的破坏能力",
@@ -1287,7 +1287,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 117,
         "type": "choice",
         "question": "如果在建造小桥的过程中发现原来的设计有问题，应该（ ）。",
@@ -1298,7 +1298,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 118,
         "type": "choice",
         "question": "我们可以通过（ ）来保护生物多样性。",
@@ -1309,7 +1309,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 119,
         "type": "choice",
         "question": "下列哪一组物品都使用了电动机？",
@@ -1320,7 +1320,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 120,
         "type": "choice",
         "question": "我们可以像科学家一样研究校园中的生物，下列做法不合理的是（ ）。",
@@ -1331,7 +1331,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 121,
         "type": "choice",
         "question": "为了清楚地观察校园中一些较小的生物，我们需要带的工具是（ ），此工具的特点是透明，中央厚，边缘薄。",
@@ -1342,7 +1342,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 122,
         "type": "choice",
         "question": "校园中生物种类繁多，下列同学的观点正确的是（ ）。",
@@ -1353,7 +1353,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 123,
         "type": "choice",
         "question": "分类是科学研究常用的方法，和校园中麻雀属于同一类的是（ ）。",
@@ -1364,7 +1364,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 124,
         "type": "choice",
         "question": "使用显微镜观察玻片标本时，要先用低倍物镜观察，再用高倍物镜观察。与高倍物镜相比，用低倍物镜观察时，我们视野内看到的细胞会（ ）。",
@@ -1375,7 +1375,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 125,
         "type": "choice",
         "question": "下列关于微生物的描述，正确的是（ ）。",
@@ -1386,7 +1386,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 126,
         "type": "choice",
         "question": "我们可以通过（ ）来保护生物多样性。",
@@ -1397,7 +1397,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 127,
         "type": "choice",
         "question": "人类对地球运动的探索经历了一个相当漫长的过程，托勒密的'地心说'和哥白尼的'日心说'中相同的观点是（ ）。",
@@ -1408,7 +1408,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 128,
         "type": "choice",
         "question": "中国第一位进入太空的宇航员是（ ）。",
@@ -1419,7 +1419,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 129,
         "type": "choice",
         "question": "通过实际观察发现，下列节日中可能发生日食现象的是（ ）。",
@@ -1430,7 +1430,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 130,
         "type": "choice",
         "question": "星空随着四季的变化而发生变化，有一颗恒星的位置基本不变，这颗恒星是（ ）。",
@@ -1441,7 +1441,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 131,
         "type": "choice",
         "question": "下列有关宇宙的说法错误的是（ ）。",
@@ -1452,7 +1452,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 132,
         "type": "choice",
         "question": "下列哪一组星体是夏季大三角的成员？",
@@ -1463,7 +1463,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 133,
         "type": "choice",
         "question": "下列哪一组都是中国在太空探索方面取得的成就？",
@@ -1474,7 +1474,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 134,
         "type": "choice",
         "question": "A同学将准备好的白色粉末倒进气球内，小心地将气球套在装有无色液体的玻璃瓶口上，接着把气球内的粉末抖落到瓶中与液体混合，气球就被'吹'大了。实验中的白色粉末和无色液体最有可能的是（ ）。",
@@ -1485,7 +1485,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 135,
         "type": "choice",
         "question": "A同学将准备好的白色粉末倒进气球内，小心地将气球套在装有无色液体的玻璃瓶口上，接着把气球内的粉末抖落到瓶中与液体混合，气球就被'吹'大了。根据上述判断，充满整个气球的气体是（ ）。",
@@ -1496,7 +1496,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 136,
         "type": "choice",
         "question": "B同学做了一朵白色纸花，她先在'花瓣'上涂了一种无色透明的液体，再把紫甘蓝水喷洒在'花瓣'上，发现'花瓣'变成了红色。实验中，'花瓣'上涂的液体有可能是（ ）。",
@@ -1507,7 +1507,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 137,
         "type": "choice",
         "question": "B同学做了一朵白色纸花，她先在'花瓣'上涂了一种无色透明的液体，再把紫甘蓝水喷洒在'花瓣'上，发现'花瓣'变成了红色。实验中，'花瓣'上产生的变化是（ ）。",
@@ -1518,7 +1518,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 138,
         "type": "choice",
         "question": "下列有关化学变化的表述正确的是（ ）。",
@@ -1529,7 +1529,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 139,
         "type": "choice",
         "question": "小可研究铁钉生锈原因（有三支试管：甲有水有空气，乙无水有空气，丙有水无空气）。一星期后观察发现，（ ）试管中的铁钉锈蚀最严重。",
@@ -1540,7 +1540,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 140,
         "type": "choice",
         "question": "小可研究铁钉生锈原因（有三支试管：甲有水有空气，乙无水有空气，丙有水无空气）。从实验中发现铁生锈的条件是（ ）。",
@@ -1551,7 +1551,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 141,
         "type": "choice",
         "question": "铁钉生锈属于（ ），证据是（ ）。",
@@ -1562,7 +1562,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 142,
         "type": "choice",
         "question": "瞭望塔模型建造的一般过程是（ ）。",
@@ -1573,7 +1573,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 143,
         "type": "choice",
         "question": "在瞭望塔模型的设计过程中，下列做法不合适的是（ ）。",
@@ -1584,7 +1584,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 144,
         "type": "choice",
         "question": "建造瞭望塔模型是工程设计中的重要环节，其主要目的是（ ）。",
@@ -1595,7 +1595,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 145,
         "type": "choice",
         "question": "在建造瞭望塔模型的过程中，合理的说法是（ ）。",
@@ -1606,7 +1606,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 146,
         "type": "choice",
         "question": "下列测试方法与测试性质对应正确的是（ ）。",
@@ -1617,7 +1617,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 147,
         "type": "choice",
         "question": "要检验瞭望塔模型是否符合工程要求，下列最有效的方法是（ ）。",
@@ -1628,7 +1628,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 148,
         "type": "choice",
         "question": "家用手摇晾衣架，它应用的简单机械主要有（ ）。",
@@ -1639,7 +1639,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 149,
         "type": "choice",
         "question": "晾衣架上的丁滑轮属于（ ）。",
@@ -1650,7 +1650,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 150,
         "type": "choice",
         "question": "家用手摇晾衣架上的手摇轮，使用时可以起到（ ）的作用。",
@@ -1661,7 +1661,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 151,
         "type": "choice",
         "question": "电磁铁都由（ ）和（ ）两部分组成。",
@@ -1672,7 +1672,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 152,
         "type": "choice",
         "question": "小明用以下A、B、C三个电磁铁做实验，这三个电磁铁的铁芯大小、导线粗细等都一样，所用的电池也相同。（A：3节电池，线圈50匝；B：2节电池，线圈50匝；C：3节电池，线圈100匝）。上面三个电磁铁中，磁力最小的是（ ）。",
@@ -1683,7 +1683,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 153,
         "type": "choice",
         "question": "小明用以下A、B、C三个电磁铁做实验，这三个电磁铁的铁芯大小、导线粗细等都一样，所用的电池也相同。（A：3节电池，线圈50匝；B：2节电池，线圈50匝；C：3节电池，线圈100匝）。如果小明要研究'电磁铁的磁力大小与电池数量有关吗？'，那么他应该选择（ ）两个电磁铁进行对比实验。",
@@ -1694,7 +1694,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 154,
         "type": "choice",
         "question": "小明用以下A、B、C三个电磁铁做实验，这三个电磁铁的铁芯大小、导线粗细等都一样，所用的电池也相同。（A：3节电池，线圈50匝；B：2节电池，线圈50匝；C：3节电池，线圈100匝）如果选择A和C做磁力大小对比实验，那么实验结果应该是（ ）。",
@@ -1705,7 +1705,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 155,
         "type": "choice",
         "question": "通过实验，小明还发现了电磁铁具有（ ）的基本性质。",
@@ -1716,7 +1716,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 156,
         "type": "choice",
         "question": "小林培养微生物，方案如下表：（1号：纯净水，窗台；2号：鱼塘水，窗台；3号：沟渠水+干稻草，窗台；4号：纯净水+干稻草，冰箱）。一星期后小林用滴管，从4个烧杯中各取一滴水，分别滴在载玻片上，盖上盖玻片，在显微镜下观察。你认为小林最有可能观察到微生物的是（ ）。",
@@ -1727,7 +1727,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 157,
         "type": "choice",
         "question": "小林在显微镜下观察到的草履虫，属于（ ）生物。",
@@ -1738,7 +1738,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 158,
         "type": "choice",
         "question": "上面研究方法能够培养出微生物的实验属于（ ）。",
@@ -1749,7 +1749,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 159,
         "type": "choice",
         "question": "下列哪一组都是微生物的生物特征？",
@@ -1760,7 +1760,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 160,
         "type": "choice",
         "question": "2020年6月21日发生了日食，这天应该是我国农历（ ）。",
@@ -1771,7 +1771,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 161,
         "type": "choice",
         "question": "日环食现象是在（ ）过程中形成的。",
@@ -1782,7 +1782,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 162,
         "type": "choice",
         "question": "2020年6月21日发生日环食时，地球、太阳、月球之间的位置关系正确的是（ ）。",
@@ -1793,7 +1793,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 163,
         "type": "choice",
         "question": "下列观看日食的方法中，正确的是（ ）。",
@@ -1804,7 +1804,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 164,
         "type": "choice",
         "question": "2020年6月21日发生的日环食，我国境内只有西藏、四川、贵州、湖南、江西、福建、台湾等地的人们才能看到。这是因为（ ）。",
@@ -1815,7 +1815,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 165,
         "type": "choice",
         "question": "用显微镜观察洋葱表皮细胞时，先要制作洋葱表皮细胞装片。下列制作洋葱表皮细胞装片的各个环节中，正确的操作顺序是（ ）。①标本染色 ②滴加清水 ③盖盖玻片 ④吸取多余水分 ⑤放置表皮",
@@ -1826,7 +1826,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 166,
         "type": "choice",
         "question": "用显微镜观察水中微生物时，有时需要在载玻片上放少量的脱脂棉纤维。其主要目的是（ ）。",
@@ -1837,7 +1837,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 167,
         "type": "choice",
         "question": "我们用显微镜来观察水中的微小生物时，会发现水中有很多微小生物，如草履虫、变形虫、衣藻、线虫。下列特征中，最能作为判断微小物体是生物的依据是（ ）。",
@@ -1848,7 +1848,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 168,
         "type": "choice",
         "question": "在东方明珠塔项目建造前进行设计时，需要考虑哪些限制因素？①时间 ②材料成本 ③人员分工 ④对环境的影响",
@@ -1859,7 +1859,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 169,
         "type": "choice",
         "question": "每天正午时分，阳光下的电视塔下会有长长的影子，一年之中，它的影子在（ ）最短。",
@@ -1870,7 +1870,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 170,
         "type": "choice",
         "question": "明珠电视塔高达468米，从图上分析，它有哪些结构上的设计使得它保持屹立不倒？（ ）",
@@ -1881,7 +1881,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 171,
         "type": "choice",
         "question": "工程师们通常通过建立模型来测试自己的设计。如果要建立一个高塔模型，通常要经历（ ）的过程。",
@@ -1892,7 +1892,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 172,
         "type": "choice",
         "question": "手推式独轮挖孔机通过燃烧汽油使钻头转动，这一过程把（ ）能转化为动能。",
@@ -1903,7 +1903,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 173,
         "type": "choice",
         "question": "手推式独轮挖孔机启动开关后，机器开始工作，旋转的钻头上的螺旋铁片相当于简单机械中的（ ）。",
@@ -1914,7 +1914,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 174,
         "type": "choice",
         "question": "手推式独轮挖孔机挖孔完成时，人用力把独轮车的手柄往上抬，这是相当于简单机械中的（ ）。",
@@ -1925,7 +1925,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 175,
         "type": "choice",
         "question": "人们用独轮车推着手推式独轮挖孔机前进时，车轮起到的作用（ ）。",
@@ -1936,7 +1936,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 176,
         "type": "choice",
         "question": "手推式独轮挖孔机工作时，地面在钻头作用下，土壤被迅速挖出来，留下一个一个孔，这属于（ ）变化。",
@@ -1947,7 +1947,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 177,
         "type": "choice",
         "question": "神舟十三号上三名航天员在太空生活的空间站叫（ ）。",
@@ -1958,7 +1958,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 178,
         "type": "choice",
         "question": "空间站在太空中是围绕（ ）飞行的。",
@@ -1969,7 +1969,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 179,
         "type": "choice",
         "question": "航天员在太空中不可能发生的情景是（ ）。",
@@ -1980,7 +1980,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 180,
         "type": "choice",
         "question": "地球公转方向是（ ）。",
@@ -1991,7 +1991,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 181,
         "type": "choice",
         "question": "如图，地球公转到夏至位置时，南半球处于（ ）。",
@@ -2002,7 +2002,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 182,
         "type": "choice",
         "question": "地球公转的特点是（ ）。",
@@ -2013,7 +2013,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 183,
         "type": "choice",
         "question": "地球是太阳系中的一颗（ ）。",
@@ -2024,7 +2024,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 184,
         "type": "choice",
         "question": "有一种天文现象叫金星凌日，我们会在地球上看到太阳前面有一小黑点在移动，其实那是金星。金星凌日发生时，三者的位置关系是（ ）。",
@@ -2035,7 +2035,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 185,
         "type": "judge",
         "question": "制作生物分布图时，可用编号的方法标注各区域中生物的名称，也可用画图的方式呈现。",
@@ -2046,7 +2046,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 186,
         "type": "judge",
         "question": "科考队发现不同岛屿的象龟甲壳形状略有差异，这是遗传现象。",
@@ -2057,7 +2057,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 187,
         "type": "judge",
         "question": "地球上生物之间相互依存、相互作用，生物多样性是人类生存与发展的基础。",
@@ -2068,7 +2068,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 188,
         "type": "judge",
         "question": "住房中的屋顶分布式光伏属于供电系统，与其他系统相互独立，互不影响。",
@@ -2079,7 +2079,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 189,
         "type": "judge",
         "question": "工程建设的选址是第一步，需要考虑地形、气候、交通等多种因素。",
@@ -2090,7 +2090,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 190,
         "type": "judge",
         "question": "三角形框架具有稳定性，因此建筑结构中大量使用三角形结构可以增强稳定性。",
@@ -2101,7 +2101,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 191,
         "type": "judge",
         "question": "工程建设过程中，需要反复评估改进，才能达成最终的工程要求。",
@@ -2112,7 +2112,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 192,
         "type": "judge",
         "question": "校园生物大搜索时，因为区域太大，只需要调查认识的生物即可。",
@@ -2123,7 +2123,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 193,
         "type": "judge",
         "question": "培育高产新品种番茄利用了植物的遗传和变异现象。",
@@ -2134,7 +2134,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 194,
         "type": "judge",
         "question": "孟德尔通过长期的豌豆实验发现了生物遗传的基本规律。",
@@ -2145,7 +2145,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 195,
         "type": "judge",
         "question": "如果每个性状表现出两种特征，3个性状可以呈现6类不同的相貌。",
@@ -2156,7 +2156,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 196,
         "type": "judge",
         "question": "随着季节的变换，天空中会出现不同的代表星座，如冬季星空有猎户座、大犬座等。",
@@ -2167,7 +2167,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 197,
         "type": "judge",
         "question": "使用活动观星图时，应将其平放在桌面上，并使图上的方向与实际方向一致。",
@@ -2178,7 +2178,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 198,
         "type": "judge",
         "question": "太阳系中，太阳是一颗静止不动的恒星，而八颗行星围绕太阳运动。",
@@ -2189,7 +2189,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 199,
         "type": "judge",
         "question": "宇宙是运动变化着、膨胀着的，组成宇宙的天体也是运动着的。",
@@ -2200,7 +2200,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 200,
         "type": "judge",
         "question": "氢气燃烧生成水，这个过程中产生了新物质，属于化学变化。",
@@ -2211,7 +2211,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 201,
         "type": "judge",
         "question": "小苏打和白醋混合后产生的气体能使燃烧的火柴熄灭，这种气体是二氧化碳。",
@@ -2222,7 +2222,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 202,
         "type": "judge",
         "question": "清退高污染企业进行生态治理，说明我们要减少有害的化学变化对环境的破坏。",
@@ -2233,7 +2233,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 203,
         "type": "judge",
         "question": "为了测试湖水的酸碱性，可以使用紫甘蓝汁液作为指示剂。",
@@ -2244,7 +2244,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 204,
         "type": "judge",
         "question": "制作塔台模型时，如果发现设计方案有缺陷，可以边制作边随意修改，不需要再画图记录。",
@@ -2255,7 +2255,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 205,
         "type": "judge",
         "question": "工程与技术是相互促进的，工程的难题推动技术发展，技术进步又支撑工程的实施。",
@@ -2266,7 +2266,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 206,
         "type": "judge",
         "question": "港珠澳大桥在修建过程中利用了两座天然岛屿。",
@@ -2277,7 +2277,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 207,
         "type": "judge",
         "question": "搭建结构应遵循从下到上、先稳固基础的原则，即先搭底座，再搭立柱，最后搭顶端。",
@@ -2288,7 +2288,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 208,
         "type": "judge",
         "question": "塔台模型底部比上部大且重、采用框架结构和三角形结构都能增加稳固性。",
@@ -2299,7 +2299,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 209,
         "type": "judge",
         "question": "改进塔台模型时，可以在保证承重和安全的前提下减少关键承重位置的吸管以降低成本。",
@@ -2310,7 +2310,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 210,
         "type": "judge",
         "question": "绘制校园生物分布图时，生物种类太多写不下，可以用'图注+编号'的方法绘制。",
@@ -2321,7 +2321,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 211,
         "type": "judge",
         "question": "二歧分类法的标准必须是互斥的，'单子叶'和'非针形叶'不属于同一分类标准下的对立选项。",
@@ -2332,7 +2332,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 212,
         "type": "judge",
         "question": "AI人脸识别技术的基础是人类个体之间相貌特征的差异性（变异），每个人的面部特征组合是独特的。",
@@ -2343,7 +2343,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 213,
         "type": "judge",
         "question": "建立自然保护区的主要目的是保护生物多样性和它们所依赖的自然生态环境。",
@@ -2354,7 +2354,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 214,
         "type": "judge",
         "question": "组成星座的恒星彼此之间距离很近，且处于同一个平面上。",
@@ -2365,7 +2365,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 215,
         "type": "judge",
         "question": "银河系是宇宙中最大的星系。",
@@ -2376,7 +2376,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 216,
         "type": "judge",
         "question": "'牛郎织女'相会是视觉现象，是由于地球、牛郎星、织女星三者在空间中的相对位置变化造成的。",
@@ -2387,7 +2387,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 217,
         "type": "judge",
         "question": "'煽风点火'涉及燃烧，伴随新物质生成，属于化学变化。",
@@ -2398,7 +2398,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 218,
         "type": "judge",
         "question": "蜡烛燃烧时变成蜡烛油，这属于物理变化。",
@@ -2409,7 +2409,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 219,
         "type": "judge",
         "question": "煤是由古代植物的遗体在特定地质条件下经过漫长而复杂的化学变化形成的。",
@@ -2420,7 +2420,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 220,
         "type": "judge",
         "question": "晒太阳促进大脑分泌有利于情绪的化学物质，说明情绪变化与化学变化有关。",
@@ -2431,7 +2431,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 221,
         "type": "judge",
         "question": "干栏式建筑底层架空的主要目的是防潮防虫防洪。",
@@ -2442,7 +2442,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 222,
         "type": "judge",
         "question": "在现代建筑中，脚手架采用三角形结构最稳定。",
@@ -2453,7 +2453,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 223,
         "type": "judge",
         "question": "校园生物调查时，为尽快完成任务，可以仅记录常见物种而忽略稀有生物。",
@@ -2464,7 +2464,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 224,
         "type": "judge",
         "question": "亲代与后代之间性状的相似性称为遗传。",
@@ -2475,7 +2475,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 225,
         "type": "judge",
         "question": "圣水牛的灭绝会导致该区域植被快速生长，一片欣欣向荣。",
@@ -2486,7 +2486,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 226,
         "type": "judge",
         "question": "驯养的家猪幼崽和亲代具有相似的特征，这种现象称为遗传。",
@@ -2497,7 +2497,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 227,
         "type": "judge",
         "question": "为了保护生物多样性，可以尽可能多地狩猎来维持日常生活。",
@@ -2508,7 +2508,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 228,
         "type": "judge",
         "question": "研究古生物化石可以帮助我们了解古代生物的形态结构、生活习性及演化历程。",
@@ -2519,7 +2519,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 229,
         "type": "judge",
         "question": "酵母菌属于微生物。",
@@ -2530,7 +2530,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 230,
         "type": "judge",
         "question": "跨湖桥人站在陆地上观察天体，最容易观察的是月亮。",
@@ -2541,7 +2541,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 231,
         "type": "judge",
         "question": "北斗七星从不同角度观察，形状相同。",
@@ -2552,7 +2552,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 232,
         "type": "judge",
         "question": "日食形成时，月球位于太阳与地球之间。",
@@ -2563,7 +2563,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 233,
         "type": "judge",
         "question": "农历初一可能会发生日食。",
@@ -2574,7 +2574,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 234,
         "type": "judge",
         "question": "夜晚观察星星时，看到的大多是恒星。",
@@ -2585,7 +2585,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 235,
         "type": "judge",
         "question": "银河系是宇宙中最大的星系。",
@@ -2596,7 +2596,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 236,
         "type": "judge",
         "question": "太阳的东升西落与地球自转方向有关。",
@@ -2607,7 +2607,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 237,
         "type": "judge",
         "question": "夏季时北斗七星高悬于北方天空，斗柄指向南方，其勺口两星延长5倍可定位北极星。",
@@ -2618,7 +2618,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 238,
         "type": "judge",
         "question": "'夏季大三角'的三颗恒星与地球的距离相同。",
@@ -2629,7 +2629,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 239,
         "type": "judge",
         "question": "跨湖桥遗址的水稻遗存证明当时已有栽培稻，水稻的主要营养物质是糖类。",
@@ -2640,7 +2640,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 240,
         "type": "judge",
         "question": "给木器涂漆、烧制黑陶、凿制玉器、缝制兽皮衣中，烧制黑陶与其他几项属于不同反应类型。",
@@ -2651,7 +2651,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 241,
         "type": "judge",
         "question": "铁钉在潮湿空气中生锈最快。",
@@ -2662,7 +2662,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 242,
         "type": "judge",
         "question": "铁质菜刀用后洗净擦干并涂上植物油最不易生锈。",
@@ -2673,7 +2673,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 243,
         "type": "judge",
         "question": "将铁制品加热后冷却，常温保存，可以减缓铁生锈。",
@@ -2684,7 +2684,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 244,
         "type": "judge",
         "question": "黏土加水揉制变软但成分不变，这是物理变化。",
@@ -2695,7 +2695,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 245,
         "type": "judge",
         "question": "黏土陶坯高温烧制变成坚硬的黑陶，有新物质产生，属于化学变化。",
@@ -2706,7 +2706,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 246,
         "type": "judge",
         "question": "酿酒时粮食中的淀粉转化成酒精和其他物质，产生了新物质，是化学变化。",
@@ -2717,7 +2717,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 247,
         "type": "judge",
         "question": "陶器内壁的酒石酸结壳是发酵过程中生成的新物质，证明发生了化学变化。",
@@ -2728,7 +2728,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 248,
         "type": "judge",
         "question": "在自行车链条上涂油可以有效防止生锈。",
@@ -2739,7 +2739,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 249,
         "type": "judge",
         "question": "铁锈能被磁铁吸引，和铁一样具有磁性。",
@@ -2750,7 +2750,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 250,
         "type": "judge",
         "question": "蜡烛燃烧时，发光发热、有火焰，属于化学变化。",
@@ -2761,7 +2761,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 251,
         "type": "judge",
         "question": "蜡烛燃烧过程中，固态的蜡变成液态的蜡油，属于物理变化。",
@@ -2772,7 +2772,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 252,
         "type": "judge",
         "question": "将干燥洁净的玻璃杯倒扣在燃烧的蜡烛上，能看到玻璃杯内壁有水珠。",
@@ -2783,7 +2783,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 253,
         "type": "judge",
         "question": "将干燥洁净的玻璃杯倒扣在燃烧的蜡烛上，能看到玻璃杯内底部有炭黑。",
@@ -2794,7 +2794,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 254,
         "type": "judge",
         "question": "小苏打与白醋混合后，用手触摸烧瓶外壁会有冷的感觉。",
@@ -2805,7 +2805,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 255,
         "type": "judge",
         "question": "将点燃的木条伸入小苏打和白醋混合后的烧瓶中，木条会熄灭。",
@@ -2816,7 +2816,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 256,
         "type": "judge",
         "question": "小苏打和白醋混合产生的气体比同体积的空气重。",
@@ -2827,7 +2827,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 257,
         "type": "judge",
         "question": "紫甘蓝汁加入白醋后，溶液颜色会变红。",
@@ -2838,7 +2838,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 258,
         "type": "judge",
         "question": "牛奶中加入白醋后，会产生沉淀。",
@@ -2849,7 +2849,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 259,
         "type": "judge",
         "question": "将水烧开属于化学变化。",
@@ -2860,7 +2860,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 260,
         "type": "judge",
         "question": "虾被煮熟后变红，红色的熟虾与生虾不是同一种物质，说明煮熟是化学变化。",
@@ -2871,7 +2871,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 261,
         "type": "judge",
         "question": "铁钉生锈是化学变化。",
@@ -2882,7 +2882,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 262,
         "type": "judge",
         "question": "将食盐溶解在水中是物理变化。",
@@ -2893,7 +2893,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 263,
         "type": "judge",
         "question": "将白砂糖熬制成糖浆是物理变化。",
@@ -2904,7 +2904,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 264,
         "type": "judge",
         "question": "继续加热糖浆至变黑并产生焦味，属于化学变化。",
@@ -2915,7 +2915,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 265,
         "type": "judge",
         "question": "碘酒滴到淀粉上会变成蓝色，这是化学变化。",
@@ -2926,7 +2926,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 266,
         "type": "judge",
         "question": "小苏打和白醋混合产生的气体是二氧化碳。",
@@ -2937,7 +2937,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 267,
         "type": "judge",
         "question": "将燃烧的蜡烛放入玻璃瓶中，盖上玻璃片，蜡烛会慢慢熄灭。",
@@ -2948,7 +2948,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 268,
         "type": "judge",
         "question": "将点燃的火柴伸入蜡烛燃烧后充满气体的瓶中，火柴很快熄灭。",
@@ -2959,7 +2959,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 269,
         "type": "judge",
         "question": "小苏打和白醋混合产生气体的性质与蜡烛燃烧生成的气体一样。",
@@ -2970,7 +2970,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 270,
         "type": "judge",
         "question": "铁生锈是空气和水分共同作用的结果。",
@@ -2981,7 +2981,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 271,
         "type": "judge",
         "question": "在铁制品表面涂防锈漆可以防止生锈。",
@@ -2992,7 +2992,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 272,
         "type": "judge",
         "question": "保持铁制品干燥可以防止生锈。",
@@ -3003,7 +3003,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 273,
         "type": "judge",
         "question": "将铁制品放入密封塑料袋并放入干燥剂可以防止生锈。",
@@ -3014,7 +3014,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 274,
         "type": "judge",
         "question": "食盐（氯化钠）能加快铁生锈的速度。",
@@ -3025,7 +3025,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 275,
         "type": "judge",
         "question": "地球自转的方向是自西向东。",
@@ -3036,7 +3036,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 276,
         "type": "judge",
         "question": "越是东边的时区越先迎来黎明。",
@@ -3047,7 +3047,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 277,
         "type": "judge",
         "question": "昼夜对生物影响最大的因素是光照。",
@@ -3058,7 +3058,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 278,
         "type": "judge",
         "question": "四季对生物影响最大的因素是温度。",
@@ -3069,7 +3069,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 279,
         "type": "judge",
         "question": "中国古代测量正午日影长度的天文仪器叫圭表。",
@@ -3080,7 +3080,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 280,
         "type": "judge",
         "question": "夏季太阳高度高，影子最短；冬季太阳高度低，影子最长。",
@@ -3091,7 +3091,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 281,
         "type": "judge",
         "question": "赤道地区一年有两次阳光直射，四季界限不明显，全年昼夜等长。",
@@ -3102,7 +3102,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 282,
         "type": "judge",
         "question": "地球公转时，地轴始终倾斜，且倾斜角度不变。",
@@ -3113,7 +3113,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 283,
         "type": "judge",
         "question": "杭州在罗马的东边，当杭州正午12:00时，罗马可能处于上午时间。",
@@ -3124,7 +3124,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 284,
         "type": "judge",
         "question": "杠杆的用力点离支点越远越省力，阻力点离支点越近越省力。",
@@ -3135,7 +3135,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 285,
         "type": "choice",
         "question": "我们用模型来探究昼夜交替现象时，最好用（ ）来模拟太阳。",
@@ -3146,7 +3146,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 286,
         "type": "choice",
         "question": "地球上昼夜交替的周期是（ ）。",
@@ -3157,7 +3157,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 287,
         "type": "choice",
         "question": "某小组用手电筒、地球仪探究昼夜交替现象，这个实验采用的研究方法是（ ）。",
@@ -3168,7 +3168,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 288,
         "type": "choice",
         "question": "模拟实验时，地球仪不动，手电筒围绕地球仪转，这一操作对应的假设是（ ）。",
@@ -3179,7 +3179,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 289,
         "type": "choice",
         "question": "电磁铁通电后吸引弹性片，使铁锤击打铁铃发出声音。这个过程涉及的能量转化是（ ）。",
@@ -3190,7 +3190,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 290,
         "type": "choice",
         "question": "检测一节电池是否有电，可以选择（ ）制作电流检测器。",
@@ -3201,7 +3201,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 291,
         "type": "choice",
         "question": "为了使电铃的声音增强，可以采用（ ）。",
@@ -3212,7 +3212,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 292,
         "type": "choice",
         "question": "无论怎么使劲摇动小电动机的轴转动，电铃就是不响，下列分析合理的是（ ）。",
@@ -3223,7 +3223,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 293,
         "type": "choice",
         "question": "三个放大镜的放大倍数分别是2×、3×、5×，其中是5×的放大镜是（ ）。",
@@ -3234,7 +3234,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 294,
         "type": "choice",
         "question": "用自制简易显微镜观察微生物，只看到一些小颗粒在移动，但看不清楚，可能的原因是（ ）。",
@@ -3245,7 +3245,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 295,
         "type": "choice",
         "question": "视野中有小黑点，如果移动装片时小黑点跟着移动，则污物在（ ）。",
@@ -3256,7 +3256,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 296,
         "type": "choice",
         "question": "如果确定了污物的位置在镜头上，应用（ ）小心擦拭干净。",
@@ -3267,7 +3267,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 297,
         "type": "choice",
         "question": "为了观察到更多细胞，应选择目镜和物镜的组合是（ ）。",
@@ -3278,7 +3278,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 298,
         "type": "choice",
         "question": "通过调节准焦螺旋，发现洋葱表皮细胞在视野的右下方，为了让细胞到视野中央，应把装片向（ ）移动。",
@@ -3289,7 +3289,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 299,
         "type": "choice",
         "question": "以下五种模型中，不能产生地球昼夜交替现象的是（ ）。（模型①：太阳不动，地球自转；模型②：太阳不动，地球公转；模型③：地球不动，太阳绕地球转；模型④：地球自转并绕太阳公转；模型⑤：太阳绕地球转，地球自转）",
@@ -3300,7 +3300,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 300,
         "type": "choice",
         "question": "最符合'地心说'理论的是（ ）；与地球在宇宙中的真实运动最接近的是（ ）。",
@@ -3311,7 +3311,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 301,
         "type": "choice",
         "question": "圭表测量的不同季节影长数据如下：春分7.6cm、夏至？、秋分12.8cm、冬至16.8cm。夏至影长数据合理的是（ ）。",
@@ -3322,7 +3322,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 302,
         "type": "choice",
         "question": "连续几天观察圭表影长变化，发现正午影长正在逐渐变短，此时可能是（ ）。",
@@ -3333,7 +3333,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 303,
         "type": "choice",
         "question": "组装圭表测量日影，下列做法不合理的是（ ）。",
@@ -3344,7 +3344,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 304,
         "type": "choice",
         "question": "下列图示中表示冬季的是（ ）。（图示略，描述：A.影长最短 B.影长中等 C.影长最长）",
@@ -3355,7 +3355,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 305,
         "type": "choice",
         "question": "关于圭表，下列说法错误的一项是（ ）。",
@@ -3366,7 +3366,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 306,
         "type": "choice",
         "question": "在图2的四种情况中，只有一种情况小石块能撬动大石块，根据测试经验，你认为是哪一种？（图示略：四种杠杆支点位置不同）",
@@ -3377,7 +3377,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 307,
         "type": "choice",
         "question": "下列说法正确的是（ ）。",
@@ -3388,7 +3388,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 308,
         "type": "choice",
         "question": "在课堂实验中，增加支点的高度，大石块移动的距离会（ ）。",
@@ -3399,7 +3399,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 309,
         "type": "choice",
         "question": "下列框架中使用的材料都相同，在顶部放重物时，最不容易倾斜的是（ ）。",
@@ -3410,7 +3410,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 310,
         "type": "choice",
         "question": "下列塑料瓶中，最不容易倒的是（ ）。",
@@ -3421,7 +3421,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 311,
         "type": "choice",
         "question": "用鸡蛋壳、纸、螺帽制作不倒翁，制作时螺帽应该放在（ ）。",
@@ -3432,7 +3432,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 312,
         "type": "choice",
         "question": "测量塔台模型的防风能力，以下说法正确的是（ ）。",
@@ -3443,7 +3443,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 313,
         "type": "choice",
         "question": "能够增加塔台模型抗风能力的是（ ）。",
@@ -3454,7 +3454,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 314,
         "type": "choice",
         "question": "塔台模型的高度是指（ ）。",
@@ -3465,7 +3465,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 315,
         "type": "choice",
         "question": "塔台不太美观，下列改进方案不可行的是（ ）。",
@@ -3476,7 +3476,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 316,
         "type": "choice",
         "question": "塔台的抗风能力得分较低，下列做法可行的是（ ）。",
@@ -3487,7 +3487,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 317,
         "type": "choice",
         "question": "下列动物中，不属于昆虫的是（ ）。",
@@ -3498,7 +3498,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 318,
         "type": "choice",
         "question": "科学家主要通过（ ）了解关于远古时期生物的信息。",
@@ -3509,7 +3509,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 319,
         "type": "choice",
         "question": "下列分类方法不合理的是（ ）。",
@@ -3520,7 +3520,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 320,
         "type": "choice",
         "question": "'种瓜得瓜，种豆得豆'指的是生物具有（ ）现象。",
@@ -3531,7 +3531,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 321,
         "type": "choice",
         "question": "下列水果是由于植物变异造成的是（ ）。",
@@ -3542,7 +3542,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 322,
         "type": "choice",
         "question": "小明和小天都是单眼皮，都没有耳垂，都是卷发，这说明小明和小天（ ）。",
@@ -3553,7 +3553,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 323,
         "type": "choice",
         "question": "现代遗传学之父是（ ）。",
@@ -3564,7 +3564,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 324,
         "type": "choice",
         "question": "'一母生九子，连母十个样'描述的是生物的（ ）现象。",
@@ -3575,7 +3575,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 325,
         "type": "choice",
         "question": "世界上已知的最古老的脊椎动物化石是（ ）。",
@@ -3586,7 +3586,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 326,
         "type": "choice",
         "question": "下列不属于人体性状的是（ ）。",
@@ -3597,7 +3597,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 327,
         "type": "choice",
         "question": "下列生物中与大熊猫关系最近的是（ ）。",
@@ -3608,7 +3608,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 328,
         "type": "choice",
         "question": "保护生物多样性最为有效的措施是（ ）。",
@@ -3619,7 +3619,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 329,
         "type": "choice",
         "question": "把蝗虫、蚯蚓和蜗牛分为一类，袋鼠、啄木鸟和蛇分为另一类，分类依据是（ ）。",
@@ -3630,7 +3630,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 330,
         "type": "choice",
         "question": "下列动物中，属于鱼类的是（ ）。",
@@ -3641,7 +3641,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 331,
         "type": "choice",
         "question": "下列动物中，属于哺乳动物的是（ ）。",
@@ -3652,7 +3652,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 332,
         "type": "choice",
         "question": "下列动物中，属于昆虫的是（ ）。",
@@ -3663,7 +3663,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 333,
         "type": "choice",
         "question": "下列植物中，属于木本植物的是（ ）。",
@@ -3674,7 +3674,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 334,
         "type": "choice",
         "question": "下列植物中，属于草本植物的是（ ）。",
@@ -3685,7 +3685,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 335,
         "type": "choice",
         "question": "关于化石，下列说法不正确的是（ ）。",
@@ -3696,7 +3696,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 336,
         "type": "choice",
         "question": "下列天体中，不属于太阳系的是（ ）。",
@@ -3707,7 +3707,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 337,
         "type": "choice",
         "question": "太阳系中体积最大的行星是（ ）。",
@@ -3718,7 +3718,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 338,
         "type": "choice",
         "question": "太阳系中距离太阳最远的行星是（ ）。",
@@ -3729,7 +3729,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 339,
         "type": "choice",
         "question": "日食发生的时间一般是农历每月的（ ）。",
@@ -3740,7 +3740,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 340,
         "type": "choice",
         "question": "下列现象中，与日食原理相同的是（ ）。",
@@ -3751,7 +3751,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 341,
         "type": "choice",
         "question": "观察日食时，正确的做法是（ ）。",
@@ -3762,7 +3762,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 342,
         "type": "choice",
         "question": "北斗七星是（ ）的明显标志。",
@@ -3773,7 +3773,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 343,
         "type": "choice",
         "question": "北极星位于（ ）。",
@@ -3784,7 +3784,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 344,
         "type": "choice",
         "question": "利用北斗七星寻找北极星的方法是（ ）。",
@@ -3795,7 +3795,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 345,
         "type": "choice",
         "question": "'夏季大三角'由牛郎星、织女星和（ ）组成。",
@@ -3806,7 +3806,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 346,
         "type": "choice",
         "question": "牛郎星所在的星座是（ ）。",
@@ -3817,7 +3817,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 347,
         "type": "choice",
         "question": "织女星所在的星座是（ ）。",
@@ -3828,7 +3828,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 348,
         "type": "choice",
         "question": "天津四所在的星座是（ ）。",
@@ -3839,7 +3839,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 349,
         "type": "choice",
         "question": "关于银河系，下列说法正确的是（ ）。",
@@ -3850,7 +3850,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 350,
         "type": "choice",
         "question": "光年是一个（ ）单位。",
@@ -3861,7 +3861,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 351,
         "type": "choice",
         "question": "世界上第一台天文望远镜是由（ ）制作的。",
@@ -3872,7 +3872,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 352,
         "type": "choice",
         "question": "我国自主研制并发射的首个火星探测器是（ ）。",
@@ -3883,7 +3883,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 353,
         "type": "choice",
         "question": "我国探月工程被称为（ ）。",
@@ -3894,7 +3894,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 354,
         "type": "choice",
         "question": "中国空间站被称为（ ）。",
@@ -3905,7 +3905,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 355,
         "type": "choice",
         "question": "下列杠杆中，属于省力杠杆的是（ ）。",
@@ -3916,7 +3916,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 356,
         "type": "choice",
         "question": "下列杠杆中，属于费力杠杆的是（ ）。",
@@ -3927,7 +3927,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 357,
         "type": "choice",
         "question": "使用轮轴时，在（ ）上用力带动轴运动可以省力。",
@@ -3938,7 +3938,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 358,
         "type": "choice",
         "question": "下列工具中，应用了轮轴原理的是（ ）。",
@@ -3949,7 +3949,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 359,
         "type": "choice",
         "question": "斜面的作用是（ ）。",
@@ -3960,7 +3960,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 360,
         "type": "choice",
         "question": "下列设施中，应用了斜面原理的是（ ）。",
@@ -3971,7 +3971,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 361,
         "type": "choice",
         "question": "螺丝钉的螺纹越密，拧起来越（ ）。",
@@ -3982,7 +3982,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 362,
         "type": "choice",
         "question": "剪刀是一种组合工具，它主要是（ ）和（ ）的组合。",
@@ -3993,7 +3993,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 363,
         "type": "choice",
         "question": "1820年，发现电流能产生磁性的科学家是（ ）。",
@@ -4004,7 +4004,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 364,
         "type": "choice",
         "question": "下列材料中，可以用来检测废旧电池是否还有电的是（ ）。",
@@ -4015,7 +4015,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 365,
         "type": "choice",
         "question": "下列方法中，能增强电磁铁磁性的是（ ）。",
@@ -4026,7 +4026,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 366,
         "type": "choice",
         "question": "电动机的工作原理是（ ）。",
@@ -4037,7 +4037,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 367,
         "type": "choice",
         "question": "当电动机被用来发电时，它就变成了（ ）。",
@@ -4048,7 +4048,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 368,
         "type": "choice",
         "question": "电动机是将（ ）能转化为（ ）能的装置。",
@@ -4059,7 +4059,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 369,
         "type": "choice",
         "question": "发电机是将（ ）能转化为（ ）能的装置。",
@@ -4070,7 +4070,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 370,
         "type": "choice",
         "question": "改变（ ）可以改变电动机转子的转动方向。",
@@ -4081,7 +4081,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 371,
         "type": "choice",
         "question": "植物在阳光下成长，它们之间的能量转化是（ ）。",
@@ -4092,7 +4092,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 372,
         "type": "choice",
         "question": "下列用电器中，功率最大、最耗电的是（ ）。",
@@ -4103,7 +4103,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 373,
         "type": "choice",
         "question": "如图，当开关闭合时小车向左运动，可以判断电磁铁的右端是（ ）。",
@@ -4114,7 +4114,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 374,
         "type": "choice",
         "question": "下列能源中，属于可再生能源的是（ ）。",
@@ -4125,7 +4125,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 375,
         "type": "choice",
         "question": "下列能源中，属于不可再生能源的是（ ）。",
@@ -4136,7 +4136,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 376,
         "type": "choice",
         "question": "日常生活中，我们吃的米饭主要含有（ ）。",
@@ -4147,7 +4147,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 377,
         "type": "choice",
         "question": "淀粉遇到碘酒会变成（ ）色。",
@@ -4158,7 +4158,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 378,
         "type": "choice",
         "question": "小苏打的特点是（ ）。",
@@ -4169,7 +4169,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 379,
         "type": "choice",
         "question": "白醋的特点是（ ）。",
@@ -4180,7 +4180,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 380,
         "type": "choice",
         "question": "下列液体中，能与小苏打混合产生气体的是（ ）。",
@@ -4191,7 +4191,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 381,
         "type": "choice",
         "question": "小苏打和白醋混合后留在杯中的液体是（ ）。",
@@ -4202,7 +4202,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 382,
         "type": "choice",
         "question": "将燃烧的细木条伸入小苏打和白醋混合后的杯中，细木条会（ ）。",
@@ -4213,7 +4213,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 383,
         "type": "choice",
         "question": "小苏打和白醋混合产生的气体是（ ）。",
@@ -4224,7 +4224,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 384,
         "type": "choice",
         "question": "下列变化中，与烧开水变化相同的是（ ）。",
@@ -4235,7 +4235,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 385,
         "type": "choice",
         "question": "下列物质的变化中，属于物理变化的是（ ）。",
@@ -4246,7 +4246,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 386,
         "type": "choice",
         "question": "下列物质的变化中，属于化学变化的是（ ）。",
@@ -4257,7 +4257,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 387,
         "type": "choice",
         "question": "蜡烛燃烧时，生成的新物质不包括（ ）。",
@@ -4268,7 +4268,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 388,
         "type": "choice",
         "question": "用蜡烛火焰加热调羹中的白糖，白糖先熔化后变黑，这个过程属于（ ）。",
@@ -4279,7 +4279,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 389,
         "type": "choice",
         "question": "下列成语中，其本意包含化学变化的是（ ）。",
@@ -4290,7 +4290,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 390,
         "type": "choice",
         "question": "将铁钉放入下列哪种环境中，生锈最快？（ ）",
@@ -4301,7 +4301,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 391,
         "type": "choice",
         "question": "为了防止铁锅生锈，下列做法不合理的是（ ）。",
@@ -4312,7 +4312,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 392,
         "type": "choice",
         "question": "下列物质中，与白醋混合会产生气泡的是（ ）。",
@@ -4323,7 +4323,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 393,
         "type": "choice",
         "question": "将紫甘蓝汁分别滴入下列液体中，能使紫甘蓝汁变红的是（ ）。",
@@ -4334,7 +4334,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 394,
         "type": "choice",
         "question": "小科在厨房里发现了一包白色粉末，取少量加入白醋后产生大量气泡，这种白色粉末可能是（ ）。",
@@ -4345,7 +4345,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 395,
         "type": "choice",
         "question": "将下列物质分别放入水中，能溶解的是（ ）。",
@@ -4356,7 +4356,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 396,
         "type": "choice",
         "question": "小苏打和白醋混合后，用手触摸烧杯外壁，感觉比反应前凉一些，这一现象说明（ ）。",
@@ -4367,7 +4367,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 397,
         "type": "choice",
         "question": "将燃烧的蜡烛用玻璃杯倒扣住，蜡烛会慢慢熄灭，这是因为（ ）。",
@@ -4378,7 +4378,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 398,
         "type": "choice",
         "question": "下列气体中，能使燃着的木条熄灭的是（ ）。",
@@ -4389,7 +4389,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 399,
         "type": "choice",
         "question": "二氧化碳比同体积的空气（ ）。",
@@ -4400,7 +4400,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 400,
         "type": "choice",
         "question": "铁锈与铁相比，下列说法正确的是（ ）。",
@@ -4411,7 +4411,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 401,
         "type": "choice",
         "question": "下列变化中，属于化学变化且伴随发光发热现象的是（ ）。",
@@ -4422,7 +4422,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 402,
         "type": "choice",
         "question": "小科将白醋倒入装有贝壳粉的杯子中，观察到有气泡产生。这种气体是（ ）。",
@@ -4433,7 +4433,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 403,
         "type": "choice",
         "question": "下列食物中，滴加碘酒后最可能变成蓝色的是（ ）。",
@@ -4444,7 +4444,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 404,
         "type": "choice",
         "question": "小科发现家里的银器表面变黑，查阅资料得知是银与空气中的硫化物反应生成了硫化银。这一变化属于（ ）。",
@@ -4455,7 +4455,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 405,
         "type": "choice",
         "question": "下列做法中，能加快铁生锈速度的是（ ）。",
@@ -4466,7 +4466,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 406,
         "type": "choice",
         "question": "下列物质中，属于纯净物的是（ ）。",
@@ -4477,7 +4477,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 407,
         "type": "choice",
         "question": "小科在实验室中进行铁钉生锈实验，一周后发现试管中的铁钉生锈最严重，该试管中的条件是（ ）。",
@@ -4488,7 +4488,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 408,
         "type": "choice",
         "question": "下列现象中，能证明有新物质生成的是（ ）。",
@@ -4499,7 +4499,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 409,
         "type": "choice",
         "question": "下列变化中，属于缓慢氧化的是（ ）。",
@@ -4510,7 +4510,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 410,
         "type": "choice",
         "question": "小科将一枚铁钉放入试管中，加入少量食盐水，几天后观察到铁钉表面生锈严重。食盐水的作用是（ ）。",
@@ -4521,7 +4521,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 411,
         "type": "choice",
         "question": "下列物质中，与白醋混合不会产生气体的是（ ）。",
@@ -4532,7 +4532,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 412,
         "type": "choice",
         "question": "小科将小苏打和白醋混合后，用毛玻璃片盖住杯口，过了一会儿，他感觉到杯壁变凉。这说明该反应（ ）。",
@@ -4543,7 +4543,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 413,
         "type": "choice",
         "question": "在蜡烛燃烧实验中，将一个干燥的烧杯罩在火焰上方，烧杯内壁出现水雾，这说明蜡烛燃烧生成了（ ）。",
@@ -4554,7 +4554,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 414,
         "type": "choice",
         "question": "将涂有石灰水的玻璃片放在蜡烛火焰上方，玻璃片变浑浊，这说明蜡烛燃烧生成了（ ）。",
@@ -4565,7 +4565,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 415,
         "type": "choice",
         "question": "下列能源中，最终来源是太阳的是（ ）。",
@@ -4576,7 +4576,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 416,
         "type": "choice",
         "question": "下列家用电器中，工作时主要将电能转化为机械能的是（ ）。",
@@ -4587,7 +4587,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 417,
         "type": "choice",
         "question": "下列装置中，能将太阳能转化为电能的是（ ）。",
@@ -4598,7 +4598,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 418,
         "type": "choice",
         "question": "电磁铁与普通磁铁相比，最大的优点是（ ）。",
@@ -4609,7 +4609,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 419,
         "type": "choice",
         "question": "下列做法中，能改变电磁铁磁极的是（ ）。",
@@ -4620,7 +4620,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 420,
         "type": "choice",
         "question": "下列做法中，能增强电磁铁磁性的是（ ）。",
@@ -4631,7 +4631,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 421,
         "type": "choice",
         "question": "电动机的转子通电后，在磁场中受到力的作用而转动。这一过程中，能量转化是（ ）。",
@@ -4642,7 +4642,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 422,
         "type": "choice",
         "question": "发电机的工作原理是（ ）。",
@@ -4653,7 +4653,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 423,
         "type": "choice",
         "question": "丹麦科学家奥斯特的著名实验证明了（ ）。",
@@ -4664,7 +4664,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 424,
         "type": "choice",
         "question": "下列电器中，没有使用电磁铁的是（ ）。",
@@ -4675,7 +4675,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 425,
         "type": "choice",
         "question": "小科用导线和指南针检测电池是否有电，将导线绕成线圈后靠近指南针，发现指南针偏转。这一现象利用的原理是（ ）。",
@@ -4686,7 +4686,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 426,
         "type": "choice",
         "question": "下列材料中，最适合制作电磁铁铁芯的是（ ）。",
@@ -4697,7 +4697,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 427,
         "type": "choice",
         "question": "一个电磁铁的铁芯原来是竖直放置的，小科将其水平放置，其他条件不变，电磁铁的磁性强弱会（ ）。",
@@ -4708,7 +4708,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 428,
         "type": "choice",
         "question": "某电磁铁通电后，小磁针的N极被铁芯的上端吸引，则该铁芯的上端是（ ）。",
@@ -4719,7 +4719,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 429,
         "type": "choice",
         "question": "下列做法中，可以加快电动机转子转速的是（ ）。",
@@ -4730,7 +4730,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 430,
         "type": "choice",
         "question": "下列能源中，属于不可再生能源的是（ ）。",
@@ -4741,7 +4741,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 431,
         "type": "choice",
         "question": "下列措施中，有利于节约能源的是（ ）。",
@@ -4752,7 +4752,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 432,
         "type": "choice",
         "question": "小科家的电热水壶铭牌上标有'220V 1500W'，它正常工作1小时消耗的电能是（ ）。",
@@ -4763,7 +4763,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 433,
         "type": "choice",
         "question": "下列交通工具中，使用可再生能源作为动力的是（ ）。",
@@ -4774,7 +4774,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 434,
         "type": "choice",
         "question": "植物的光合作用是将太阳能转化为（ ）。",
@@ -4785,7 +4785,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 435,
         "type": "choice",
         "question": "人体运动时，能量主要来源于（ ）。",
@@ -4796,7 +4796,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 436,
         "type": "choice",
         "question": "下列用电器中，正常工作时功率约为100W的是（ ）。",
@@ -4807,7 +4807,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 437,
         "type": "choice",
         "question": "下列现象中，属于动能转化为势能的是（ ）。",
@@ -4818,7 +4818,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 438,
         "type": "choice",
         "question": "下列能量转化中，属于化学能转化为热能的是（ ）。",
@@ -4829,7 +4829,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 439,
         "type": "choice",
         "question": "小科将手电筒打开，手电筒发光。这一过程中，主要的能量转化是（ ）。",
@@ -4840,7 +4840,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 440,
         "type": "choice",
         "question": "下列做法中，能减少环境污染的是（ ）。",
@@ -4851,7 +4851,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 441,
         "type": "choice",
         "question": "下列自然现象中，主要与地球自转有关的是（ ）。",
@@ -4862,7 +4862,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 442,
         "type": "choice",
         "question": "下列现象中，主要与地球公转有关的是（ ）。",
@@ -4873,7 +4873,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 443,
         "type": "choice",
         "question": "杭州（约120°E）位于兰州（约104°E）的东边，杭州比兰州（ ）。",
@@ -4884,7 +4884,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 444,
         "type": "choice",
         "question": "下列城市中，最早迎来新一天的是（ ）。",
@@ -4895,7 +4895,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 445,
         "type": "choice",
         "question": "北半球夏季时，太阳直射点在（ ）。",
@@ -4906,7 +4906,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 446,
         "type": "choice",
         "question": "北半球冬至日（12月22日前后），太阳直射点在（ ）。",
@@ -4917,7 +4917,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 447,
         "type": "choice",
         "question": "春分日和秋分日，太阳直射点在（ ）。",
@@ -4928,7 +4928,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 448,
         "type": "choice",
         "question": "北半球冬至日，正午物体影子（ ）。",
@@ -4939,7 +4939,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 449,
         "type": "choice",
         "question": "下列节日中，杭州正午太阳高度最大的是（ ）。",
@@ -4950,7 +4950,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 450,
         "type": "choice",
         "question": "下列现象中，与地轴倾斜有关的是（ ）。",
@@ -4961,7 +4961,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 451,
         "type": "choice",
         "question": "在北极地区，夏季会出现极昼现象，这是因为（ ）。",
@@ -4972,7 +4972,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 452,
         "type": "choice",
         "question": "在赤道地区，一年中昼夜长短情况是（ ）。",
@@ -4983,7 +4983,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 453,
         "type": "choice",
         "question": "下列天体系统中，范围最大的是（ ）。",
@@ -4994,7 +4994,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 454,
         "type": "choice",
         "question": "下列天体系统中，按照从小到大的顺序排列正确的是（ ）。",
@@ -5005,7 +5005,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 455,
         "type": "choice",
         "question": "太阳系中，小行星带位于（ ）之间。",
@@ -5016,7 +5016,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 456,
         "type": "choice",
         "question": "下列行星中，属于类地行星的是（ ）。",
@@ -5027,7 +5027,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 457,
         "type": "choice",
         "question": "下列行星中，属于气态巨行星的是（ ）。",
@@ -5038,7 +5038,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 458,
         "type": "choice",
         "question": "太阳系中，拥有最明显光环的行星是（ ）。",
@@ -5049,7 +5049,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 459,
         "type": "choice",
         "question": "月球绕地球公转一周的时间大约是（ ）。",
@@ -5060,7 +5060,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 460,
         "type": "choice",
         "question": "日食发生的条件是（ ）。",
@@ -5071,7 +5071,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 461,
         "type": "choice",
         "question": "月食发生的条件是（ ）。",
@@ -5082,7 +5082,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 462,
         "type": "choice",
         "question": "下列天文现象中，可以在地球上用肉眼直接安全观测的是（ ）。",
@@ -5093,7 +5093,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 463,
         "type": "choice",
         "question": "下列星座中，位于北半球且全年可见的是（ ）。",
@@ -5104,7 +5104,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 464,
         "type": "choice",
         "question": "下列星座中，属于秋季星空代表星座的是（ ）。",
@@ -5115,7 +5115,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 465,
         "type": "choice",
         "question": "下列星座中，属于冬季星空代表星座的是（ ）。",
@@ -5126,7 +5126,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 466,
         "type": "choice",
         "question": "下列恒星中，亮度最高（最亮）的是（ ）。",
@@ -5137,7 +5137,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 467,
         "type": "choice",
         "question": "中国古称'大火星'的恒星是（ ）。",
@@ -5148,7 +5148,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 468,
         "type": "choice",
         "question": "我国古代利用'立竿测影'来测定节气，该仪器是（ ）。",
@@ -5159,7 +5159,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 469,
         "type": "choice",
         "question": "下列工具中，利用日影计时的是（ ）。",
@@ -5170,7 +5170,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 470,
         "type": "choice",
         "question": "下列关于望远镜的说法，正确的是（ ）。",
@@ -5181,7 +5181,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 471,
         "type": "choice",
         "question": "人类首次实现月球背面软着陆的探测器是（ ）。",
@@ -5192,7 +5192,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 472,
         "type": "choice",
         "question": "中国首次实现地外天体采样返回的探测器是（ ）。",
@@ -5203,7 +5203,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 473,
         "type": "choice",
         "question": "中国首辆火星车被命名为（ ）。",
@@ -5214,7 +5214,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 474,
         "type": "choice",
         "question": "世界上最大单口径射电望远镜位于中国贵州，被称为（ ）。",
@@ -5225,7 +5225,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 475,
         "type": "choice",
         "question": "下列关于杠杆的说法，正确的是（ ）。",
@@ -5236,7 +5236,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 476,
         "type": "choice",
         "question": "下列工具中，属于费力杠杆的是（ ）。",
@@ -5247,7 +5247,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 477,
         "type": "choice",
         "question": "使用如图所示的定滑轮时，下列说法正确的是（ ）。",
@@ -5258,7 +5258,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 478,
         "type": "choice",
         "question": "使用如图所示的动滑轮时，下列说法正确的是（ ）。",
@@ -5269,7 +5269,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 479,
         "type": "choice",
         "question": "在盘山公路上行驶的汽车，利用了斜面的原理。斜面的作用是（ ）。",
@@ -5280,7 +5280,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 480,
         "type": "choice",
         "question": "螺丝钉的螺纹是斜面的变形，螺纹越密，拧入时越（ ）。",
@@ -5291,7 +5291,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 481,
         "type": "choice",
         "question": "使用下列工具时，主要应用了轮轴原理的是（ ）。",
@@ -5302,7 +5302,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 482,
         "type": "choice",
         "question": "小科用撬棍撬动一块大石头，他发现手越靠近撬棍的末端越省力。这是因为（ ）。",
@@ -5313,7 +5313,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 483,
         "type": "choice",
         "question": "如图所示，用同样大小的力分别作用在扳手的A、B、C三点，最省力的是作用在（ ）。",
@@ -5324,7 +5324,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 484,
         "type": "choice",
         "question": "下列关于工程建设的说法，正确的是（ ）。",
@@ -5335,7 +5335,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 485,
         "type": "choice",
         "question": "下列哪种材料属于金属材料？（ ）",
@@ -5346,7 +5346,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 486,
         "type": "choice",
         "question": "下列哪种材料属于非金属材料？（ ）",
@@ -5357,7 +5357,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 487,
         "type": "choice",
         "question": "下列哪种材料具有良好的导电性？（ ）",
@@ -5368,7 +5368,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 488,
         "type": "choice",
         "question": "下列哪种材料常用于制作绝缘体？（ ）",
@@ -5379,7 +5379,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 489,
         "type": "choice",
         "question": "下列哪种变化属于物理变化？（ ）",
@@ -5390,7 +5390,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 490,
         "type": "choice",
         "question": "下列哪种变化属于化学变化？（ ）",
@@ -5401,7 +5401,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 491,
         "type": "choice",
         "question": "下列哪种现象是化学变化？（ ）",
@@ -5412,7 +5412,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 492,
         "type": "choice",
         "question": "下列哪种现象是物理变化？（ ）",
@@ -5423,7 +5423,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 493,
         "type": "choice",
         "question": "下列关于分子的说法，正确的是（ ）。",
@@ -5434,7 +5434,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 494,
         "type": "choice",
         "question": "下列物质中，由分子构成的是（ ）。",
@@ -5445,7 +5445,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 495,
         "type": "choice",
         "question": "下列物质中，由原子直接构成的是（ ）。",
@@ -5456,7 +5456,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 496,
         "type": "choice",
         "question": "下列物质中，由离子构成的是（ ）。",
@@ -5467,7 +5467,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 497,
         "type": "choice",
         "question": "下列关于原子的说法，正确的是（ ）。",
@@ -5478,7 +5478,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 498,
         "type": "choice",
         "question": "下列变化中，分子本身没有改变的是（ ）。",
@@ -5489,7 +5489,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 499,
         "type": "choice",
         "question": "下列变化中，分子本身发生改变的是（ ）。",
@@ -5500,7 +5500,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 500,
         "type": "choice",
         "question": "下列哪种气体是植物光合作用的主要原料？（ ）",
@@ -5511,7 +5511,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 501,
         "type": "choice",
         "question": "下列哪种气体是植物光合作用的主要产物？（ ）",
@@ -5522,7 +5522,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 502,
         "type": "choice",
         "question": "下列哪种气体是呼吸作用的主要产物？（ ）",
@@ -5533,7 +5533,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 503,
         "type": "choice",
         "question": "空气中含量最多的气体是（ ）。",
@@ -5544,7 +5544,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 504,
         "type": "choice",
         "question": "空气中支持燃烧的气体主要是（ ）。",
@@ -5555,7 +5555,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 505,
         "type": "choice",
         "question": "下列哪种物质是造成酸雨的主要气体？（ ）",
@@ -5566,7 +5566,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 506,
         "type": "choice",
         "question": "下列哪种物质是造成温室效应的主要气体？（ ）",
@@ -5577,7 +5577,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 507,
         "type": "choice",
         "question": "下列哪种行为会加剧温室效应？（ ）",
@@ -5588,7 +5588,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 508,
         "type": "choice",
         "question": "下列哪种能源属于清洁能源？（ ）",
@@ -5599,7 +5599,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 509,
         "type": "choice",
         "question": "下列哪种能源属于化石燃料？（ ）",
@@ -5610,7 +5610,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 510,
         "type": "choice",
         "question": "下列哪种做法有利于节约用水？（ ）",
@@ -5621,7 +5621,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 511,
         "type": "choice",
         "question": "下列哪种做法有利于减少白色污染？（ ）",
@@ -5632,7 +5632,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 512,
         "type": "choice",
         "question": "下列哪种垃圾属于可回收物？（ ）",
@@ -5643,7 +5643,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 513,
         "type": "choice",
         "question": "下列哪种垃圾属于有害垃圾？（ ）",
@@ -5654,7 +5654,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 514,
         "type": "choice",
         "question": "下列哪种垃圾属于厨余垃圾？（ ）",
@@ -5665,7 +5665,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 515,
         "type": "choice",
         "question": "下列关于人体消化系统的说法，正确的是（ ）。",
@@ -5676,7 +5676,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 516,
         "type": "choice",
         "question": "食物中的淀粉在口腔中被初步消化，这是因为唾液中含有（ ）。",
@@ -5687,7 +5687,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 517,
         "type": "choice",
         "question": "食物消化的主要场所是（ ）。",
@@ -5698,7 +5698,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 518,
         "type": "choice",
         "question": "人体吸收营养物质的主要器官是（ ）。",
@@ -5709,7 +5709,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 519,
         "type": "choice",
         "question": "下列哪种营养素不能为人体提供能量？（ ）",
@@ -5720,7 +5720,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 520,
         "type": "choice",
         "question": "下列哪种食物富含维生素C？（ ）",
@@ -5731,7 +5731,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 521,
         "type": "choice",
         "question": "下列哪种食物富含钙质？（ ）",
@@ -5742,7 +5742,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 522,
         "type": "choice",
         "question": "缺铁会导致（ ）。",
@@ -5753,7 +5753,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 523,
         "type": "choice",
         "question": "缺钙会导致（ ）。",
@@ -5764,7 +5764,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 524,
         "type": "choice",
         "question": "下列哪种方法能有效杀死细菌？（ ）",
@@ -5775,7 +5775,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 525,
         "type": "choice",
         "question": "下列哪种方法能抑制微生物生长？（ ）",
@@ -5786,7 +5786,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 526,
         "type": "choice",
         "question": "下列关于显微镜使用的说法，错误的是（ ）。",
@@ -5797,7 +5797,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 527,
         "type": "choice",
         "question": "用显微镜观察临时装片时，若视野中出现污点，移动装片污点不动，转动目镜污点动，则污点在（ ）。",
@@ -5808,7 +5808,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 528,
         "type": "choice",
         "question": "用显微镜观察洋葱表皮细胞时，若视野太暗，应调节（ ）。",
@@ -5819,7 +5819,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 529,
         "type": "choice",
         "question": "用显微镜观察细胞时，为了使模糊的物像更清晰，应调节（ ）。",
@@ -5830,7 +5830,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 530,
         "type": "choice",
         "question": "下列关于植物细胞和动物细胞的说法，正确的是（ ）。",
@@ -5841,7 +5841,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 531,
         "type": "choice",
         "question": "植物细胞中，起保护和支持作用的结构是（ ）。",
@@ -5852,7 +5852,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 532,
         "type": "choice",
         "question": "植物细胞中，控制物质进出的结构是（ ）。",
@@ -5863,7 +5863,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 533,
         "type": "choice",
         "question": "植物细胞中，遗传信息库是（ ）。",
@@ -5874,7 +5874,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 534,
         "type": "choice",
         "question": "植物细胞进行光合作用的场所是（ ）。",
@@ -5885,7 +5885,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 535,
         "type": "choice",
         "question": "细胞中，为生命活动提供能量的场所是（ ）。",
@@ -5896,7 +5896,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 536,
         "type": "choice",
         "question": "下列哪种生物属于单细胞生物？（ ）",
@@ -5907,7 +5907,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 537,
         "type": "choice",
         "question": "下列哪种生物没有细胞结构？（ ）",
@@ -5918,7 +5918,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 538,
         "type": "choice",
         "question": "细菌的繁殖方式是（ ）。",
@@ -5929,7 +5929,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 539,
         "type": "choice",
         "question": "下列哪种微生物可以用来制作酸奶？（ ）",
@@ -5940,7 +5940,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 540,
         "type": "choice",
         "question": "下列哪种微生物可以用来制作面包？（ ）",
@@ -5951,7 +5951,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 541,
         "type": "choice",
         "question": "下列哪种微生物可以用来酿酒？（ ）",
@@ -5962,7 +5962,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 542,
         "type": "choice",
         "question": "下列哪种微生物可以用来制醋？（ ）",
@@ -5973,7 +5973,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 543,
         "type": "choice",
         "question": "下列哪种生物属于真菌？（ ）",
@@ -5984,7 +5984,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 544,
         "type": "choice",
         "question": "下列哪种生物属于细菌？（ ）",
@@ -5995,7 +5995,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 545,
         "type": "choice",
         "question": "下列哪种物质是细菌和真菌在自然界中的作用？（ ）",
@@ -6006,7 +6006,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 546,
         "type": "choice",
         "question": "下列关于食物链的说法，正确的是（ ）。",
@@ -6017,7 +6017,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 547,
         "type": "choice",
         "question": "下列食物链中，书写正确的是（ ）。",
@@ -6028,7 +6028,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 548,
         "type": "choice",
         "question": "生态系统中，生产者主要是指（ ）。",
@@ -6039,7 +6039,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 549,
         "type": "choice",
         "question": "生态系统中，消费者主要是指（ ）。",
@@ -6050,7 +6050,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 550,
         "type": "choice",
         "question": "生态系统中，分解者主要是指（ ）。",
@@ -6061,7 +6061,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 551,
         "type": "choice",
         "question": "下列哪种生物在生态系统中属于分解者？（ ）",
@@ -6072,7 +6072,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 552,
         "type": "choice",
         "question": "下列关于生态平衡的说法，正确的是（ ）。",
@@ -6083,7 +6083,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 553,
         "type": "choice",
         "question": "下列哪种行为会破坏生态平衡？（ ）",
@@ -6094,7 +6094,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 554,
         "type": "choice",
         "question": "下列关于遗传和变异的叙述，正确的是（ ）。",
@@ -6105,7 +6105,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 555,
         "type": "choice",
         "question": "下列关于基因的叙述，错误的是（ ）。",
@@ -6116,7 +6116,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 556,
         "type": "choice",
         "question": "下列关于DNA的叙述，正确的是（ ）。",
@@ -6127,7 +6127,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 557,
         "type": "choice",
         "question": "人类体细胞中的染色体数目是（ ）。",
@@ -6138,7 +6138,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 558,
         "type": "choice",
         "question": "男性体细胞中的性染色体组成是（ ）。",
@@ -6149,7 +6149,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 559,
         "type": "choice",
         "question": "女性体细胞中的性染色体组成是（ ）。",
@@ -6160,7 +6160,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 560,
         "type": "choice",
         "question": "下列关于性别决定的说法，正确的是（ ）。",
@@ -6171,7 +6171,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 561,
         "type": "choice",
         "question": "下列哪种变异可以遗传给后代？（ ）",
@@ -6182,7 +6182,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 562,
         "type": "choice",
         "question": "下列关于生物进化的叙述，错误的是（ ）。",
@@ -6193,7 +6193,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 563,
         "type": "choice",
         "question": "达尔文在加拉帕戈斯群岛发现不同岛屿上的地雀喙形不同，主要原因是（ ）。",
@@ -6204,7 +6204,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 564,
         "type": "choice",
         "question": "下列关于化石的叙述，正确的是（ ）。",
@@ -6215,7 +6215,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 565,
         "type": "choice",
         "question": "下列关于人类起源的说法，正确的是（ ）。",
@@ -6226,7 +6226,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 566,
         "type": "choice",
         "question": "下列哪项不是人类祖先学会使用工具和火的意义？（ ）",
@@ -6237,7 +6237,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 567,
         "type": "choice",
         "question": "下列关于地球演化的说法，正确的是（ ）。",
@@ -6248,7 +6248,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 568,
         "type": "choice",
         "question": "原始生命诞生的场所是（ ）。",
@@ -6259,7 +6259,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 569,
         "type": "choice",
         "question": "下列关于能量转化的说法，正确的是（ ）。",
@@ -6270,7 +6270,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 570,
         "type": "choice",
         "question": "下列哪种能量转化形式属于化学能转化为电能？（ ）",
@@ -6281,7 +6281,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 571,
         "type": "choice",
         "question": "下列哪种能量转化形式属于电能转化为机械能？（ ）",
@@ -6292,7 +6292,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 572,
         "type": "choice",
         "question": "下列哪种能量转化形式属于光能转化为化学能？（ ）",
@@ -6303,7 +6303,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 573,
         "type": "choice",
         "question": "下列哪种能量转化形式属于化学能转化为热能？（ ）",
@@ -6314,7 +6314,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 574,
         "type": "choice",
         "question": "下列关于杠杆的说法，正确的是（ ）。",
@@ -6325,7 +6325,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 575,
         "type": "choice",
         "question": "使用定滑轮提升重物，下列说法正确的是（ ）。",
@@ -6336,7 +6336,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 576,
         "type": "choice",
         "question": "使用动滑轮提升重物，下列说法正确的是（ ）。",
@@ -6347,7 +6347,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 577,
         "type": "choice",
         "question": "下列哪种机械不能改变力的方向？（ ）",
@@ -6358,7 +6358,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 578,
         "type": "choice",
         "question": "用滑轮组提升重物，承担重物的绳子段数为n，则拉力F与物重G的关系是（不计摩擦和绳重、动滑轮重）（ ）。",
@@ -6369,7 +6369,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 579,
         "type": "choice",
         "question": "下列哪种工具是利用杠杆原理工作的？（ ）",
@@ -6380,7 +6380,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 580,
         "type": "choice",
         "question": "下列哪种工具是利用轮轴原理工作的？（ ）",
@@ -6391,7 +6391,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 581,
         "type": "choice",
         "question": "使用斜面时，下列说法正确的是（ ）。",
@@ -6402,7 +6402,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 582,
         "type": "choice",
         "question": "螺丝钉的螺纹越密，拧入时越省力，这是因为（ ）。",
@@ -6413,7 +6413,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 583,
         "type": "choice",
         "question": "下列哪种现象不属于物理变化？（ ）",
@@ -6424,7 +6424,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 584,
         "type": "choice",
         "question": "下列哪种现象不属于化学变化？（ ）",
@@ -6435,7 +6435,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 585,
         "type": "choice",
         "question": "工程师在建造塔桥时，为了保证通航顺畅，通常会采取什么措施？",
@@ -6446,7 +6446,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 586,
         "type": "choice",
         "question": "下列哪项不是工程师在建造塔桥时面临的挑战？",
@@ -6457,7 +6457,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 587,
         "type": "choice",
         "question": "下列结构中，最不容易变形的是哪一种？",
@@ -6468,7 +6468,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 588,
         "type": "choice",
         "question": "为了让塔台更稳固，下列哪种设计是不可取的？",
@@ -6479,7 +6479,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 589,
         "type": "choice",
         "question": "埃菲尔铁塔在施工中完全依照设计进行，没有任何改动，主要原因是？",
@@ -6490,7 +6490,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 590,
         "type": "choice",
         "question": "下列哪项不属于框架结构的优点？",
@@ -6501,7 +6501,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 591,
         "type": "choice",
         "question": "框架结构建筑的主要优点包括空间分隔灵活、自重轻、有利于抗震，以及？",
@@ -6512,7 +6512,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 592,
         "type": "choice",
         "question": "下列哪种形状的模型在地震中抗震能力最强？",
@@ -6523,7 +6523,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 593,
         "type": "choice",
         "question": "2020年12月17日，成功从月面采集约1.7千克月壤返回地球的探测器是？",
@@ -6534,7 +6534,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 594,
         "type": "choice",
         "question": "嫦娥工程分为三个阶段，目前中国处于哪个阶段？",
@@ -6545,7 +6545,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 595,
         "type": "choice",
         "question": "在调查校园生物时，合理的调查顺序是？\n① 找校园平面图，将校园分区\n② 设计调查表，记录我们的发现\n③ 选择感兴趣的生物重点调查\n④ 分小组调查每个区域生物的种类和数量，观察生物之间的联系",
@@ -6556,7 +6556,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 596,
         "type": "choice",
         "question": "在调查校园生物时，下列做法不恰当的是？",
@@ -6567,7 +6567,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 597,
         "type": "choice",
         "question": "蚂蚁保护蚜虫的主要目的是？",
@@ -6578,7 +6578,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 598,
         "type": "choice",
         "question": "下列哪种二歧分类方法不合理？",
@@ -6589,7 +6589,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 599,
         "type": "choice",
         "question": "在校园中，生物种类最少的场所通常是？",
@@ -6600,7 +6600,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 600,
         "type": "choice",
         "question": "下列描述属于遗传现象的是？",
@@ -6611,7 +6611,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 601,
         "type": "choice",
         "question": "下列有关化石的说法，不正确的是？",
@@ -6622,7 +6622,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 602,
         "type": "choice",
         "question": "恐龙属于哪一类动物？",
@@ -6633,7 +6633,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 603,
         "type": "choice",
         "question": "科学家通过研究什么来了解恐龙的生活？",
@@ -6644,7 +6644,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 604,
         "type": "choice",
         "question": "始祖鸟的化石特征表明它与哪类动物有亲缘关系？",
@@ -6655,7 +6655,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 605,
         "type": "choice",
         "question": "处于太阳系中心位置、占整个太阳系绝大部分质量的是？",
@@ -6666,7 +6666,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 606,
         "type": "choice",
         "question": "太阳是一颗充满活力的？",
@@ -6677,7 +6677,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 607,
         "type": "choice",
         "question": "下列天体不属于太阳系大家庭的是？",
@@ -6688,7 +6688,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 608,
         "type": "choice",
         "question": "根据太阳系资料，下列说法不正确的是？",
@@ -6699,7 +6699,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 609,
         "type": "choice",
         "question": "太阳系八颗行星中，体积最大的是？",
@@ -6710,7 +6710,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 610,
         "type": "choice",
         "question": "在太阳系中，相邻两颗行星之间距离最大的是？",
@@ -6721,7 +6721,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 611,
         "type": "choice",
         "question": "为了便于辨认，人们将星空划分成多少个区域？",
@@ -6732,7 +6732,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 612,
         "type": "choice",
         "question": "北斗七星位于哪个星座？",
@@ -6743,7 +6743,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 613,
         "type": "choice",
         "question": "下列关于星座的说法，正确的是？",
@@ -6754,7 +6754,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 614,
         "type": "choice",
         "question": "假设距离我们10万光年的星球上生活着外星人，他们观察到的星空与我们的星空相比？",
@@ -6765,7 +6765,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 615,
         "type": "choice",
         "question": "银河系由多少颗像太阳一样的恒星组成？",
@@ -6776,7 +6776,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 616,
         "type": "choice",
         "question": "光年是什么单位？",
@@ -6787,7 +6787,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 617,
         "type": "choice",
         "question": "下列关于宇宙的叙述，正确的是？",
@@ -6798,7 +6798,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 618,
         "type": "choice",
         "question": "迄今为止，除地球外，人类唯一登陆过的天体是？",
@@ -6809,7 +6809,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 619,
         "type": "choice",
         "question": "我国首位飞上太空的航天员是？",
@@ -6820,7 +6820,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 620,
         "type": "choice",
         "question": "埃菲尔铁塔的高度约为？",
@@ -6831,7 +6831,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 621,
         "type": "choice",
         "question": "埃菲尔铁塔主要使用的材料是？",
@@ -6842,7 +6842,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 622,
         "type": "choice",
         "question": "埃菲尔铁塔每隔多少年油漆一次？",
@@ -6853,7 +6853,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 623,
         "type": "choice",
         "question": "框架结构建筑的主要承重构件是？",
@@ -6864,7 +6864,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 624,
         "type": "choice",
         "question": "框架结构有利于抗震的主要原因是？",
@@ -6875,7 +6875,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 625,
         "type": "choice",
         "question": "我国住宅建筑的设计工作年限不应低于？",
@@ -6886,7 +6886,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 626,
         "type": "choice",
         "question": "下列哪种结构最不容易变形？",
@@ -6897,7 +6897,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 627,
         "type": "choice",
         "question": "下列哪种设计能增强塔台的抗风能力？",
@@ -6908,7 +6908,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 628,
         "type": "choice",
         "question": "嫦娥五号任务实现了中国航天哪四个\"首次\"？",
@@ -6919,7 +6919,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 629,
         "type": "choice",
         "question": "嫦娥五号的组成部分不包括？",
@@ -6930,7 +6930,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 630,
         "type": "choice",
         "question": "在调查校园生物时，为什么要分区域调查？",
@@ -6941,7 +6941,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 631,
         "type": "choice",
         "question": "下列哪项工具不适合用于校园生物调查？",
@@ -6952,7 +6952,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 632,
         "type": "choice",
         "question": "蚜虫分泌的蜜露主要成分是？",
@@ -6963,7 +6963,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 633,
         "type": "choice",
         "question": "蚜虫和蚂蚁之间的关系属于？",
@@ -6974,7 +6974,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 634,
         "type": "choice",
         "question": "下列哪种植物属于草本植物？",
@@ -6985,7 +6985,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 635,
         "type": "choice",
         "question": "下列哪种动物属于昆虫？",
@@ -6996,7 +6996,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 636,
         "type": "choice",
         "question": "下列哪项不是遗传现象？",
@@ -7007,7 +7007,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 637,
         "type": "choice",
         "question": "化石可以帮助我们了解古代生物的哪些信息？",
@@ -7018,7 +7018,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 638,
         "type": "choice",
         "question": "下列哪项不是化石形成需要的基本条件？",
@@ -7029,7 +7029,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 639,
         "type": "choice",
         "question": "下列哪种古生物已经灭绝？",
@@ -7040,7 +7040,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 640,
         "type": "choice",
         "question": "太阳系中离太阳最近的行星是？",
@@ -7051,7 +7051,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 641,
         "type": "choice",
         "question": "太阳系中自转方向与其他行星不同的行星是？",
@@ -7062,7 +7062,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 642,
         "type": "choice",
         "question": "下列哪个天体属于卫星？",
@@ -7073,7 +7073,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 643,
         "type": "choice",
         "question": "彗星在接近太阳时会出现彗尾，主要原因是？",
@@ -7084,7 +7084,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 644,
         "type": "choice",
         "question": "下列哪种现象不能用光年解释？",
@@ -7095,7 +7095,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 645,
         "type": "choice",
         "question": "银河系的形状像什么？",
@@ -7106,7 +7106,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 646,
         "type": "choice",
         "question": "太阳位于银河系的哪个位置？",
@@ -7117,7 +7117,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 647,
         "type": "choice",
         "question": "下列哪个不是宇宙中存在的天体？",
@@ -7128,7 +7128,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 648,
         "type": "choice",
         "question": "人类观测宇宙使用的主要工具是？",
@@ -7139,7 +7139,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 649,
         "type": "choice",
         "question": "下列哪种能源来自太阳？",
@@ -7150,7 +7150,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 650,
         "type": "choice",
         "question": "埃菲尔铁塔共用去熟铁多少吨？",
@@ -7161,7 +7161,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 651,
         "type": "choice",
         "question": "埃菲尔铁塔的钢铁构件有多少个？",
@@ -7172,7 +7172,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 652,
         "type": "choice",
         "question": "埃菲尔铁塔施工中共钻孔多少个？",
@@ -7183,7 +7183,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 653,
         "type": "choice",
         "question": "埃菲尔铁塔使用铆钉多少万颗？",
@@ -7194,7 +7194,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 654,
         "type": "choice",
         "question": "埃菲尔铁塔的设计师是？",
@@ -7205,7 +7205,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 655,
         "type": "choice",
         "question": "下列哪种结构属于框架结构？",
@@ -7216,7 +7216,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 656,
         "type": "choice",
         "question": "框架结构的梁和柱连接方式通常要求？",
@@ -7227,7 +7227,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 657,
         "type": "choice",
         "question": "下列哪项不是框架结构的应用领域？",
@@ -7238,7 +7238,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 658,
         "type": "choice",
         "question": "采用现浇混凝土框架时，结构的什么较好？",
@@ -7249,7 +7249,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 659,
         "type": "choice",
         "question": "框架结构建筑的使用寿命通常可达？",
@@ -7260,7 +7260,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 660,
         "type": "choice",
         "question": "在校园生物调查中，为什么要设计调查表？",
@@ -7271,7 +7271,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 661,
         "type": "choice",
         "question": "下列哪种行为有利于保护校园生物多样性？",
@@ -7282,7 +7282,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 662,
         "type": "choice",
         "question": "蚜虫主要危害农作物的哪一部分？",
@@ -7293,7 +7293,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 663,
         "type": "choice",
         "question": "蚂蚁将蚜虫带回巢穴的目的是？",
@@ -7304,7 +7304,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 664,
         "type": "choice",
         "question": "二歧分类法每次将生物分成几类？",
@@ -7315,7 +7315,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 665,
         "type": "choice",
         "question": "下列哪项属于木本植物？",
@@ -7326,7 +7326,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 666,
         "type": "choice",
         "question": "下列哪项属于裸子植物？",
@@ -7337,7 +7337,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 667,
         "type": "choice",
         "question": "下列哪项属于双子叶植物？",
@@ -7348,7 +7348,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 668,
         "type": "choice",
         "question": "下列哪项不是动物分类的依据？",
@@ -7359,7 +7359,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 669,
         "type": "choice",
         "question": "下列哪项属于哺乳动物？",
@@ -7370,7 +7370,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 670,
         "type": "choice",
         "question": "下列哪项属于鸟类特有的特征？",
@@ -7381,7 +7381,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 671,
         "type": "choice",
         "question": "遗传和变异是生物界的普遍现象，下列哪项属于变异？",
@@ -7392,7 +7392,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 672,
         "type": "choice",
         "question": "下列哪项不是化石的种类？",
@@ -7403,7 +7403,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 673,
         "type": "choice",
         "question": "三叶虫化石通常存在于哪种岩石中？",
@@ -7414,7 +7414,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 674,
         "type": "choice",
         "question": "研究古生物的重要证据是？",
@@ -7425,7 +7425,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 675,
         "type": "choice",
         "question": "太阳系中质量最大的行星是？",
@@ -7436,7 +7436,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 676,
         "type": "choice",
         "question": "太阳系中体积最大的行星是？",
@@ -7447,7 +7447,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 677,
         "type": "choice",
         "question": "太阳系中被称为\"红色星球\"的是？",
@@ -7458,7 +7458,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 678,
         "type": "choice",
         "question": "太阳系中温度最高的行星是？",
@@ -7469,7 +7469,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 679,
         "type": "choice",
         "question": "太阳系中拥有最宽光环的行星是？",
@@ -7480,7 +7480,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 680,
         "type": "choice",
         "question": "下列哪项不是影响天文观测的因素？",
@@ -7491,7 +7491,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 681,
         "type": "choice",
         "question": "北斗七星在天空中的形状像？",
@@ -7502,7 +7502,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 682,
         "type": "choice",
         "question": "北极星位于哪个星座？",
@@ -7513,7 +7513,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 683,
         "type": "choice",
         "question": "利用北斗七星可以找到北极星，方法是？",
@@ -7524,7 +7524,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 684,
         "type": "choice",
         "question": "下列哪项不是星座划分的依据？",
@@ -7535,7 +7535,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 685,
         "type": "choice",
         "question": "银河系的直径约为多少光年？",
@@ -7546,7 +7546,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 686,
         "type": "choice",
         "question": "银河系中太阳系位于？",
@@ -7557,7 +7557,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 687,
         "type": "choice",
         "question": "宇宙大爆炸理论认为宇宙起源于？",
@@ -7568,7 +7568,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 688,
         "type": "choice",
         "question": "下列哪项证据支持宇宙大爆炸理论？",
@@ -7579,7 +7579,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 689,
         "type": "choice",
         "question": "中国第一个月球探测器是？",
@@ -7590,7 +7590,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 690,
         "type": "choice",
         "question": "嫦娥四号实现了人类首次？",
@@ -7601,7 +7601,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 691,
         "type": "choice",
         "question": "嫦娥五号返回地球时，速度接近？",
@@ -7612,7 +7612,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 692,
         "type": "choice",
         "question": "月壤中包含的主要矿物是？",
@@ -7623,7 +7623,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 693,
         "type": "choice",
         "question": "下列哪项不是月球探测的意义？",
@@ -7634,7 +7634,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 694,
         "type": "choice",
         "question": "在校园生物调查中，为什么要借助识别软件？",
@@ -7645,7 +7645,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 695,
         "type": "choice",
         "question": "蚜虫的天敌包括？",
@@ -7656,7 +7656,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 696,
         "type": "choice",
         "question": "蚂蚁为什么会驱赶蚜虫天敌？",
@@ -7667,7 +7667,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 697,
         "type": "choice",
         "question": "下列哪项不是二歧分类法的优点？",
@@ -7678,7 +7678,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 698,
         "type": "choice",
         "question": "下列哪项属于单子叶植物？",
@@ -7689,7 +7689,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 699,
         "type": "choice",
         "question": "下列哪项属于脊椎动物？",
@@ -7700,7 +7700,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 700,
         "type": "choice",
         "question": "下列哪项属于恒温动物？",
@@ -7711,7 +7711,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 701,
         "type": "choice",
         "question": "下列哪项属于卵生哺乳动物？",
@@ -7722,7 +7722,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 702,
         "type": "choice",
         "question": "化石形成需要多长时间？",
@@ -7733,7 +7733,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 703,
         "type": "choice",
         "question": "下列哪种化石可以反映古生物的活动痕迹？",
@@ -7744,7 +7744,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 704,
         "type": "choice",
         "question": "恐龙灭绝最广为接受的原因是？",
@@ -7755,7 +7755,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 705,
         "type": "choice",
         "question": "太阳系中卫星最多的行星是？",
@@ -7766,7 +7766,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 706,
         "type": "choice",
         "question": "太阳系中被称为\"冰巨星\"的是？",
@@ -7777,7 +7777,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 707,
         "type": "choice",
         "question": "太阳系中自转轴倾斜最严重的行星是？",
@@ -7788,7 +7788,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 708,
         "type": "choice",
         "question": "下列哪项不是星座的作用？",
@@ -7799,7 +7799,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 709,
         "type": "choice",
         "question": "猎户座中最亮的星是？",
@@ -7810,7 +7810,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 710,
         "type": "choice",
         "question": "夏季大三角不包括下列哪颗星？",
@@ -7821,7 +7821,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 711,
         "type": "choice",
         "question": "光在一年中走过的距离大约是？",
@@ -7832,7 +7832,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 712,
         "type": "choice",
         "question": "银河系中心区域存在什么？",
@@ -7843,7 +7843,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 713,
         "type": "choice",
         "question": "下列哪项不是航天器返回地球时需要克服的困难？",
@@ -7854,7 +7854,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 714,
         "type": "choice",
         "question": "嫦娥五号采样返回任务中，负责携带样品升空进入月球轨道的是？",
@@ -7865,7 +7865,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 715,
         "type": "choice",
         "question": "在校园生物调查中，为什么要选择感兴趣的生物重点调查？",
@@ -7876,7 +7876,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 716,
         "type": "choice",
         "question": "下列哪项不是保护生物多样性的措施？",
@@ -7887,7 +7887,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 717,
         "type": "choice",
         "question": "蚜虫的口器类型是？",
@@ -7898,7 +7898,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 718,
         "type": "choice",
         "question": "蚂蚁通过什么方式与同伴交流？",
@@ -7909,7 +7909,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 719,
         "type": "choice",
         "question": "下列哪项是植物的营养器官？",
@@ -7920,7 +7920,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 720,
         "type": "choice",
         "question": "下列哪项属于变态茎？",
@@ -7931,7 +7931,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 721,
         "type": "choice",
         "question": "下列哪项属于不完全变态昆虫？",
@@ -7942,7 +7942,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 722,
         "type": "choice",
         "question": "下列哪项属于两栖动物？",
@@ -7953,7 +7953,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 723,
         "type": "choice",
         "question": "恐龙化石最早被科学描述是在？",
@@ -7964,7 +7964,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 724,
         "type": "choice",
         "question": "下列哪项不是研究化石的方法？",
@@ -7975,7 +7975,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 725,
         "type": "choice",
         "question": "太阳系中大气层最厚的行星是？",
@@ -7986,7 +7986,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 726,
         "type": "choice",
         "question": "太阳黑子活动周期约为？",
@@ -7997,7 +7997,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 727,
         "type": "choice",
         "question": "极光产生的原因是？",
@@ -8008,7 +8008,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 728,
         "type": "choice",
         "question": "下列哪项不是天文望远镜的类型？",
@@ -8019,7 +8019,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 729,
         "type": "choice",
         "question": "哈勃太空望远镜主要观测的是？",
@@ -8030,7 +8030,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 730,
         "type": "choice",
         "question": "中国天眼（FAST）的主要科学目标是？",
@@ -8041,7 +8041,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 731,
         "type": "choice",
         "question": "下列哪项不是航天员在太空中面临的生理问题？",
@@ -8052,7 +8052,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 732,
         "type": "choice",
         "question": "下列哪项是空间站的主要功能？",
@@ -8063,7 +8063,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 733,
         "type": "choice",
         "question": "我国第一个空间站核心舱命名为？",
@@ -8074,7 +8074,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 734,
         "type": "choice",
         "question": "下列哪项不是保护地球生物多样性的重要意义？",
@@ -8085,7 +8085,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 735,
         "type": "choice",
         "question": "目前，太阳系中公认的绕太阳公转的行星有几颗？",
@@ -8096,7 +8096,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 736,
         "type": "choice",
         "question": "太阳系中体积最大的行星是？",
@@ -8107,7 +8107,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 737,
         "type": "choice",
         "question": "下列关于太阳的说法正确的是？",
@@ -8118,7 +8118,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 738,
         "type": "choice",
         "question": "2020年6月21日发生的日食，这一天可能是农历的哪一天？",
@@ -8129,7 +8129,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 739,
         "type": "choice",
         "question": "发生日食时，太阳、地球、月球的相对位置是？",
@@ -8140,7 +8140,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 740,
         "type": "choice",
         "question": "下列物质加入白醋中会产生气泡的是？",
@@ -8151,7 +8151,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 741,
         "type": "choice",
         "question": "下列物质加入水中，不发生明显化学变化的是？",
@@ -8162,7 +8162,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 742,
         "type": "choice",
         "question": "蕨类植物的叶背面常出现褐色斑点，这些斑点主要是？",
@@ -8173,7 +8173,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 743,
         "type": "choice",
         "question": "人体情绪兴奋时，体内哪种物质的分泌量会增加？",
@@ -8184,7 +8184,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 744,
         "type": "choice",
         "question": "恐惧、紧张时，人体会分泌哪种激素？",
@@ -8195,7 +8195,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 745,
         "type": "choice",
         "question": "下列哪项属于化学变化？",
@@ -8206,7 +8206,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 746,
         "type": "choice",
         "question": "紫甘蓝放入白醋中，颜色会变成？",
@@ -8217,7 +8217,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 747,
         "type": "choice",
         "question": "紫甘蓝放入水中，颜色最可能？",
@@ -8228,7 +8228,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 748,
         "type": "choice",
         "question": "下列成语描述物理变化的是？",
@@ -8239,7 +8239,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 749,
         "type": "choice",
         "question": "下列成语描述化学变化的是？",
@@ -8250,7 +8250,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 750,
         "type": "choice",
         "question": "用蜡烛火焰去点燃装有白雾的瓶子，白雾消失的原因是？",
@@ -8261,7 +8261,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 751,
         "type": "choice",
         "question": "下列谚语描述的变化与其他三项不同的是？",
@@ -8272,7 +8272,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 752,
         "type": "choice",
         "question": "下列物质中，不是通过化学变化形成的是？",
@@ -8283,7 +8283,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 753,
         "type": "choice",
         "question": "下列物质中，属于固体的是？",
@@ -8294,7 +8294,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 754,
         "type": "choice",
         "question": "小苏打和白醋混合产生的气体是？",
@@ -8305,7 +8305,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 755,
         "type": "choice",
         "question": "下列化学变化对人类可能造成不良影响的是？",
@@ -8316,7 +8316,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 756,
         "type": "choice",
         "question": "下列哪项是化学变化在工业上的有益应用？",
@@ -8327,7 +8327,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 757,
         "type": "choice",
         "question": "下列成语中，涉及物理变化的是？",
@@ -8338,7 +8338,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 758,
         "type": "choice",
         "question": "下列成语中，涉及化学变化的是？",
@@ -8349,7 +8349,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 759,
         "type": "choice",
         "question": "蜡烛燃烧时，蜡烛先熔化后燃烧，这一过程属于？",
@@ -8360,7 +8360,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 760,
         "type": "choice",
         "question": "下列哪项变化一定是化学变化？",
@@ -8371,7 +8371,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 761,
         "type": "choice",
         "question": "下列哪项变化不一定是化学变化？",
@@ -8382,7 +8382,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 762,
         "type": "choice",
         "question": "将小苏打加入白醋中，用手触摸容器外壁会感觉？",
@@ -8393,7 +8393,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 763,
         "type": "choice",
         "question": "下列哪项证据不能证明化学变化的发生？",
@@ -8404,7 +8404,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 764,
         "type": "choice",
         "question": "植物光合作用将太阳能转化为？",
@@ -8415,7 +8415,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 765,
         "type": "choice",
         "question": "人体情绪与化学物质密切相关，下列哪项被称为'快乐激素'？",
@@ -8426,7 +8426,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 766,
         "type": "choice",
         "question": "下列哪项化学变化是缓慢氧化？",
@@ -8437,7 +8437,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 767,
         "type": "choice",
         "question": "下列哪项不是缓慢氧化的例子？",
@@ -8448,7 +8448,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 768,
         "type": "choice",
         "question": "小苏打的化学名称是？",
@@ -8459,7 +8459,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 769,
         "type": "choice",
         "question": "白醋的主要成分是？",
@@ -8470,7 +8470,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 770,
         "type": "choice",
         "question": "将下列物质加入白醋中，会产生大量气泡的是？",
@@ -8481,7 +8481,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 771,
         "type": "choice",
         "question": "紫甘蓝汁液可以作为？",
@@ -8492,7 +8492,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 772,
         "type": "choice",
         "question": "下列哪种变化是化学变化？",
@@ -8503,7 +8503,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 773,
         "type": "choice",
         "question": "下列哪项属于化学变化在生活中的应用？",
@@ -8514,7 +8514,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 774,
         "type": "choice",
         "question": "在日食观测中，下列做法正确的是？",
@@ -8525,7 +8525,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 775,
         "type": "choice",
         "question": "蕨类植物属于？",
@@ -8536,7 +8536,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 776,
         "type": "choice",
         "question": "下列哪项是蕨类植物的主要繁殖方式？",
@@ -8547,7 +8547,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 777,
         "type": "choice",
         "question": "人体在紧张时分泌的肾上腺素主要作用是？",
@@ -8558,7 +8558,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 778,
         "type": "choice",
         "question": "下列哪项是化学变化？",
@@ -8569,7 +8569,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 779,
         "type": "choice",
         "question": "下列哪项是物理变化？",
@@ -8580,7 +8580,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 780,
         "type": "choice",
         "question": "将紫甘蓝汁液滴入肥皂水中，颜色可能变为？",
@@ -8591,7 +8591,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 781,
         "type": "choice",
         "question": "下列哪种气体不支持燃烧？",
@@ -8602,7 +8602,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 782,
         "type": "choice",
         "question": "小苏打和白醋混合后，把产生的气体通入澄清石灰水，现象是？",
@@ -8613,7 +8613,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 783,
         "type": "choice",
         "question": "下列哪项是化学变化中常伴随的现象？",
@@ -8624,7 +8624,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 784,
         "type": "choice",
         "question": "下列哪项变化属于缓慢氧化？",
@@ -8635,7 +8635,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 785,
         "type": "choice",
         "question": "下列哪项不是化学变化？",
@@ -8646,7 +8646,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 786,
         "type": "choice",
         "question": "下列关于日食的说法，正确的是？",
@@ -8657,7 +8657,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 787,
         "type": "choice",
         "question": "下列关于月食的说法，正确的是？",
@@ -8668,7 +8668,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 788,
         "type": "choice",
         "question": "太阳系中离地球最近的行星是？",
@@ -8679,7 +8679,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 789,
         "type": "choice",
         "question": "太阳系中温度最高的行星是？",
@@ -8690,7 +8690,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 790,
         "type": "choice",
         "question": "下列哪项是物理变化？",
@@ -8701,7 +8701,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 791,
         "type": "choice",
         "question": "下列哪项是化学变化？",
@@ -8712,7 +8712,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 792,
         "type": "choice",
         "question": "紫甘蓝汁液在酸性溶液中呈？",
@@ -8723,7 +8723,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 793,
         "type": "choice",
         "question": "紫甘蓝汁液在碱性溶液中呈？",
@@ -8734,7 +8734,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 794,
         "type": "choice",
         "question": "下列物质中，能和白醋反应产生气体的是？",
@@ -8745,7 +8745,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 795,
         "type": "choice",
         "question": "下列哪项不属于化学变化？",
@@ -8756,7 +8756,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 796,
         "type": "choice",
         "question": "下列哪项属于化学变化？",
@@ -8767,7 +8767,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 797,
         "type": "choice",
         "question": "日食现象可以证明？",
@@ -8778,7 +8778,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 798,
         "type": "choice",
         "question": "在化学变化中，通常不会出现的现象是？",
@@ -8789,7 +8789,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 799,
         "type": "choice",
         "question": "下列哪项变化是放热反应？",
@@ -8800,7 +8800,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 800,
         "type": "choice",
         "question": "下列哪项变化是吸热反应？",
@@ -8811,7 +8811,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 801,
         "type": "choice",
         "question": "蕨类植物比苔藓植物更适应陆地环境，主要原因是？",
@@ -8822,7 +8822,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 802,
         "type": "choice",
         "question": "下列成语中，涉及化学变化的是？",
@@ -8833,7 +8833,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 803,
         "type": "choice",
         "question": "下列成语中，只涉及物理变化的是？",
@@ -8844,7 +8844,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 804,
         "type": "choice",
         "question": "人体情绪变化与化学物质有关，其中内啡肽的作用是？",
@@ -8855,7 +8855,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 805,
         "type": "choice",
         "question": "下列哪项是化学变化在医疗中的应用？",
@@ -8866,7 +8866,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 806,
         "type": "choice",
         "question": "将二氧化碳通入紫色石蕊试液中，颜色变为？",
@@ -8877,7 +8877,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 807,
         "type": "choice",
         "question": "下列哪项是物理变化？",
@@ -8888,7 +8888,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 808,
         "type": "choice",
         "question": "下列哪项是化学变化？",
@@ -8899,7 +8899,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 809,
         "type": "choice",
         "question": "下列哪项属于化学变化？",
@@ -8910,7 +8910,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 810,
         "type": "choice",
         "question": "紫甘蓝汁液在柠檬汁中会变成？",
@@ -8921,7 +8921,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 811,
         "type": "choice",
         "question": "小苏打和白醋混合后，剩余液体中主要含有？",
@@ -8932,7 +8932,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 812,
         "type": "choice",
         "question": "下列哪项是化学变化的主要特征？",
@@ -8943,7 +8943,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 813,
         "type": "choice",
         "question": "铁生锈是？",
@@ -8954,7 +8954,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 814,
         "type": "choice",
         "question": "下列哪项是防止铁生锈的方法？",
@@ -8965,7 +8965,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 815,
         "type": "choice",
         "question": "下列哪项变化是化学变化？",
@@ -8976,7 +8976,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 816,
         "type": "choice",
         "question": "下列哪项变化是物理变化？",
@@ -8987,7 +8987,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 817,
         "type": "choice",
         "question": "下列哪项是化学变化中放热的现象？",
@@ -8998,7 +8998,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 818,
         "type": "choice",
         "question": "人体情绪变化中，哪种物质与压力反应最直接相关？",
@@ -9009,7 +9009,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 819,
         "type": "choice",
         "question": "蕨类植物一般生活在？",
@@ -9020,7 +9020,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 820,
         "type": "choice",
         "question": "下列哪项是物理变化？",
@@ -9031,7 +9031,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 821,
         "type": "choice",
         "question": "下列哪项是化学变化？",
@@ -9042,7 +9042,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 822,
         "type": "choice",
         "question": "日食发生时，下列哪项正确？",
@@ -9053,7 +9053,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 823,
         "type": "choice",
         "question": "下列哪项不是日食形成的条件？",
@@ -9064,7 +9064,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 824,
         "type": "choice",
         "question": "下列哪项是化学变化？",
@@ -9075,7 +9075,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 825,
         "type": "choice",
         "question": "下列哪项是物理变化？",
@@ -9086,7 +9086,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 826,
         "type": "choice",
         "question": "将紫甘蓝汁液滴入白醋中，颜色变为？",
@@ -9097,7 +9097,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 827,
         "type": "choice",
         "question": "将紫甘蓝汁液滴入小苏打溶液中，颜色可能变为？",
@@ -9108,7 +9108,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 828,
         "type": "choice",
         "question": "下列哪项是化学变化？",
@@ -9119,7 +9119,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 829,
         "type": "choice",
         "question": "下列哪项是物理变化？",
@@ -9130,7 +9130,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 830,
         "type": "choice",
         "question": "在日食时，以下哪项安全观测方法正确？",
@@ -9141,7 +9141,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 831,
         "type": "choice",
         "question": "太阳系中自转方向与其他行星相反的是？",
@@ -9152,7 +9152,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 832,
         "type": "choice",
         "question": "下列哪项变化属于化学变化？",
@@ -9163,7 +9163,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 833,
         "type": "choice",
         "question": "下列哪项变化属于物理变化？",
@@ -9174,7 +9174,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 834,
         "type": "choice",
         "question": "紫甘蓝汁液在肥皂水中呈绿色，说明肥皂水呈？",
@@ -9185,7 +9185,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 835,
         "type": "choice",
         "question": "下列哪项是化学变化？",
@@ -9196,7 +9196,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 836,
         "type": "choice",
         "question": "下列哪项是物理变化？",
@@ -9207,7 +9207,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 837,
         "type": "choice",
         "question": "蕨类植物的叶背面褐色斑点主要作用是？",
@@ -9218,7 +9218,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 838,
         "type": "choice",
         "question": "下列哪种植物属于蕨类植物？",
@@ -9229,7 +9229,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 839,
         "type": "choice",
         "question": "人体分泌多巴胺的主要部位是？",
@@ -9240,7 +9240,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 840,
         "type": "choice",
         "question": "下列哪项变化是化学变化？",
@@ -9251,7 +9251,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 841,
         "type": "choice",
         "question": "下列哪项变化是物理变化？",
@@ -9262,7 +9262,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 842,
         "type": "choice",
         "question": "小苏打和白醋反应属于什么反应类型？",
@@ -9273,7 +9273,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 843,
         "type": "choice",
         "question": "下列哪项是中和反应？",
@@ -9284,7 +9284,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 844,
         "type": "choice",
         "question": "下列哪项是物理变化？",
@@ -9295,7 +9295,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 845,
         "type": "choice",
         "question": "下列哪项是化学变化？",
@@ -9306,7 +9306,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 846,
         "type": "choice",
         "question": "日食发生时，日、地、月三者的位置关系是？",
@@ -9317,7 +9317,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 847,
         "type": "choice",
         "question": "太阳系中最大的行星是？",
@@ -9328,7 +9328,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 848,
         "type": "choice",
         "question": "下列哪项是缓慢氧化的例子？",
@@ -9339,7 +9339,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 849,
         "type": "choice",
         "question": "下列哪项是剧烈氧化的例子？",
@@ -9350,7 +9350,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 850,
         "type": "choice",
         "question": "紫甘蓝汁液在纯水中通常呈什么颜色？",
@@ -9361,7 +9361,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 851,
         "type": "choice",
         "question": "下列哪项是化学变化？",
@@ -9372,7 +9372,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 852,
         "type": "choice",
         "question": "下列哪项是物理变化？",
@@ -9383,7 +9383,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 853,
         "type": "choice",
         "question": "蕨类植物比苔藓植物高大的主要原因是？",
@@ -9394,7 +9394,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 854,
         "type": "choice",
         "question": "下列哪项不是蕨类植物的特征？",
@@ -9405,7 +9405,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 855,
         "type": "choice",
         "question": "人体在快乐时分泌的多巴胺属于？",
@@ -9416,7 +9416,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 856,
         "type": "choice",
         "question": "下列哪项变化是化学变化？",
@@ -9427,7 +9427,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 857,
         "type": "choice",
         "question": "下列哪项变化是物理变化？",
@@ -9438,7 +9438,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 858,
         "type": "choice",
         "question": "小苏打和白醋反应产生的气体能使？",
@@ -9449,7 +9449,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 859,
         "type": "choice",
         "question": "下列哪项是化学变化？",
@@ -9460,7 +9460,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 860,
         "type": "choice",
         "question": "下列哪项是物理变化？",
@@ -9471,7 +9471,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 861,
         "type": "choice",
         "question": "日食的类型不包括？",
@@ -9482,7 +9482,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 862,
         "type": "choice",
         "question": "下列哪项是化学变化？",
@@ -9493,7 +9493,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 863,
         "type": "choice",
         "question": "下列哪项是物理变化？",
@@ -9504,7 +9504,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 864,
         "type": "choice",
         "question": "紫甘蓝汁液在酸性条件下呈红色，这是利用了它的什么性质？",
@@ -9515,7 +9515,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 865,
         "type": "choice",
         "question": "下列哪项是化学变化？",
@@ -9526,7 +9526,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 866,
         "type": "choice",
         "question": "下列哪项是物理变化？",
@@ -9537,7 +9537,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 867,
         "type": "choice",
         "question": "人体应激反应时，肾上腺髓质分泌的激素是？",
@@ -9548,7 +9548,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 868,
         "type": "choice",
         "question": "下列哪项是化学变化？",
@@ -9559,7 +9559,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 869,
         "type": "choice",
         "question": "下列哪项是物理变化？",
@@ -9570,7 +9570,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 870,
         "type": "choice",
         "question": "小苏打和白醋反应属于什么反应？",
@@ -9581,7 +9581,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 871,
         "type": "choice",
         "question": "下列哪项是化学变化？",
@@ -9592,7 +9592,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 872,
         "type": "choice",
         "question": "下列哪项是物理变化？",
@@ -9603,7 +9603,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 873,
         "type": "choice",
         "question": "蕨类植物的孢子囊群一般位于叶的？",
@@ -9614,7 +9614,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 874,
         "type": "choice",
         "question": "下列哪项是化学变化？",
@@ -9625,7 +9625,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 875,
         "type": "choice",
         "question": "下列哪项是物理变化？",
@@ -9636,7 +9636,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 876,
         "type": "choice",
         "question": "将二氧化碳通入紫色石蕊试液中，石蕊变红的原因是？",
@@ -9647,7 +9647,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 877,
         "type": "choice",
         "question": "下列哪项是化学变化？",
@@ -9658,7 +9658,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 878,
         "type": "choice",
         "question": "下列哪项是物理变化？",
@@ -9669,7 +9669,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 879,
         "type": "choice",
         "question": "小苏打的化学式是？",
@@ -9680,7 +9680,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 880,
         "type": "choice",
         "question": "白醋的pH值最可能的是？",
@@ -9691,7 +9691,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 881,
         "type": "choice",
         "question": "下列哪项是化学变化？",
@@ -9702,7 +9702,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 882,
         "type": "choice",
         "question": "下列哪项是物理变化？",
@@ -9713,7 +9713,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 883,
         "type": "choice",
         "question": "日食发生时，月球的影子落在地球上，这可以证明？",
@@ -9724,7 +9724,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 884,
         "type": "choice",
         "question": "下列哪项是化学变化？",
@@ -9735,7 +9735,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 885,
         "type": "judge",
         "question": "三角形框架比四边形框架更稳定。",
@@ -9746,7 +9746,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 886,
         "type": "judge",
         "question": "太阳系中，木星的体积和质量都是最大的。",
@@ -9757,7 +9757,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 887,
         "type": "judge",
         "question": "日食发生时，月球位于地球和太阳之间。",
@@ -9768,7 +9768,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 888,
         "type": "judge",
         "question": "所有化学变化都会发光发热。",
@@ -9779,7 +9779,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 889,
         "type": "judge",
         "question": "化石可以帮助我们了解古生物的生活环境和演化历史。",
@@ -9790,7 +9790,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 890,
         "type": "judge",
         "question": "框架结构的建筑抗震性能较差。",
@@ -9801,7 +9801,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 891,
         "type": "judge",
         "question": "埃菲尔铁塔在施工过程中进行了多次设计修改。",
@@ -9812,7 +9812,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 892,
         "type": "judge",
         "question": "植物光合作用属于物理变化。",
@@ -9823,7 +9823,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 893,
         "type": "judge",
         "question": "银河系的直径约为10万光年。",
@@ -9834,7 +9834,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 894,
         "type": "judge",
         "question": "保护生物多样性只需要建立自然保护区即可。",
@@ -9845,7 +9845,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 895,
         "type": "judge",
         "question": "小苏打和白醋混合产生的气体能使澄清石灰水变浑浊。",
@@ -9856,7 +9856,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 896,
         "type": "judge",
         "question": "所有昆虫都有三对足。",
@@ -9867,7 +9867,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 897,
         "type": "judge",
         "question": "月球是地球的天然卫星，它本身能发光。",
@@ -9878,7 +9878,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 898,
         "type": "judge",
         "question": "工程建设的成功完全取决于材料的好坏。",
@@ -9889,7 +9889,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 899,
         "type": "judge",
         "question": "可再生资源包括太阳能、风能、水能等。",
@@ -9900,7 +9900,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 900,
         "type": "choice",
         "question": "煤的形成主要来自？",
@@ -9911,7 +9911,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 901,
         "type": "choice",
         "question": "科学课堂中我们做了很多实验，有时出现假设与结论不一样，我们可以？",
@@ -9922,7 +9922,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 902,
         "type": "choice",
         "question": "专业公司制订'校园滑梯通道竞标标书'，竞标要点是项目？",
@@ -9933,7 +9933,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 903,
         "type": "choice",
         "question": "设计是建造滑梯通道的重要环节，要考虑的条件包括？\n① 滑梯高度 ② 坡度 ③ 承重 ④ 材料 ⑤ 边缘圆角 ⑥ 美观",
@@ -9944,7 +9944,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 904,
         "type": "choice",
         "question": "一份优秀的设计图应该是？",
@@ -9955,7 +9955,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 905,
         "type": "choice",
         "question": "专业公司建造一座滑梯通道，一般过程是？",
@@ -9966,7 +9966,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 906,
         "type": "choice",
         "question": "在实际工程建设的过程中，如果发现原先的设计有问题，应该？",
@@ -9977,7 +9977,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 907,
         "type": "choice",
         "question": "滑梯的内壁都很光滑，这是为了？",
@@ -9988,7 +9988,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 908,
         "type": "choice",
         "question": "封闭式管筒状滑梯与开放式斜坡状滑梯相比，最大的优势是？",
@@ -9999,7 +9999,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 909,
         "type": "choice",
         "question": "我国有很多大型工程，例如'嫦娥'工程、南水北调工程、港珠澳大桥等，这些工程从立项到完工，都需要大量先进技术作支撑。下列说法错误的是？",
@@ -10010,7 +10010,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 910,
         "type": "choice",
         "question": "下列哪项属于保护生物多样性的措施？",
@@ -10021,7 +10021,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 911,
         "type": "choice",
         "question": "下列哪种行为会导致生物多样性减少？",
@@ -10032,7 +10032,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 912,
         "type": "choice",
         "question": "下列物质的变化，与蓝莓酱腐败相似，有新物质产生的是？",
@@ -10043,7 +10043,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 913,
         "type": "choice",
         "question": "简易灭火器，瓶子里装白色粉末，注射器里装无色液体，两者混合后要能灭火。那么原料应选择？",
@@ -10054,7 +10054,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 914,
         "type": "choice",
         "question": "简易灭火器，瓶子里装白色粉末，注射器里装无色液体，两者混合后要能灭火。这两种物质充分混合后，可以观察到的现象是？",
@@ -10065,7 +10065,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 915,
         "type": "choice",
         "question": "简易灭火器产生的气体能把蜡烛浇灭，说明这种气体？",
@@ -10076,7 +10076,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 916,
         "type": "choice",
         "question": "实验中产生的气体被称为温室气体，能使地球表面热起来，为控制全球变暖，我们要大力推广可再生资源，以下属于可再生资源的是？",
@@ -10087,7 +10087,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 917,
         "type": "choice",
         "question": "下列哪项属于物理变化？",
@@ -10098,7 +10098,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 918,
         "type": "choice",
         "question": "下列哪项属于化学变化？",
@@ -10109,7 +10109,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 919,
         "type": "choice",
         "question": "框架结构建筑的主要优点是？",
@@ -10120,7 +10120,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 920,
         "type": "choice",
         "question": "埃菲尔铁塔在施工中完全依照设计进行，主要原因是？",
@@ -10131,7 +10131,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 921,
         "type": "choice",
         "question": "蚜虫与蚂蚁之间的关系属于？",
@@ -10142,7 +10142,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 922,
         "type": "choice",
         "question": "下列哪种分类方法属于二歧分类法？",
@@ -10153,7 +10153,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 923,
         "type": "choice",
         "question": "嫦娥五号任务实现了中国航天的哪项首次？",
@@ -10164,7 +10164,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 924,
         "type": "choice",
         "question": "太阳系中离太阳最近的行星是？",
@@ -10175,7 +10175,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 925,
         "type": "choice",
         "question": "光年是什么单位？",
@@ -10186,7 +10186,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 926,
         "type": "choice",
         "question": "下列哪种做法不能增强塔台的稳定性？",
@@ -10197,7 +10197,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 927,
         "type": "choice",
         "question": "下列哪项属于裸子植物？",
@@ -10208,7 +10208,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 928,
         "type": "choice",
         "question": "下列哪项属于哺乳动物？",
@@ -10219,7 +10219,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 929,
         "type": "choice",
         "question": "下列哪项是化石形成的重要条件？",
@@ -10230,7 +10230,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 930,
         "type": "choice",
         "question": "下列哪项属于可再生能源？",
@@ -10241,7 +10241,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 931,
         "type": "choice",
         "question": "下列哪项属于化学变化中伴随的现象？",
@@ -10252,7 +10252,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 932,
         "type": "choice",
         "question": "紫甘蓝汁液在酸性溶液中会变成？",
@@ -10263,7 +10263,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 933,
         "type": "choice",
         "question": "小苏打的化学名称是？",
@@ -10274,7 +10274,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 934,
         "type": "choice",
         "question": "下列哪项属于缓慢氧化？",
@@ -10285,7 +10285,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 935,
         "type": "choice",
         "question": "下列哪项工程属于我国重大航天工程？",
@@ -10296,7 +10296,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 936,
         "type": "choice",
         "question": "下列哪项不是框架结构的优点？",
@@ -10307,7 +10307,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 937,
         "type": "choice",
         "question": "下列哪项是日食发生时的正确观测方法？",
@@ -10318,7 +10318,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 938,
         "type": "choice",
         "question": "下列哪项属于遗传现象？",
@@ -10329,7 +10329,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 939,
         "type": "choice",
         "question": "下列哪项属于生物多样性的内涵？",
@@ -10340,7 +10340,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 940,
         "type": "choice",
         "question": "下列物品中，具有放大作用的是？",
@@ -10351,7 +10351,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 941,
         "type": "choice",
         "question": "使用放大镜时，下列说法正确的是？",
@@ -10362,7 +10362,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 942,
         "type": "choice",
         "question": "用低倍放大镜和高倍放大镜观察同一片树叶的叶脉，高倍镜下看到的内容会？",
@@ -10373,7 +10373,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 943,
         "type": "choice",
         "question": "下列哪种观察工具最适合观察病毒的形态？",
@@ -10384,7 +10384,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 944,
         "type": "choice",
         "question": "用显微镜观察洋葱表皮细胞时，若视野太暗，应调节？",
@@ -10395,7 +10395,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 945,
         "type": "choice",
         "question": "显微镜的目镜放大倍数为10×，物镜为40×，则总放大倍数为？",
@@ -10406,7 +10406,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 946,
         "type": "choice",
         "question": "观察洋葱表皮细胞时，在视野左下方发现一个细胞，要想将其移到中央，应往哪个方向移动装片？",
@@ -10417,7 +10417,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 947,
         "type": "choice",
         "question": "下列哪种细胞是人体中最长的细胞？",
@@ -10428,7 +10428,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 948,
         "type": "choice",
         "question": "下列哪种细胞没有细胞核？",
@@ -10439,7 +10439,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 949,
         "type": "choice",
         "question": "用显微镜观察草履虫时，为了限制其运动，可以？",
@@ -10450,7 +10450,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 950,
         "type": "choice",
         "question": "下列关于昼夜交替现象的解释，正确的是？",
@@ -10461,7 +10461,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 951,
         "type": "choice",
         "question": "在模拟昼夜交替的实验中，用手电筒照射地球仪，地球仪上被照亮的部分代表？",
@@ -10472,7 +10472,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 952,
         "type": "choice",
         "question": "下列哪种现象是由地球公转引起的？",
@@ -10483,7 +10483,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 953,
         "type": "choice",
         "question": "地球公转的方向是？",
@@ -10494,7 +10494,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 954,
         "type": "choice",
         "question": "我国古代将一年分为24个节气，主要依据是？",
@@ -10505,7 +10505,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 955,
         "type": "choice",
         "question": "下列哪个城市夏季白昼最长？",
@@ -10516,7 +10516,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 956,
         "type": "choice",
         "question": "用小球模拟月球，用大球模拟地球，用光源模拟太阳，做日食模拟实验时，小球应放在？",
@@ -10527,7 +10527,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 957,
         "type": "choice",
         "question": "下列工具中，属于杠杆的是？",
@@ -10538,7 +10538,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 958,
         "type": "choice",
         "question": "使用镊子夹取物体时，镊子属于？",
@@ -10549,7 +10549,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 959,
         "type": "choice",
         "question": "下列哪句话体现了杠杆原理？",
@@ -10560,7 +10560,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 960,
         "type": "choice",
         "question": "古希腊科学家阿基米德曾说：\"给我一个支点，我就能撬起整个地球。\"这句话基于？",
@@ -10571,7 +10571,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 961,
         "type": "choice",
         "question": "用扳手拧螺丝时，扳手属于？",
@@ -10582,7 +10582,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 962,
         "type": "choice",
         "question": "自行车的前叉（车把手）属于？",
@@ -10593,7 +10593,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 963,
         "type": "choice",
         "question": "下列哪种做法不能省力，但可以改变力的方向？",
@@ -10604,7 +10604,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 964,
         "type": "choice",
         "question": "使用动滑轮提升重物，可以省力，但？",
@@ -10615,7 +10615,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 965,
         "type": "choice",
         "question": "下列哪种简单机械是斜面在生活中的应用？",
@@ -10626,7 +10626,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 966,
         "type": "choice",
         "question": "螺丝钉的螺纹应用了哪种简单机械的原理？",
@@ -10637,7 +10637,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 967,
         "type": "choice",
         "question": "用同一斜面拉同一重物，斜面越长，越？",
@@ -10648,7 +10648,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 968,
         "type": "choice",
         "question": "压水井的压杆属于？",
@@ -10659,7 +10659,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 969,
         "type": "choice",
         "question": "撬动一块大石头时，支点应尽量靠近？",
@@ -10670,7 +10670,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 970,
         "type": "choice",
         "question": "下列哪种工具是杠杆和轮轴的组合？",
@@ -10681,7 +10681,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 971,
         "type": "choice",
         "question": "使用定滑轮将重物提升2米，绳子自由端移动的距离是？",
@@ -10692,7 +10692,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 972,
         "type": "choice",
         "question": "使用动滑轮将重物提升2米，绳子自由端移动的距离是？",
@@ -10703,7 +10703,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 973,
         "type": "choice",
         "question": "升旗时顶部定滑轮的作用是？",
@@ -10714,7 +10714,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 974,
         "type": "choice",
         "question": "下列哪种运输工具应用了轮轴原理？",
@@ -10725,7 +10725,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 975,
         "type": "choice",
         "question": "平板和手推车运送同一重物，手推车更省力是因为？",
@@ -10736,7 +10736,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 976,
         "type": "choice",
         "question": "下列哪种形状的物体最适合做车轮？",
@@ -10747,7 +10747,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 977,
         "type": "choice",
         "question": "下列哪种信息存储工具不是基于电磁原理？",
@@ -10758,7 +10758,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 978,
         "type": "choice",
         "question": "下列关于工具与技术的说法，不正确的是？",
@@ -10769,7 +10769,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 979,
         "type": "choice",
         "question": "下列哪个物体没有应用磁场的力来获得动力？",
@@ -10780,7 +10780,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 980,
         "type": "choice",
         "question": "下列哪种装置能将电能转化为机械能？",
@@ -10791,7 +10791,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 981,
         "type": "choice",
         "question": "研究电磁铁磁性强弱与线圈匝数的关系时，应该控制不变的条件是？",
@@ -10802,7 +10802,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 982,
         "type": "choice",
         "question": "下列做法不能增强电磁铁磁性的的是？",
@@ -10813,7 +10813,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 983,
         "type": "choice",
         "question": "电磁铁的磁极方向与下列哪项有关？",
@@ -10824,7 +10824,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 984,
         "type": "choice",
         "question": "下列哪项实验能验证通电导体在磁场中受力？",
@@ -10835,7 +10835,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 985,
         "type": "choice",
         "question": "发电机的工作原理是？",
@@ -10846,7 +10846,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 986,
         "type": "choice",
         "question": "闭合电路的一部分导体在磁场中做切割磁感线运动时，导体中会产生电流，这种现象称为？",
@@ -10857,7 +10857,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 987,
         "type": "choice",
         "question": "如右下图，将一根通电导体垂直放在两个平行金属导轨上，开关闭合后，导体将？",
@@ -10868,7 +10868,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 988,
         "type": "choice",
         "question": "下列哪种方法不能改变电磁铁的南北极？",
@@ -10879,7 +10879,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 989,
         "type": "choice",
         "question": "用电磁铁吸引大头针，若将铁芯换成铜芯，会怎样？",
@@ -10890,7 +10890,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 990,
         "type": "choice",
         "question": "下列哪种设备没有使用电磁铁？",
@@ -10901,7 +10901,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 991,
         "type": "choice",
         "question": "用导线绕在铁钉上制作电磁铁，通电后能吸引回形针，断电后回形针掉落，说明电磁铁？",
@@ -10912,7 +10912,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 992,
         "type": "choice",
         "question": "下列哪项事实表明地球是个磁体？",
@@ -10923,7 +10923,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 993,
         "type": "choice",
         "question": "地磁北极位于地理的？",
@@ -10934,7 +10934,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 994,
         "type": "choice",
         "question": "在奥斯特实验中，导线通电后，小磁针会偏转，说明？",
@@ -10945,7 +10945,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 995,
         "type": "choice",
         "question": "下列哪种方法可以增大电磁铁的磁力？",
@@ -10956,7 +10956,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 996,
         "type": "choice",
         "question": "用电磁铁搬运废旧钢铁，断电后钢铁不会立即掉落，最可能的原因是？",
@@ -10967,7 +10967,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 997,
         "type": "choice",
         "question": "下列哪种简单机械不能省力但能改变方向？",
@@ -10978,7 +10978,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 998,
         "type": "choice",
         "question": "用螺丝刀拧螺丝，螺丝刀手柄越粗，拧起来越？",
@@ -10989,7 +10989,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 999,
         "type": "choice",
         "question": "下列哪种工具的应用主要为了增大摩擦力？",
@@ -11000,7 +11000,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1000,
         "type": "choice",
         "question": "使用杠杆时，若动力臂（用力点到支点距离）是阻力臂（阻力点到支点距离）的3倍，则动力是阻力的？",
@@ -11011,7 +11011,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1001,
         "type": "choice",
         "question": "下列哪项不是轮轴在生活中的应用？",
@@ -11022,7 +11022,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1002,
         "type": "choice",
         "question": "下列哪种情况斜面省力最多？",
@@ -11033,7 +11033,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1003,
         "type": "choice",
         "question": "用相同材料、相同高度的斜面，分别拉同一重物，斜面越长，拉力越？",
@@ -11044,7 +11044,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1004,
         "type": "choice",
         "question": "盘山公路修成\"S\"形的主要目的是？",
@@ -11055,7 +11055,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1005,
         "type": "choice",
         "question": "下列哪种工具不属于简单机械？",
@@ -11066,7 +11066,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1006,
         "type": "choice",
         "question": "用撬棍撬起石头，石头很重，为了更容易撬起，应将支点向哪边移？",
@@ -11077,7 +11077,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1007,
         "type": "choice",
         "question": "以下属于省力杠杆的是？",
@@ -11088,7 +11088,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1008,
         "type": "choice",
         "question": "使用指甲剪时，指甲剪属于？",
@@ -11099,7 +11099,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1009,
         "type": "choice",
         "question": "下列哪种简单机械中，一定不省力？",
@@ -11110,7 +11110,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1010,
         "type": "choice",
         "question": "下列工具中，属于费力杠杆的是？",
@@ -11121,7 +11121,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1011,
         "type": "choice",
         "question": "使用羊角锤拔钉子时，羊角锤属于？",
@@ -11132,7 +11132,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1012,
         "type": "choice",
         "question": "下列哪种应用不属于斜面？",
@@ -11143,7 +11143,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1013,
         "type": "choice",
         "question": "在\"研究影响电磁铁磁性强弱的因素\"实验中，下列操作不能改变磁性强弱的是？",
@@ -11154,7 +11154,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1014,
         "type": "choice",
         "question": "电磁铁与永磁体相比，优点是？",
@@ -11165,7 +11165,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1015,
         "type": "choice",
         "question": "下列四种电磁铁，铁芯相同，线圈匝数相同，电流相同，磁极最强的是？",
@@ -11176,7 +11176,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1016,
         "type": "choice",
         "question": "发电机模型中，转子转动越快，产生的电流越？",
@@ -11187,7 +11187,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1017,
         "type": "choice",
         "question": "下列哪种设备是利用磁能工作的？",
@@ -11198,7 +11198,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1018,
         "type": "choice",
         "question": "关于电磁波，下列说法正确的是？",
@@ -11209,7 +11209,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1019,
         "type": "choice",
         "question": "下列哪种现象不是利用光的直线传播？",
@@ -11220,7 +11220,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1020,
         "type": "choice",
         "question": "用放大镜看物体，物体应放在？",
@@ -11231,7 +11231,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1021,
         "type": "choice",
         "question": "用显微镜观察时，如果物像偏左上方，要将物像移到视野中央，装片应往哪移动？",
@@ -11242,7 +11242,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1022,
         "type": "choice",
         "question": "下列哪种细胞是植物细胞特有的结构？",
@@ -11253,7 +11253,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1023,
         "type": "choice",
         "question": "制作洋葱表皮临时装片时，滴加碘液的目的是？",
@@ -11264,7 +11264,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1024,
         "type": "choice",
         "question": "在观察人体口腔上皮细胞实验中，滴加的液体是？",
@@ -11275,7 +11275,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1025,
         "type": "choice",
         "question": "下列关于细胞的说法，正确的是？",
@@ -11286,7 +11286,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1026,
         "type": "choice",
         "question": "下列哪项不是地球公转产生的现象？",
@@ -11297,7 +11297,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1027,
         "type": "choice",
         "question": "北半球夏至日，太阳直射点位于？",
@@ -11308,7 +11308,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1028,
         "type": "choice",
         "question": "南极地区出现极昼现象时，北半球是？",
@@ -11319,7 +11319,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1029,
         "type": "choice",
         "question": "一天中，影子最短的时刻是？",
@@ -11330,7 +11330,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1030,
         "type": "choice",
         "question": "下列城市中，一年中正午太阳高度角变化最大的是？",
@@ -11341,7 +11341,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1031,
         "type": "choice",
         "question": "用小球模拟月球，用大球模拟地球，做月食模拟实验时，小球应放在？",
@@ -11352,7 +11352,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1032,
         "type": "choice",
         "question": "下列哪种现象不能证明地球是球体？",
@@ -11363,7 +11363,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1033,
         "type": "choice",
         "question": "地球公转的周期是？",
@@ -11374,7 +11374,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1034,
         "type": "choice",
         "question": "下列哪种现象是由于地球自转引起的？",
@@ -11385,7 +11385,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1035,
         "type": "choice",
         "question": "在北极点上，观察太阳，一天中太阳的视运动是？",
@@ -11396,7 +11396,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1036,
         "type": "choice",
         "question": "下列四种简单机械中，不能连续转动的是？",
@@ -11407,7 +11407,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1037,
         "type": "choice",
         "question": "下列哪种工具是等臂杠杆？",
@@ -11418,7 +11418,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1038,
         "type": "choice",
         "question": "用剪刀剪硬纸板，将纸板放在靠近剪刀轴处比放在尖端更容易剪断，这是因为？",
@@ -11429,7 +11429,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1039,
         "type": "choice",
         "question": "下列关于电磁铁的说法，错误的是？",
@@ -11440,7 +11440,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1040,
         "type": "choice",
         "question": "下列哪种方法可以改变电磁铁的磁极？",
@@ -11451,7 +11451,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1041,
         "type": "choice",
         "question": "在探究\"电磁铁磁性强弱与电流大小的关系\"时，应保持什么不变？",
@@ -11462,7 +11462,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1042,
         "type": "choice",
         "question": "用同种铁芯、相同匝数的电磁铁，分别用一节新电池和两节新电池，则用两节新电池的磁性？",
@@ -11473,7 +11473,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1043,
         "type": "choice",
         "question": "下列设备中，没有利用电磁铁的是？",
@@ -11484,7 +11484,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1044,
         "type": "choice",
         "question": "磁悬浮列车利用的是？",
@@ -11495,7 +11495,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1045,
         "type": "choice",
         "question": "下列四种装置中，主要将机械能转化为电能的是？",
@@ -11506,7 +11506,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1046,
         "type": "choice",
         "question": "下列四种能量转化中，属于化学能转化为电能的是？",
@@ -11517,7 +11517,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1047,
         "type": "choice",
         "question": "太阳能电池板是将太阳能转化为？",
@@ -11528,7 +11528,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1048,
         "type": "choice",
         "question": "下列哪种能源属于可再生能源？",
@@ -11539,7 +11539,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1049,
         "type": "choice",
         "question": "下列哪项行为会导致能源浪费？",
@@ -11550,7 +11550,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1050,
         "type": "choice",
         "question": "下列哪种简单机械可以在省力的同时省距离？",
@@ -11561,7 +11561,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1051,
         "type": "choice",
         "question": "使用任何机械都不能省功，这是因为？",
@@ -11572,7 +11572,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1052,
         "type": "choice",
         "question": "下列哪种现象是光的折射？",
@@ -11583,7 +11583,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1053,
         "type": "choice",
         "question": "放大镜的镜片是？",
@@ -11594,7 +11594,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1054,
         "type": "choice",
         "question": "近视眼镜的镜片是？",
@@ -11605,7 +11605,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1055,
         "type": "choice",
         "question": "下列哪种显微镜的放大倍数最大？",
@@ -11616,7 +11616,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1056,
         "type": "choice",
         "question": "用显微镜观察时，如果视野中光线太强，应选用？",
@@ -11627,7 +11627,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1057,
         "type": "choice",
         "question": "洋葱表皮细胞的基本结构包括细胞壁、细胞膜、细胞质、细胞核，其中起支持和保护作用的是？",
@@ -11638,7 +11638,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1058,
         "type": "choice",
         "question": "下列哪种生物不是由细胞构成的？",
@@ -11649,7 +11649,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1059,
         "type": "choice",
         "question": "地球自转的方向是自西向东，从北极上空看呈？",
@@ -11660,7 +11660,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1060,
         "type": "choice",
         "question": "从南极上空看，地球自转方向是？",
@@ -11671,7 +11671,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1061,
         "type": "choice",
         "question": "地球上产生昼夜现象的原因是？",
@@ -11682,7 +11682,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1062,
         "type": "choice",
         "question": "地球上四季变化最明显的地区是？",
@@ -11693,7 +11693,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1063,
         "type": "choice",
         "question": "北半球冬季时，南半球是？",
@@ -11704,7 +11704,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1064,
         "type": "choice",
         "question": "下列哪种简单机械在省力时一定费距离？",
@@ -11715,7 +11715,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1065,
         "type": "choice",
         "question": "用斧头劈柴，斧头的刃是斜面的应用，目的是？",
@@ -11726,7 +11726,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1066,
         "type": "choice",
         "question": "关于能量守恒，下列说法正确的是？",
@@ -11737,7 +11737,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1067,
         "type": "choice",
         "question": "下列哪种现象中，机械能转化为热能？",
@@ -11748,7 +11748,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1068,
         "type": "choice",
         "question": "下列哪种能源最终来源于太阳能？",
@@ -11759,7 +11759,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1069,
         "type": "choice",
         "question": "下列哪项措施不能减小摩擦力？",
@@ -11770,7 +11770,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1070,
         "type": "choice",
         "question": "自行车的刹车装置是通过增大什么来增大摩擦力的？",
@@ -11781,7 +11781,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1071,
         "type": "choice",
         "question": "下列哪种工具属于费力但省距离的杠杆？",
@@ -11792,7 +11792,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1072,
         "type": "choice",
         "question": "用扫帚扫地，扫帚是？",
@@ -11803,7 +11803,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1073,
         "type": "choice",
         "question": "下列哪种机械不能连续转动？",
@@ -11814,7 +11814,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1074,
         "type": "choice",
         "question": "下列哪种简单机械可以看作是一个连续旋转的杠杆？",
@@ -11825,7 +11825,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1075,
         "type": "choice",
         "question": "用扳手拧螺母时，手握在扳手手柄的末端比握在中间更省力，这是因为？",
@@ -11836,7 +11836,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1076,
         "type": "choice",
         "question": "在斜面上用F1、F2、F3三个力拉同一物体沿斜面匀速上升，其中F1沿斜面向上，F2水平向右，F3竖直向上，最省力的是？",
@@ -11847,7 +11847,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1077,
         "type": "choice",
         "question": "下列哪种做法不能改变电磁铁的磁性强弱？",
@@ -11858,7 +11858,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1078,
         "type": "choice",
         "question": "电磁铁的铁芯通常用软铁而不用钢，原因是？",
@@ -11869,7 +11869,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1079,
         "type": "choice",
         "question": "下列哪种电器中没有电动机？",
@@ -11880,7 +11880,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1080,
         "type": "choice",
         "question": "电动机的转动方向与下列哪项有关？",
@@ -11891,7 +11891,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1081,
         "type": "choice",
         "question": "发电机产生的电流方向与什么有关？",
@@ -11902,7 +11902,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1082,
         "type": "choice",
         "question": "下列哪种现象属于电流的热效应？",
@@ -11913,7 +11913,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1083,
         "type": "choice",
         "question": "下列哪种做法不符合安全用电原则？",
@@ -11924,7 +11924,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1084,
         "type": "choice",
         "question": "家庭电路中，保险丝熔断的原因可能是？",
@@ -11935,7 +11935,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1085,
         "type": "choice",
         "question": "下列关于电磁波的说法，错误的是？",
@@ -11946,7 +11946,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1086,
         "type": "choice",
         "question": "在探究\"电磁铁磁性强弱与线圈匝数关系\"的实验中，需要通过什么来显示磁性强弱？",
@@ -11957,7 +11957,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1087,
         "type": "choice",
         "question": "下列哪种方法不能增大电磁铁的磁性？",
@@ -11968,7 +11968,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1088,
         "type": "choice",
         "question": "将电磁铁的铁芯换成铝芯，通电后，它能否吸引铁钉？",
@@ -11979,7 +11979,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1089,
         "type": "choice",
         "question": "用电磁铁搬运铁块，断电后铁块不掉落，可能原因是？",
@@ -11990,7 +11990,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1090,
         "type": "choice",
         "question": "下列哪种工具是测量力的工具？",
@@ -12001,7 +12001,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1091,
         "type": "choice",
         "question": "使用弹簧测力计时，下列做法错误的是？",
@@ -12012,7 +12012,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1092,
         "type": "choice",
         "question": "用杠杆提升重物时，若用力点到支点距离不变，增大阻力点到支点距离，则用力情况会？",
@@ -12023,7 +12023,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1093,
         "type": "choice",
         "question": "下列关于能量的说法，正确的是？",
@@ -12034,7 +12034,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1094,
         "type": "choice",
         "question": "骑自行车下坡时，不用蹬车速度也越来越快，这是因为？",
@@ -12045,7 +12045,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1095,
         "type": "choice",
         "question": "下列哪种能源是不可再生能源？",
@@ -12056,7 +12056,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1096,
         "type": "choice",
         "question": "太阳能电池板工作时，能量转化是？",
@@ -12067,7 +12067,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1097,
         "type": "choice",
         "question": "下列哪种行为有利于节约能源？",
@@ -12078,7 +12078,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1098,
         "type": "choice",
         "question": "下列哪种变化是物理变化？",
@@ -12089,7 +12089,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1099,
         "type": "choice",
         "question": "下列哪种变化是化学变化？",
@@ -12100,7 +12100,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1100,
         "type": "choice",
         "question": "下列哪种能量转化是机械能转化为热能？",
@@ -12111,7 +12111,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1101,
         "type": "choice",
         "question": "下列哪种能量转化是热能转化为机械能？",
@@ -12122,7 +12122,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1102,
         "type": "choice",
         "question": "下列哪种能源是清洁能源？",
@@ -12133,7 +12133,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1103,
         "type": "choice",
         "question": "下列哪种镜子对光线有会聚作用？",
@@ -12144,7 +12144,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1104,
         "type": "choice",
         "question": "下列哪种镜子对光线有发散作用？",
@@ -12155,7 +12155,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1105,
         "type": "choice",
         "question": "下列哪种透镜对光线有会聚作用？",
@@ -12166,7 +12166,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1106,
         "type": "choice",
         "question": "人眼中的晶状体相当于一个？",
@@ -12177,7 +12177,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1107,
         "type": "choice",
         "question": "近视眼是由于晶状体太厚，折光能力太强，应配戴？",
@@ -12188,7 +12188,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1108,
         "type": "choice",
         "question": "远视眼应配戴？",
@@ -12199,7 +12199,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1109,
         "type": "choice",
         "question": "下列哪种物体是光源？",
@@ -12210,7 +12210,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1110,
         "type": "choice",
         "question": "放大镜成的是？",
@@ -12221,7 +12221,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1111,
         "type": "choice",
         "question": "下列哪种现象是由于地球自转产生的？",
@@ -12232,7 +12232,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1112,
         "type": "choice",
         "question": "下列哪种现象是由于地球公转产生的？",
@@ -12243,7 +12243,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1113,
         "type": "choice",
         "question": "北半球冬至日，太阳直射点位于？",
@@ -12254,7 +12254,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1114,
         "type": "choice",
         "question": "夏至日，北极圈以内出现？",
@@ -12265,7 +12265,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1115,
         "type": "choice",
         "question": "下列哪种能源是二次能源？",
@@ -12276,7 +12276,7 @@ const QUESTIONS = [
         "grade": 6,
         "category": "其他"
     },
-    {
+{
         "id": 1116,
         "type": "choice",
         "question": "下列哪种能源是化石能源？",
